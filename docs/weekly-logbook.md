@@ -17,7 +17,7 @@
 2. It took time to decide the best project idea for the team.
 
 ### Evidence of Work
-- GitHub repository link: [Paste your repository link]
+- GitHub repository link: https://github.com/thiri-thant22
 - Screenshot: Added repository and issue screenshots
 - File created: README.md, team-profile.md, idea-log.md
 - Commit link: [Paste your commit link]
