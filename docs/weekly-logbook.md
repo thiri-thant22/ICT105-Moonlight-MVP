@@ -20,7 +20,7 @@
 - GitHub repository link: https://github.com/thiri-thant22
 - Screenshot: Added repository and issue screenshots
 - File created: README.md, team-profile.md, idea-log.md
-- Commit link: [Paste your commit link]
+- Commit link: [thiri-thant22/ICT105-Moonlight-MVP]
 
 ### Decision Made This Week
 Our team decided to develop a simple student budget tracker application as the main IT venture idea.
