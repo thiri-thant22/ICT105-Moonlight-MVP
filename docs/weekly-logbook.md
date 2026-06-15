@@ -18,10 +18,11 @@
 
 ### Evidence of Work
 - GitHub repository link: https://github.com/thiri-thant22
-- Screenshot: Added repository and issue screenshots
+- Screenshot: <img width="257" height="542" alt="Screenshot 2026-06-15 230243" src="https://github.com/user-attachments/assets/71fc9647-7e67-4ad8-9f1d-ed0dc452f7bf" />
+<img width="797" height="526" alt="Screenshot 2026-06-15 230331" src="https://github.com/user-attachments/assets/f255d68a-5766-4bb2-8ec4-e927a9d667f6" />
+
 - File created: README.md, docs/team-profile.md, docs/idea-log.md, docs/weekly-logbook.md
 - Commit link: [https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits?author=thiri-thant22&since=2026-05-31&until=2026-06-15]
-
 ### Decision Made This Week
 Our team decided to develop a simple student budget tracker application as the main IT venture idea.
 
