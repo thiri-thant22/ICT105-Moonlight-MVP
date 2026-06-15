@@ -19,7 +19,7 @@
 ### Evidence of Work
 - GitHub repository link: https://github.com/thiri-thant22
 - Screenshot: Added repository and issue screenshots
-- File created: README.md, team-profile.md, idea-log.md
+- File created: README.md, docs/team-profile.md, docs/idea-log.md, docs/weekly-logbook.md
 - Commit link: [https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits?author=thiri-thant22&since=2026-05-31&until=2026-06-15]
 
 ### Decision Made This Week
