@@ -4,7 +4,7 @@
 |---|---|---|---|---|
 | Budget Tracker |Expense management |Students and Young professional |Notebooks, Spreadsheet, Rely on memory |Web appilication and Mobile appilication |
 | Study Planner |Manage schedules |Students |paper planners, calendars, or reminder applications |App with scheduling features |
-| Campus Event Finder |Missing Events |Students | | |
+| Campus Event Finder |Missing Events |Students | posters, or word-of-mouth communication |Event Management system |
 ## Opportunity Discovery Table
 | No. | Observed Problem | Target User | Current Alternative | Possible IT Solution | Feasible Technology |
 |---|---|---|---|---|---|
