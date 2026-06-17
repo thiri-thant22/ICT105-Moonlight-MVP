@@ -2,8 +2,8 @@
 ## Ideas Reviewed from Lab 1
 | Idea | Problem Area | Target User | Current Alternative | Initial Technology Direction |
 |---|---|---|---|---|
-| Budget Tracker |Expense management | | | |
-| Idea 2 | | | | |
+| Budget Tracker |Expense management |Students and Young professional |Notebooks, Spreadsheet, Rely on memory |Web appilication and Mobile appilication |
+| Study Planner |Manage schedules |Students | | |
 | Idea 3 | | | | |
 ## Opportunity Discovery Table
 | No. | Observed Problem | Target User | Current Alternative | Possible IT Solution | Feasible Technology |
