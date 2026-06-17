@@ -57,7 +57,7 @@ Although Queue Booking is a useful idea, it received a lower NUF score (11) and 
 
 ### Evidence of Work
 - Opportunity scan file: docs/opportunity-scan.md
-- NUF scoring file: data/opportunity-scoring.xlsx
+- NUF scoring file: https://docs.google.com/spreadsheets/d/1LyuHrQRV_BVuUXKZERxcxuDemLAOxVTbWPW4-_gmqK0/edit?gid=0#gid=0
 - Selected opportunity file: docs/selected-opportunity.md
 - GitHub issue screenshot: [<img width="1548" height="951" alt="Screenshot 2026-06-17 161319" src="https://github.com/user-attachments/assets/d5183c7f-0eb3-4c84-8166-56fa77b725a2" />
 ]
