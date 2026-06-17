@@ -28,3 +28,39 @@ Our team decided to develop a simple student budget tracker application as the m
 
 ### Plan for Next Week
 In Lab 2, we will research user problems, compare project ideas, and create the first prototype design.
+
+## Lab 02: IT Opportunity Scanning
+
+### What We Completed
+1. Reviewed the three initial IT venture ideas from Lab 1.
+2. Identified six possible IT opportunities and analyzed their feasibility.
+3. Conducted NUF scoring to compare all opportunities.
+4. Selected Budget Tracker as the final project opportunity.
+5. Created new GitHub issues for upcoming project tasks.
+
+### Selected Opportunity
+Budget Tracker
+
+### Why We Selected It
+The team selected Budget Tracker because it received one of the highest NUF scores (13). The idea addresses a common problem faced by many students and young professionals who struggle to manage their expenses. It is highly useful, feasible to develop within one semester, and can be validated easily through user interviews and surveys.
+
+### What We Rejected
+Queue Booking
+
+Reason:
+Although Queue Booking is a useful idea, it received a lower NUF score (11) and has a more complex workflow. The project would require additional queue management features and may be more difficult to develop within the semester timeline.
+
+### What We Learned
+1. How to identify and evaluate business opportunities using NUF scoring.
+2. The importance of selecting a project that is realistic and feasible.
+3. How to compare different ideas based on user needs, usefulness, and technical feasibility.
+
+### Evidence of Work
+- Opportunity scan file: docs/opportunity-scan.md
+- NUF scoring file: data/opportunity-scoring.xlsx
+- Selected opportunity file: docs/selected-opportunity.md
+- GitHub issue screenshot: [Insert Screenshot]
+- Commit link: [Insert Commit Link]
+
+### Plan for Lab 03
+The team will conduct customer problem discovery by interviewing students and young professionals about their spending habits and budgeting challenges. We will collect feedback, identify common problems, and validate whether the proposed Budget Tracker solution addresses real user needs.
