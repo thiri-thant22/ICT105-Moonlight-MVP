@@ -3,8 +3,8 @@
 | Idea | Problem Area | Target User | Current Alternative | Initial Technology Direction |
 |---|---|---|---|---|
 | Budget Tracker |Expense management |Students and Young professional |Notebooks, Spreadsheet, Rely on memory |Web appilication and Mobile appilication |
-| Study Planner |Manage schedules |Students |paper planners, calendars, or reminder applications | |
-| Idea 3 | | | | |
+| Study Planner |Manage schedules |Students |paper planners, calendars, or reminder applications |App with scheduling features |
+| Campus Event Finder |Missing Events |Students | | |
 ## Opportunity Discovery Table
 | No. | Observed Problem | Target User | Current Alternative | Possible IT Solution | Feasible Technology |
 |---|---|---|---|---|---|
