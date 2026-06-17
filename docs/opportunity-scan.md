@@ -2,7 +2,7 @@
 ## Ideas Reviewed from Lab 1
 | Idea | Problem Area | Target User | Current Alternative | Initial Technology Direction |
 |---|---|---|---|---|
-| Idea 1 | | | | |
+| Budget Tracker |Expense management | | | |
 | Idea 2 | | | | |
 | Idea 3 | | | | |
 ## Opportunity Discovery Table
