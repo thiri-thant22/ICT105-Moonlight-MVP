@@ -1,22 +1,28 @@
 # Selected Semester Project Opportunity
+
 ## Selected Project Title
+Student Budget Tracker
+
 ## Target User
-Who has the problem?
+University students who want to manage their daily expenses.
+
 ## Problem Statement
-What problem does the user experience?
+Many students spend money without tracking their budget and often run out of money before the end of the month.
+
 ## Current Alternative
-How do users currently solve or manage this problem?
+Students currently use notebooks, calculators, or simple note apps to record expenses.
 
 ## Proposed IT Solution
-What app, system, dashboard, or platform will the team develop?
+Develop a simple web-based budget tracker dashboard for students to record income and expenses.
+
 ## Why This Opportunity Was Selected
-Explain using NUF scoring and team feasibility.
+The idea is useful, easy to develop, and suitable for our team skills and semester timeline.
+
 ## Why This Is Feasible Without IoT or Advanced Cybersecurity
-Explain why the team can build or simulate the MVP using available tools.
+The project only needs simple web technologies and can be built using HTML, CSS, JavaScript, and spreadsheets.
+
 ## Possible MVP Type
-Choose one: Figma clickable prototype, HTML/CSS/JS prototype, landing page MVP, form-based MVP, dashboard MVP, Airtable/Google
-Sheets-based MVP, or simple web app prototype.
+Dashboard MVP
+
 ## Initial Validation Plan for Lab 03
-Who will the team ask?
-What evidence will the team collect?
-What question must be answered first?
+We will ask university students about their spending habits and budgeting problems through short surveys and interviews. We will collect feedback and identify the most important features students need in the app.
