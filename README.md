@@ -53,3 +53,31 @@ Our team selected to develop a Budget Tracker application. The system will allow
 The team has completed the repository setup, assigned team roles, and finalized the project idea. We also identified the target users and gathered initial requirements for the application.
 ## Next Step
 The next step is to design the Ul wireframe, conduct basic user research, and start developing the prototype structure and core features.
+
+# README Update Template After Lab 03
+
+## Customer Problem Discovery Summary
+
+In Lab 03, our team collected early problem evidence from students and young professionals. The purpose was to confirm whether the problem of expense management is real and important. The interviews showed that many users have difficulty tracking their expenses and often spend more than they planned.
+
+## Target Respondents
+
+We interviewed 10 respondents, including students and young professionals. They are our target users because they regularly manage personal expenses and need a simple way to track their spending and budget.
+
+## Main Evidence Found
+
+The interviews revealed several repeated pain points:
+
+- Most respondents do not record their expenses regularly and rely on memory.
+- Many respondents often spend more than their planned budget.
+- Current methods such as notebooks, phone notes, and Excel are inconvenient and time-consuming.
+- Most respondents do not use a budgeting application and want a simpler solution.
+
+## Updated Problem Statement
+
+Students and young professionals struggle to manage their expenses because they do not record spending regularly and often rely on memory. Existing methods are inconvenient and difficult to maintain, resulting in poor financial awareness and overspending.
+
+## Decision for Next Step
+
+The team decided to continue with the Budget Tracker App idea. Based on the interview evidence, we will focus on creating an MVP with simple expense recording, spending summaries, and budget tracking features that are easy and quick to use.
+
