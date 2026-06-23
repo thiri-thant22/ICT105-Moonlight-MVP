@@ -100,7 +100,7 @@ We decided to focus our MVP on simple expense recording, spending summaries, and
 ### Evidence of Work
 
 - GitHub repository link: https://github.com/thiri-thant22
-- Customer questions file: Customer Interview Questions.pdf
+- Customer questions file: docs/customer-discovery-questions.md
 - Raw responses file: /data/raw-responses.md
 - Assumption-evidence table: /docs/problem-notes.md
 - Commit link: https://github.com/thiri-thant22/ICT105-Moonlight-MVP
