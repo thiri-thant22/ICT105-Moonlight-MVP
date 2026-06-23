@@ -1,7 +1,7 @@
 # Customer Discovery Summary
 
 ## Project Title
-Budget Tracker
+Budget Tracker 
 
 ## Target Users Studied
 - University Students
