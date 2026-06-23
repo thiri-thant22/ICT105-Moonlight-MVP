@@ -65,3 +65,42 @@ Although Queue Booking is a useful idea, it received a lower NUF score (11) and 
 
 ### Plan for Lab 03
 The team will conduct customer problem discovery by interviewing students and young professionals about their spending habits and budgeting challenges. We will collect feedback, identify common problems, and validate whether the proposed Budget Tracker solution addresses real user needs.
+
+# Weekly Venture Logbook
+
+## Lab 03: Customer Problem Discovery
+
+### What We Completed
+
+1. Chose students and young professionals as the target users.
+2. Created customer interview questions and conducted interviews with 10 respondents.
+3. Collected interview responses and updated the GitHub repository.
+
+### What We Learned About the Problem
+
+1. Most respondents do not record their expenses regularly and rely on memory.
+2. Many respondents often spend more than their planned budget.
+3. Existing methods such as notebooks, phone notes, and Excel are inconvenient and time-consuming.
+
+### What Evidence We Collected
+
+- Number of respondents/interviews: 10
+- Evidence file: /data/raw-responses.md
+- Key repeated pattern: Most respondents cannot remember their expenses, often overspend, and need an easier way to track their spending.
+
+### What We Changed Based on Evidence
+
+We decided to focus our MVP on simple expense recording, spending summaries, and budget tracking. The application should be easier and faster to use than notebooks, phone notes, or Excel spreadsheets.
+
+### Problems or Difficulties
+
+1. Some respondents gave short answers, making it difficult to gather detailed information.
+2. It was challenging to find respondents who regularly track their expenses.
+
+### Evidence of Work
+
+- GitHub repository link: 
+- Customer questions file: Customer Interview Questions.pdf
+- Raw responses file: /data/raw-responses.md
+- Assumption-evidence table: /docs/problem-notes.md
+- Commit link: 
