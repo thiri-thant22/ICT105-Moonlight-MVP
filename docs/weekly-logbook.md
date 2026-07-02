@@ -96,7 +96,7 @@ We decided to focus our MVP on simple expense recording, spending summaries, and
 
 1. Some respondents gave short answers, making it difficult to gather detailed information.
 2. It was challenging to find respondents who regularly track their expenses.
-
+   
 ### Evidence of Work
 
 - GitHub repository link: https://github.com/thiri-thant22
