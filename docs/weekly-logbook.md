@@ -118,14 +118,14 @@ We decided to focus our MVP on simple expense recording, spending summaries, and
 
 | Member Name | Contribution | GitHub Evidence (Commit/Issue/PR Link) |
 |---|---|---|
-| Thiri Sandar | Created the user persona, system requirements, user stories, MVP feature list, and updated project documentation. |  |
-| Nang Woo Non | Reviewed customer discovery evidence, finalized the target users, and prioritized the MVP features. |  |
-| Thiri Thant | Planned the prototype structure, reviewed technical requirements, and prepared the UI/UX design direction. |  |
+| Thiri Sandar | Created the user persona, system requirements, user stories, MVP feature list, and updated project documentation. | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits?author=thiri-thant22&since=2026-05-31&until=2026-06-30 |
+| Nang Woo Non | Reviewed customer discovery evidence, finalized the target users, and prioritized the MVP features. | https://github.com/nangwoonon/-ICT105-MoonLight-MVP./commits?author=thiri-thant22&since=2026-05-31&until=2026-06-30 |
+| Thiri Thant | Planned the prototype structure, reviewed technical requirements, and prepared the UI/UX design direction. | https://github.com/ThiriSandar-hash/ICT105-MoonLight-MVP./commits?author=ThiriSandar-hash&since=2026-05-31&until=2026-06-30 |
 
 ## 2. Main Decisions
 
 - **Primary target user:** University students and young professionals.
-- **Main persona:** Thiri, a 20-year-old university student who wants to manage her monthly allowance and avoid overspending.
+- **Main persona:** Kelly, a 20-year-old university student who wants to manage her monthly allowance and avoid overspending.
 - **Most important problem:** Users do not consistently track their daily expenses, leading to overspending and poor budget management.
 - **Must-have requirements:** Homepage, Add Expense, View Expense List, Dashboard Summary, Confirmation Message.
 - **Features included in MVP:** Add Expense, View Expenses, Search/Filter, Dashboard, Edit/Delete Expense.
