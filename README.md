@@ -81,3 +81,55 @@ Students and young professionals struggle to manage their expenses because they 
 
 The team decided to continue with the Budget Tracker App idea. Based on the interview evidence, we will focus on creating an MVP with simple expense recording, spending summaries, and budget tracking features that are easy and quick to use.
 
+
+# Lab 04: User Persona, Requirements, and User Stories
+
+## Primary Target User
+The primary target users are university students and young professionals who want a simple and effective way to manage their daily expenses, avoid overspending, and improve their budgeting habits.
+
+### Persona Summary
+- **Persona name:** Kelly, 20-year-old University Student
+- **User type:** University student who wants to manage daily expenses and stay within budget
+- **Main goal:** Record daily expenses and monitor spending easily
+- **Main pain point:** Frequently forgets to record expenses and often exceeds the monthly budget
+- **Current workaround:** Uses notebooks, mobile notes, spreadsheets, or memory to track expenses
+
+### Key Requirements
+
+| Req ID | Requirement | Priority | Related Evidence |
+|---|---|---|---|
+| FR-01 | Display a homepage with the project title and main action | Must | Customer Discovery Summary |
+| FR-02 | Allow users to navigate through the application | Must | User Persona |
+| FR-03 | Allow users to add daily expenses | Must | R001, R003, R005 |
+| FR-04 | Store expense records | Must | Customer Discovery Responses |
+| FR-05 | Display a list of recorded expenses | Must | R002, R006 |
+| FR-06 | Search or filter expenses | Should | R004, R008 |
+| FR-07 | View detailed expense information | Should | User Persona |
+| FR-08 | Show budget status and remaining budget | Must | Customer Discovery Summary |
+| FR-09 | Allow users to edit or delete expense records | Should | R004, R008 |
+| FR-10 | Validate required input fields | Must | User Story Evidence |
+| FR-11 | Display confirmation messages after user actions | Must | User Story Evidence |
+| FR-12 | Display a dashboard with spending summary | Must | Customer Discovery Summary |
+| NFR-01 | The application should be simple and easy to use | Must | User Persona |
+| NFR-02 | The application should support mobile devices | Must | Target User Analysis |
+
+### MVP Feature Scope
+
+| Feature | Priority | Included in Final Prototype? |
+|---|---|---|
+| Homepage | Must | Yes |
+| Add Expense | Must | Yes |
+| View Expense List | Must | Yes |
+| Dashboard Summary | Must | Yes |
+| Search / Filter Expenses | Should | Yes |
+| Edit / Delete Expense | Should | Yes |
+| Confirmation Message | Must | Yes |
+| User Login | Won't | No |
+| AI Spending Recommendation | Won't | No |
+
+### Diagram Links
+- **User flow diagram:** `diagrams/user-flow.png`
+- **Use case diagram:** `diagrams/use-case-diagram.png`
+
+### GitHub Contribution Evidence
+All team members contributed to the project through documentation, requirement analysis, project planning, prototype preparation, GitHub commits, and issue management throughout Lab 04.
