@@ -104,3 +104,49 @@ We decided to focus our MVP on simple expense recording, spending summaries, and
 - Raw responses file: /data/raw-responses.md
 - Assumption-evidence table: /docs/problem-notes.md
 - Commit link: https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits?author=thiri-thant22&since=2026-05-31&until=2026-06-23
+
+  # Lab 04 - Weekly Logbook
+
+## Group Information
+- Course: ICT105 Fundamental Technology Entrepreneurship
+- Lab: Lab 04 - User Persona, Requirements, and User Stories
+- Group Name: Moon Light
+- Repository Link: https://github.com/thiri-thant22/ICT105-Moonlight-MVP
+- Date: 3.7.2026
+
+## 1. Work Completed Today
+
+| Member Name | Contribution | GitHub Evidence (Commit/Issue/PR Link) |
+|---|---|---|
+| Thiri Sandar | Created the user persona, system requirements, user stories, MVP feature list, and updated project documentation. |  |
+| Nang Woo Non | Reviewed customer discovery evidence, finalized the target users, and prioritized the MVP features. |  |
+| Thiri Thant | Planned the prototype structure, reviewed technical requirements, and prepared the UI/UX design direction. |  |
+
+## 2. Main Decisions
+
+- **Primary target user:** University students and young professionals.
+- **Main persona:** Thiri, a 20-year-old university student who wants to manage her monthly allowance and avoid overspending.
+- **Most important problem:** Users do not consistently track their daily expenses, leading to overspending and poor budget management.
+- **Must-have requirements:** Homepage, Add Expense, View Expense List, Dashboard Summary, Confirmation Message.
+- **Features included in MVP:** Add Expense, View Expenses, Search/Filter, Dashboard, Edit/Delete Expense.
+- **Features postponed:** User Login, AI Spending Recommendation, Reminder Notifications, Advanced Reports.
+
+## 3. Requirement Changes / Clarifications
+
+Based on the customer discovery results from Lab 03, the team decided to focus the MVP on simple expense tracking instead of adding advanced financial features. The project scope was narrowed to ensure the prototype can be completed within the semester.
+
+## 4. Problems Encountered
+
+- **Technical problem:** Deciding how to store expense data for the prototype (Local Storage, Google Sheets, or a simple database).
+- **Team coordination problem:** Scheduling a suitable time for all team members to discuss requirements together.
+- **Evidence/requirement problem:** Some user responses were similar, so additional discussion was needed to identify the most important pain points.
+
+## 5. Next Actions Before Lab 05
+
+| Task | Owner | Deadline | GitHub Issue |
+|---|---|---|---|
+| Design low-fidelity wireframes in Figma | Thiri Thant | Before Lab 05 | #11 |
+| Prepare UI screens for the prototype | Thiri Thant | Before Lab 05 | #12 |
+| Review and finalize functional requirements | Thiri Sandar | Before Lab 05 | #13 |
+| Validate the MVP feature list | Nang Woo Non | Before Lab 05 | #14 |
+| Update README and documentation | Thiri Sandar | Before Lab 05 | #15 |
