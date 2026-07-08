@@ -1,6 +1,6 @@
 TransactionID,TransactionType,Category,Amount,PaymentMethod,Date,ReporterRole,Status,Description
 BT-001,Income,Allowance,20000,Library 2nd floor,2026-06-01,Student,Pending,Card lost after group study session.
-BT-002,Expense,100,ICT Lab,2026-06-02,Student,Available,USB-C charger found near computer desk.
+BT-002,Expense, Food,100,ICT Lab,2026-06-02,Student,Available,USB-C charger found near computer desk.
 BT-003,Expense,Transportation,100,Cafeteria,2026-06-03,Student,In Review,Bottle has sticker on the side.
 BT-004,Expense,Education,5000,Building 6 lobby,2026-06-04,Staff,Claimed,Notebook returned to owner after verification.
 BT-005,Income,Part-time job,15000,Bus stop,2026-06-05,Student,Pending,Lost during rainy afternoon.
