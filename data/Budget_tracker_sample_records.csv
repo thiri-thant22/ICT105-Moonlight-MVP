@@ -1,10 +1,10 @@
 TransactionID,TransactionType,Category,Amount,PaymentMethod,Date,ReporterRole,Status,Description
-BT-001,Income,Student ID,Blue RSU student ID card,Library 2nd floor,2026-06-01,Student,Pending,Card lost after group study session.
-BT-002,Expense,Electronics,Black phone charger,ICT Lab,2026-06-02,Student,Available,USB-C charger found near computer desk.
-BT-003,Expense,Bottle,Silver water bottle,Cafeteria,2026-06-03,Student,In Review,Bottle has sticker on the side.
-BT-004,Expense,Notebook,Green notebook,Building 6 lobby,2026-06-04,Staff,Claimed,Notebook returned to owner after verification.
-BT-005,Income,Umbrella,Small black umbrella,Bus stop,2026-06-05,Student,Pending,Lost during rainy afternoon.
-BT-006,Expense,Wallet,Brown wallet,Sports area,2026-06-06,Security,Available,Wallet submitted to admin office.
-BT-007,Expense,Electronics,Wireless earbuds case,Classroom 6-200,2026-06-07,Student,Closed,Owner later found the item.
-BT-008,Expense,Key,Room key with red tag,Parking area,2026-06-08,Staff,Available,Key found near motorcycle parking.
+BT-001,Income,Allowance,Blue RSU student ID card,Library 2nd floor,2026-06-01,Student,Pending,Card lost after group study session.
+BT-002,Expense,Food,Black phone charger,ICT Lab,2026-06-02,Student,Available,USB-C charger found near computer desk.
+BT-003,Expense,Transportation,Silver water bottle,Cafeteria,2026-06-03,Student,In Review,Bottle has sticker on the side.
+BT-004,Expense,Education,Green notebook,Building 6 lobby,2026-06-04,Staff,Claimed,Notebook returned to owner after verification.
+BT-005,Income,Part-time job,Small black umbrella,Bus stop,2026-06-05,Student,Pending,Lost during rainy afternoon.
+BT-006,Expense,Groceries,Brown wallet,Sports area,2026-06-06,Security,Available,Wallet submitted to admin office.
+BT-007,Expense,Entertainment,Wireless earbuds case,Classroom 6-200,2026-06-07,Student,Closed,Owner later found the item.
+BT-008,Expense,Utilities,Room key with red tag,Parking area,2026-06-08,Staff,Available,Key found near motorcycle parking.
 
