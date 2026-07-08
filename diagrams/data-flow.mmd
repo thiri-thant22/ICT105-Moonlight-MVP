@@ -1,1 +1,8 @@
-![data-flow mmd](https://github.com/user-attachments/assets/6dc04fdb-573e-4e10-988a-8f3f4704f102)
+flowchart TD
+A[User opens Budget Tracker] --> B[Dashboard]
+B --> C[Input Income]
+C --> D{Validate Input}
+D -->|Valid| E[Save Transaction]
+D -->|Invalid| F[Show Error]
+E --> G[Update Record List]
+G --> H[Dashboard Summary]
