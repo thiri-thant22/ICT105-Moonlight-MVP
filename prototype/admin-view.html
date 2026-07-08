@@ -1,1 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Panel | Budget Tracker</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f5f8ff;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:#fff;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.logo{
+font-size:30px;
+font-weight:700;
+color:#2563eb;
+}
+
+.logo span{
+color:#111;
+}
+
+nav a{
+text-decoration:none;
+margin:0 15px;
+color:#444;
+font-weight:500;
+}
+
+.container{
+width:92%;
+margin:40px auto;
+}
+
+h1{
+margin-bottom:20px;
+color:#2563eb;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:#fff;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+th{
+background:#2563eb;
+color:white;
+padding:15px;
+}
+
+td{
+padding:12px;
+text-align:center;
+border-bottom:1px solid #eee;
+}
+
+select{
+padding:8px;
+border-radius:6px;
+}
+
+button{
+padding:8px 14px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+color:white;
+}
+
+.update{
+background:#16a34a;
+}
+
+.delete{
+background:#dc2626;
+}
+
+footer{
+margin-top:40px;
+background:white;
+padding:20px;
+text-align:center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+💰 Budget<span>Tracker</span>
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="input-form.html">Add Expense</a>
+<a href="record-list.html">Records</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="admin-view.html">Admin</a>
+
+</nav>
+
+</header>
+
+<div class="container">
+
+<h1>Admin Management</h1>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Title</th>
+<th>Category</th>
+<th>Amount</th>
+<th>Status</th>
+<th>Update Status</th>
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody id="adminTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+<footer>
+
+© 2026 Budget Tracker | ICT105 Project
+
+</footer>
+
+<script>
+
+let expenses =
+JSON.parse(localStorage.getItem("expenses")) || [];
+
+const table =
+document.getElementById("adminTable");
+
+function loadTable(){
+
+table.innerHTML="";
+
+if(expenses.length===0){
+
+table.innerHTML=`
+<tr>
+<td colspan="6">No Records Found</td>
+</tr>
+`;
+
+return;
+
+}
+
+expenses.forEach((expense,index)=>{
+
+table.innerHTML+=`
+
+<tr>
+
+<td>${expense.title}</td>
+
+<td>${expense.category}</td>
+
+<td>$${expense.amount}</td>
+
+<td>${expense.status}</td>
+
+<td>
+
+<select onchange="updateStatus(${index},this.value)">
+
+<option ${expense.status=="Completed"?"selected":""}>
+Completed
+</option>
+
+<option ${expense.status=="Pending"?"selected":""}>
+Pending
+</option>
+
+<option ${expense.status=="Cancelled"?"selected":""}>
+Cancelled
+</option>
+
+</select>
+
+</td>
+
+<td>
+
+<button
+class="delete"
+onclick="deleteExpense(${index})">
+
+Delete
+
+</button>
+
+</td>
+
+</tr>
+
+`;
+
+});
+
+}
+
+loadTable();
+
+function updateStatus(index,status){
+
+expenses[index].status=status;
+
+localStorage.setItem(
+
+"expenses",
+
+JSON.stringify(expenses)
+
+);
+
+loadTable();
+
+alert("Status Updated Successfully.");
+
+}
+
+function deleteExpense(index){
+
+if(confirm("Delete this expense?")){
+
+expenses.splice(index,1);
+
+localStorage.setItem(
+
+"expenses",
+
+JSON.stringify(expenses)
+
+);
+
+loadTable();
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
