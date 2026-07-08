@@ -1,1 +1,340 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard | Budget Tracker</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f5f8ff;
+color:#333;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:#fff;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.logo{
+font-size:30px;
+font-weight:700;
+color:#2563eb;
+}
+
+.logo span{
+color:#111;
+}
+
+nav a{
+text-decoration:none;
+margin:0 15px;
+color:#444;
+font-weight:500;
+}
+
+nav a:hover{
+color:#2563eb;
+}
+
+.container{
+width:92%;
+margin:40px auto;
+}
+
+.title{
+margin-bottom:25px;
+}
+
+.cards{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-bottom:35px;
+
+}
+
+.card{
+
+background:#fff;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.card h3{
+
+font-size:18px;
+margin-bottom:15px;
+color:#666;
+
+}
+
+.card h1{
+
+font-size:35px;
+color:#2563eb;
+
+}
+
+.summary{
+
+background:#fff;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.summary table{
+
+width:100%;
+border-collapse:collapse;
+
+}
+
+.summary th{
+
+background:#2563eb;
+color:white;
+padding:12px;
+
+}
+
+.summary td{
+
+padding:12px;
+border-bottom:1px solid #eee;
+text-align:center;
+
+}
+
+footer{
+
+margin-top:40px;
+background:white;
+padding:20px;
+text-align:center;
+
+}
+
+@media(max-width:768px){
+
+header{
+
+flex-direction:column;
+gap:15px;
+
+}
+
+nav{
+
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+💰 Budget<span>Tracker</span>
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="input-form.html">Add Expense</a>
+<a href="record-list.html">Records</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="admin-view.html">Admin</a>
+
+</nav>
+
+</header>
+
+<div class="container">
+
+<div class="title">
+
+<h1>Dashboard</h1>
+
+<p>Overview of your expense records.</p>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Total Expenses</h3>
+
+<h1 id="totalExpense">$0</h1>
+
+</div>
+
+<div class="card">
+
+<h3>Total Transactions</h3>
+
+<h1 id="totalTransaction">0</h1>
+
+</div>
+
+<div class="card">
+
+<h3>Food Expenses</h3>
+
+<h1 id="foodExpense">$0</h1>
+
+</div>
+
+<div class="card">
+
+<h3>Shopping Expenses</h3>
+
+<h1 id="shoppingExpense">$0</h1>
+
+</div>
+
+</div>
+
+<div class="summary">
+
+<h2 style="margin-bottom:20px;">Category Summary</h2>
+
+<table>
+
+<tr>
+
+<th>Category</th>
+
+<th>Total Amount</th>
+
+</tr>
+
+<tbody id="summaryTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 Budget Tracker | ICT105 Project
+
+</footer>
+
+<script>
+
+const expenses =
+JSON.parse(localStorage.getItem("expenses")) || [];
+
+let totalExpense = 0;
+let foodExpense = 0;
+let shoppingExpense = 0;
+
+const categoryTotals = {};
+
+expenses.forEach(expense=>{
+
+const amount = Number(expense.amount);
+
+totalExpense += amount;
+
+if(expense.category==="Food"){
+foodExpense += amount;
+}
+
+if(expense.category==="Shopping"){
+shoppingExpense += amount;
+}
+
+if(categoryTotals[expense.category]){
+
+categoryTotals[expense.category]+=amount;
+
+}else{
+
+categoryTotals[expense.category]=amount;
+
+}
+
+});
+
+document.getElementById("totalExpense").innerHTML =
+"$"+totalExpense.toFixed(2);
+
+document.getElementById("totalTransaction").innerHTML =
+expenses.length;
+
+document.getElementById("foodExpense").innerHTML =
+"$"+foodExpense.toFixed(2);
+
+document.getElementById("shoppingExpense").innerHTML =
+"$"+shoppingExpense.toFixed(2);
+
+const table =
+document.getElementById("summaryTable");
+
+if(expenses.length===0){
+
+table.innerHTML=`
+<tr>
+<td colspan="2">No expense records found.</td>
+</tr>
+`;
+
+}else{
+
+for(let category in categoryTotals){
+
+table.innerHTML+=`
+
+<tr>
+
+<td>${category}</td>
+
+<td>$${categoryTotals[category].toFixed(2)}</td>
+
+</tr>
+
+`;
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
