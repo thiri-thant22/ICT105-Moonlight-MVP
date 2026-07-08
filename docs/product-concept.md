@@ -1,7 +1,7 @@
 # Product Concept
 
 ## 1. Project Title
-Smart Campus Lost-and-Found System
+Budget Tracker System
 
 ## 2. Target User
 Primary user: students who lost or found items on campus.
