@@ -215,7 +215,6 @@ Budget Tracker
 ## Members Present
 
 | Member Name | Contribution Today | GitHub Evidence / Commit / File Updated |
-
 |---|---|---|
 
 | Thiri Thant | Renamed the user flow diagram to data-flow diagram and supported documentation updates. | Rename user-flow.mmd to data-flow.mmd |
