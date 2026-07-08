@@ -215,10 +215,14 @@ Budget Tracker
 ## Members Present
 
 | Member Name | Contribution Today | GitHub Evidence / Commit / File Updated |
+
 |---|---|---|
-| Thiri Thant | Reviewed the prototype structure, planned the page navigation, and checked the Dashboard, Add Expense, and Expense List screens. | Updated prototype planning and UI/UX documentation in the GitHub repository |
-| Thiri Sandar | Prepared the technical architecture, data structure, and feature-value mapping documents for the Budget Tracker MVP. | Updated `docs/technical-architecture.md`, `docs/data-structure.md`, and `docs/feature-value-mapping.md` |
-| Nang Woo Non | Reviewed MVP features, checked whether the system requirements match the customer problems, and contributed to business model and final prototype planning. | Updated `docs/business-model-canvas.md` and weekly logbook documentation |
+
+| Thiri Thant | Renamed the user flow diagram to data-flow diagram and supported documentation updates. | Rename user-flow.mmd to data-flow.mmd |
+
+| Thiri Sandar | Updated prototype pages including dashboard, detail view, input form, record list, and admin view. Created use-case and user/data-flow diagrams. | Update dashboard.html, detail-view.html, input-form.html, record-list.html, admin-view.html, use-case-diagram, data-flow.mmd |
+
+| Nang Woo Non | Updated project documentation including case study brief, data structure, feature-value mapping, technical architecture, business model canvas, and weekly logbook. | Update case-study-brief.md, data-structure.md, feature-value-mapping.md, technical-architecture.md, business-model-canvas.md, weekly-logbook.md |
 
 ## Decisions Made Today
 
