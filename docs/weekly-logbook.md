@@ -154,20 +154,22 @@ Based on the customer discovery results from Lab 03, the team decided to focus t
 # Weekly Logbook - Lab 05
 
 ## Group Name
+Moonlight
 
 ## Project Title
+Budget Tracker
 
 ## Lab 05 Focus
 Product Concept and UI/UX Wireframe
 
 ## What We Completed Today
-- [ ] Reviewed Lab 04 requirements
-- [ ] Defined product concept
-- [ ] Mapped features to requirements
-- [ ] Created required wireframe screens
-- [ ] Created user flow diagram
-- [ ] Built clickable prototype draft or screen navigation plan
-- [ ] Updated GitHub repository
+- [x] Reviewed Lab 04 requirements
+- [x] Defined product concept
+- [x] Mapped features to requirements
+- [x] Created required wireframe screens
+- [x] Created user flow diagram
+- [x] Built clickable prototype draft or screen navigation plan
+- [x] Updated GitHub repository
 
 ## Member Contributions
 | Member Name | Contribution | Evidence / Commit Link |
