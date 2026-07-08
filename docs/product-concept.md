@@ -4,24 +4,24 @@
 Budget Tracker System
 
 ## 2. Target User
-Primary user: students who lost or found items on campus.
-Secondary user: campus staff/admin who verifies reports and updates item status.
+Primary user: Students and young professionals.
+Secondary user: Anyone who wants to manage their personal budget.
 
 ## 3. Problem Statement
-Students need a clearer way to report, search, and track lost or found items because the current process is scattered across chat groups, informal messages, and manual office visits.
+Many people have difficulty tracking their expenses and often overspend.
 
 ## 4. Proposed IT Product
-A web-based lost-and-found system that helps users submit lost/found reports, browse and search item records, view details, check item status, and allow an admin to update the status of each report.
+A web-based budget tracker that allows users to record income and expenses, categorize transactions, view spending summaries, and monitor their monthly budget.
 
 ## 5. Core Value Proposition
-The system reduces confusion and makes lost-and-found information searchable, trackable, and easier to manage.
+The system helps users manage their money more easily and avoid overspending.
 
 ## 6. MVP Scope
-The MVP will focus on item reporting, item listing, search/filter, item detail view, status tracking, admin status update, and dashboard summary.
+The MVP will include expense recording, income recording, categories, budget summary, monthly report, and dashboard.
 
 ## 7. Out of Scope for Current Semester
-- Real identity verification system
-- Payment features
+- Bank account integration
+- Online payment features
 - Advanced security implementation
-- Native mobile app deployment
-- Automated item matching using AI
+- Mobile app deployment
+- AI spending prediction
