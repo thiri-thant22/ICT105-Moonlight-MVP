@@ -1,16 +1,15 @@
-# Lab 05 Practice Case Brief: Smart Campus Lost-and-Found System
+# Lab 05 Practice Case Brief: Budget Tracker Systems
 
 ## Case Context
-Students often lose personal items on campus, such as ID cards, chargers, bottles, notebooks, wallets, umbrellas, or small electronic accessories. They usually ask friends, post in chat groups, visit the security office, or wait for someone to announce the item. These current workarounds are inconsistent, difficult to search, and not well documented.
+Many studends have difficulty managing their daily expenses and often spend more than their budget.Most of them uus notebooks,spreadsheets or simply rely on memory,making it difficult to track spending accurately.
 
 ## Target Users
-- Student who lost an item
-- Student or staff who found an item
-- Campus staff/admin who manages reports and item status
+- Student who want to manage their expenses
+- Young professionals with a monthly budget
+- user who want to monitor their spending
 
 ## Product Direction
-The proposed product is a web-based lost-and-found reporting platform that allows users to report lost or found items, search records, view item details, track status, and allow an admin to update item status.
+The proposed product is a web-based budget tracker that allows users to record expenses,categories spending,view spending summaries and monitor their monthly budget.
 
 ## Lab 05 Practice Purpose
-This practice case is only for learning the method. After practicing with this case, each group must apply the same method to the group's own selected case from Lab 02 and Lab 03.
-
+This practice case helps the team design and develop the Budget Tracker Systems.the sstem will be improved based on the selected project from Lab we have done before.
