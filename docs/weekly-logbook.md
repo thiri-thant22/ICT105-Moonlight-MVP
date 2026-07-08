@@ -175,9 +175,11 @@ Product Concept and UI/UX Wireframe
 
 | Member Name | Contribution | Evidence / Commit Link |
 |---|---|---|
-| Thiri Thant | Created the low-fidelity wireframes for the Dashboard, Add Expense, Expense List, and Budget Setting screens. Prepared the user flow and screen navigation plan. | `docs/wireframe-specification.md` and prototype/wireframe files |
-| Thiri Sandar | Defined the product concept, reviewed requirements from Lab 04, and mapped MVP features to user requirements. | `docs/product-concept.md` and `docs/feature-requirement-mapping.md` |
-| Nang Woo Non | Reviewed the wireframes from the user perspective, checked usability and navigation, and updated the weekly logbook and screen checklist. | `docs/wireframe-usability-checklist.md`, `docs/screen-inventory-checklist.md`, and `docs/weekly-logbook.md` |
+| | Thiri Thant | Created and updated the main Budget Tracker prototype screens, including the homepage/dashboard, input form, record list, and detail view. Created the user flow diagram, prepared sample budget transaction records, and updated the CSV data to support the prototype. | GitHub commits: Create index.html, Create wireframe-html, Create input-form.html, Create record-list.html, Create detail-view.html, Create user-flow.mmd, Update user-flow.mmd, Create Budget_tracker_sample_records.csv, Update Budget_tracker_sample_records.csv |
+
+| Thiri Sandar | Created and updated the wireframe pages including homepage, input form, record list, and detail view. Also created the user flow diagram and sample budget records. | GitHub commits: Create index.html, Create wireframe-html, Create input-form.html, Create record-list.html, Create detail-view.html, Create user-flow.mmd, Update Budget_tracker_sample_records.csv |
+
+| Nangwoo Non | Updated product concept, case study brief, feature requirement mapping, screen inventory checklist, wireframe specification, wireframe usability checklist, weekly logbook, and README documentation. | GitHub commits: Update product-concept.md, Update case-study-brief.md, Update feature-requirement-mapping.md, Update screen-inventory-checklist.md, Update wireframe-specification.md, Update wireframe-usability-checklist.md, Update weekly-logbook.md |
 
 ## Decisions Made
 
