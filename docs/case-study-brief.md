@@ -1,7 +1,7 @@
 # Lab 05 Practice Case Brief: Budget Tracker Systems
 
 ## Case Context
-Many studends have difficulty managing their daily expenses and often spend more than their budget.Most of them uus notebooks,spreadsheets or simply rely on memory,making it difficult to track spending accurately.
+Many studends have difficulty managing their daily expenses and often spend more than their budget.Most of them use notebooks,spreadsheets or simply rely on memory,making it difficult to track spending accurately.
 
 ## Target Users
 - Student who want to manage their expenses
