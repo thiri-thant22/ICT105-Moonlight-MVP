@@ -1,1 +1,214 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expense Detail | Budget Tracker</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f5f8ff;
+color:#333;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:#fff;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.logo{
+font-size:30px;
+font-weight:700;
+color:#2563eb;
+}
+
+.logo span{
+color:#111;
+}
+
+nav a{
+text-decoration:none;
+margin:0 15px;
+color:#444;
+font-weight:500;
+}
+
+.container{
+width:90%;
+max-width:800px;
+margin:40px auto;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.card h1{
+color:#2563eb;
+margin-bottom:25px;
+}
+
+.detail{
+margin-bottom:18px;
+padding-bottom:12px;
+border-bottom:1px solid #eee;
+}
+
+.detail strong{
+display:block;
+margin-bottom:5px;
+}
+
+.status{
+background:#22c55e;
+color:white;
+padding:6px 15px;
+border-radius:20px;
+display:inline-block;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 20px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:8px;
+}
+
+footer{
+margin-top:40px;
+background:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+💰 Budget<span>Tracker</span>
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="input-form.html">Add Expense</a>
+<a href="record-list.html">Records</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="admin-view.html">Admin</a>
+</nav>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h1>Expense Detail</h1>
+
+<div id="expenseDetail"></div>
+
+<a href="record-list.html" class="btn">
+← Back to Records
+</a>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Budget Tracker | ICT105 Project
+</footer>
+
+<script>
+
+const expenseId =
+Number(localStorage.getItem("selectedExpense"));
+
+const expenses =
+JSON.parse(localStorage.getItem("expenses")) || [];
+
+const expense =
+expenses.find(item => item.id === expenseId);
+
+const detail =
+document.getElementById("expenseDetail");
+
+if(expense){
+
+detail.innerHTML = `
+
+<div class="detail">
+<strong>Title</strong>
+${expense.title}
+</div>
+
+<div class="detail">
+<strong>Category</strong>
+${expense.category}
+</div>
+
+<div class="detail">
+<strong>Amount</strong>
+$${expense.amount}
+</div>
+
+<div class="detail">
+<strong>Date</strong>
+${expense.date}
+</div>
+
+<div class="detail">
+<strong>Payment Method</strong>
+${expense.payment}
+</div>
+
+<div class="detail">
+<strong>Description</strong>
+${expense.description}
+</div>
+
+<div class="detail">
+<strong>Status</strong>
+<span class="status">
+${expense.status}
+</span>
+</div>
+
+`;
+
+}else{
+
+detail.innerHTML = `
+<h3>Expense not found.</h3>
+`;
+
+}
+
+</script>
+
+</body>
+</html>
