@@ -1,1 +1,55 @@
+flowchart TB
 
+%% ===== Users =====
+U[Users<br/>• Regular User<br/>• Admin]
+B[Web Browser<br/>Chrome, Edge, Firefox, etc.]
+
+U --> B
+
+%% ===== Pages =====
+B --> I[index.html<br/>Landing Page<br/>• Get Started]
+B --> D[dashboard.html<br/>Dashboard<br/>• Budget Summary<br/>• Total Expenses<br/>• Quick Overview<br/>• Navigation]
+B --> IN[input.html<br/>Input<br/>• Add Income<br/>• Add Expense<br/>• Set Budget<br/>• Save Data]
+B --> RL[record-list.html<br/>Record List<br/>• View Records<br/>• Search<br/>• Filter<br/>• Edit / Delete]
+B --> DV[data-view.html<br/>Data View<br/>• Reports<br/>• Charts<br/>• Analytics<br/>• Summary]
+B --> AV[admin-view.html<br/>Admin View<br/>• Manage Users<br/>• Manage Records<br/>• System Settings<br/>• Delete / Update]
+
+%% ===== Services =====
+AS[Authentication Service]
+RM[Record Management]
+BC[Budget Calculation]
+RC[Report Generation]
+VD[Data Validation]
+LS[Local Storage / Session Management]
+
+I --> AS
+D --> RM
+IN --> BC
+RL --> RC
+DV --> VD
+AV --> LS
+
+%% ===== Database =====
+DB[(Budget Tracker Database<br/>IndexedDB / Local Storage)]
+
+AS --> DB
+RM --> DB
+BC --> DB
+RC --> DB
+VD --> DB
+LS --> DB
+
+%% ===== Tables =====
+USERS[Users]
+INCOME[Income]
+EXPENSE[Expense]
+BUDGET[Budget]
+CATEGORY[Categories]
+TRANSACTION[Transactions]
+
+DB --> USERS
+DB --> INCOME
+DB --> EXPENSE
+DB --> BUDGET
+DB --> CATEGORY
+DB --> TRANSACTION
