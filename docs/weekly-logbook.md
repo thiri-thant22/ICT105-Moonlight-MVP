@@ -150,3 +150,37 @@ Based on the customer discovery results from Lab 03, the team decided to focus t
 | Review and finalize functional requirements | Thiri Sandar | Before Lab 05 | #13 |
 | Validate the MVP feature list | Nang Woo Non | Before Lab 05 | #14 |
 | Update README and documentation | Thiri Sandar | Before Lab 05 | #15 |
+
+# Weekly Logbook - Lab 05
+
+## Group Name
+
+## Project Title
+
+## Lab 05 Focus
+Product Concept and UI/UX Wireframe
+
+## What We Completed Today
+- [ ] Reviewed Lab 04 requirements
+- [ ] Defined product concept
+- [ ] Mapped features to requirements
+- [ ] Created required wireframe screens
+- [ ] Created user flow diagram
+- [ ] Built clickable prototype draft or screen navigation plan
+- [ ] Updated GitHub repository
+
+## Member Contributions
+| Member Name | Contribution | Evidence / Commit Link |
+|---|---|---|
+| | | |
+
+## Decisions Made
+| Decision | Reason | Related Requirement |
+|---|---|---|
+| | | |
+
+## Problems Found
+
+## Next Steps Before Lab 06
+
+
