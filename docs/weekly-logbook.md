@@ -174,7 +174,9 @@ Product Concept and UI/UX Wireframe
 ## Member Contributions
 | Member Name | Contribution | Evidence / Commit Link |
 |---|---|---|
-| | | |
+| Thiri Thant | | |
+| Thiri Sandar | | |
+| Nang Woo Non | | |
 
 ## Decisions Made
 | Decision | Reason | Related Requirement |
@@ -182,7 +184,14 @@ Product Concept and UI/UX Wireframe
 | | | |
 
 ## Problems Found
+- Deciding the best layout for the Dashboard.
+- Ensuring all wireframes match the system requirements.
+- Making the navigation simple and consistent across all pages.
 
 ## Next Steps Before Lab 06
+- Improve the wireframe design based on feedback.
+- Finish the clickable prototype.
+- Review usability with team members.
+- Prepare for implementing the website prototype.
 
 
