@@ -1,8 +1,16 @@
 flowchart TD
-A[User opens Budget Tracker] --> B[Dashboard]
-B --> C[Input Income]
-C --> D{Validate Input}
-D -->|Valid| E[Save Transaction]
-D -->|Invalid| F[Show Error]
-E --> G[Update Record List]
-G --> H[Dashboard Summary]
+    A[USER] --> B{Input Validation}
+
+    B -->|Valid| C[Save Record]
+    B -->|Invalid| D[Show Error Message]
+
+    C --> E[Display Confirmation]
+    E --> F[Record List]
+
+    F --> G[Search / Filter]
+    F --> H[Detail View]
+
+    H --> I[Admin Updates Status]
+    I --> J[Update Record]
+
+    J --> K[Dashboard / Summary]
