@@ -136,15 +136,13 @@ All team members contributed to the project through documentation, requirement a
 
 # README Update Template - Lab 05
 
-Add this section to your group README.md.
 
 ## Lab 05: Product Concept and UI/UX Wireframe
 
 ### Product Concept
-Briefly explain what your product is, who it is for, and what problem it solves.
+Budget Tracker is a web-based application designed to help university students manage their daily income and expenses. The website allows users to record transactions, view spending history, monitor their remaining budget, and analyze spending through a dashboard. It helps users develop better financial habits and avoid overspending.
 
 ### Requirement-Driven Screens
-List your required screens and related requirement IDs.
 
 | Screen | Related Requirement IDs | Wireframe File |
 |---|---|---|
@@ -156,8 +154,10 @@ List your required screens and related requirement IDs.
 | Admin / Manager View | FR-09, FR-08 | /wireframes/admin-view.png |
 
 ### User Flow
-Add a short explanation and link to `/diagrams/user-flow.png` or `/diagrams/user-flow.mmd`.
+Users begin at the Homepage, where they can view their current budget summary. They can add a new income or expense through the Input Form, browse and search transactions in the Records List, view transaction details, edit or delete records if needed, and monitor their financial status using the Dashboard. This user flow supports all core features defined in the MVP.
+
+User Flow Diagram: /diagrams/user-flow.md
 
 ### Team Contribution
-All members contributed to the same GitHub repository.
+All team members contributed to the project by analyzing requirements, designing UI/UX wireframes, preparing project documentation, creating the user flow diagram, and updating the shared GitHub repository with their individual commits.
 
