@@ -172,16 +172,23 @@ Product Concept and UI/UX Wireframe
 - [x] Updated GitHub repository
 
 ## Member Contributions
+
 | Member Name | Contribution | Evidence / Commit Link |
 |---|---|---|
-| Thiri Thant | | |
-| Thiri Sandar | | |
-| Nang Woo Non | | |
+| Thiri Thant | Created the low-fidelity wireframes for the Dashboard, Add Expense, Expense List, and Budget Setting screens. Prepared the user flow and screen navigation plan. | `docs/wireframe-specification.md` and prototype/wireframe files |
+| Thiri Sandar | Defined the product concept, reviewed requirements from Lab 04, and mapped MVP features to user requirements. | `docs/product-concept.md` and `docs/feature-requirement-mapping.md` |
+| Nang Woo Non | Reviewed the wireframes from the user perspective, checked usability and navigation, and updated the weekly logbook and screen checklist. | `docs/wireframe-usability-checklist.md`, `docs/screen-inventory-checklist.md`, and `docs/weekly-logbook.md` |
 
 ## Decisions Made
+
 | Decision | Reason | Related Requirement |
 |---|---|---|
-| | | |
+| Use Dashboard as the main screen | Users need to quickly see total spending, monthly budget, and remaining budget. | Dashboard Summary |
+| Use a simple Add Expense form | Users need to record expenses quickly without a complicated process. | Add Expense |
+| Include categories such as Food, Transport, Education, and Shopping | Categories help users understand where their money is spent. | Add Expense, Dashboard Summary |
+| Include Expense List with search and filter | Users need to review and find previous expense records easily. | View Expense List, Search/Filter |
+| Include Edit and Delete Expense functions | Users may need to correct or remove incorrect expense records. | Edit Expense, Delete Expense |
+| Postpone Login, AI recommendations, and reminder notifications | These features are more complex and are not necessary for the first MVP. | MVP Scope |
 
 ## Problems Found
 - Deciding the best layout for the Dashboard.
@@ -194,36 +201,59 @@ Product Concept and UI/UX Wireframe
 - Review usability with team members.
 - Prepare for implementing the website prototype.
 
-
 # Weekly Logbook - Lab 06
 
 ## Group Name
+Moonlight
 
 ## Project Title
+Budget Tracker
 
 ## Date
+8 July 2026
 
 ## Members Present
 
 | Member Name | Contribution Today | GitHub Evidence / Commit / File Updated |
 |---|---|---|
-| | | |
-| | | |
-| | | |
+| Thiri Thant | Reviewed the prototype structure, planned the page navigation, and checked the Dashboard, Add Expense, and Expense List screens. | Updated prototype planning and UI/UX documentation in the GitHub repository |
+| Thiri Sandar | Prepared the technical architecture, data structure, and feature-value mapping documents for the Budget Tracker MVP. | Updated `docs/technical-architecture.md`, `docs/data-structure.md`, and `docs/feature-value-mapping.md` |
+| Nang Woo Non | Reviewed MVP features, checked whether the system requirements match the customer problems, and contributed to business model and final prototype planning. | Updated `docs/business-model-canvas.md` and weekly logbook documentation |
 
 ## Decisions Made Today
 
-1. Business model decision:
-2. Technical architecture decision:
-3. Data structure decision:
-4. Diagram decision:
+1. **Business model decision:**  
+   The Budget Tracker MVP will focus on university students and young professionals. The system will be free for the prototype stage and will provide value by helping users record expenses, monitor spending, and avoid overspending.
+
+2. **Technical architecture decision:**  
+   The team selected HTML, CSS, JavaScript, and Browser Local Storage for the prototype. This approach is simple, suitable for the team’s current skills, and does not require a complex backend or database.
+
+3. **Data structure decision:**  
+   The main data entities will be Expenses, Budgets, and Categories. The system will store expense title, amount, category, date, description, and status. User login data will not be included in the MVP.
+
+4. **Diagram decision:**  
+   The team will create a simple system flow diagram showing how users add expenses, save data in Local Storage, view the Expense List, and see updated results on the Dashboard.
 
 ## Problems or Risks Found
 
+- Local Storage may cause incorrect dashboard totals if expense records are not updated correctly after editing or deleting.
+- The team needs to make sure all pages use the same navigation style and layout.
+- Search and filter options need to remain simple enough for the MVP.
+- The team needs more testing to confirm that users understand the Add Expense form and Dashboard summary.
+- There may be limited time to complete all optional features before the final prototype submission.
+
 ## Next Actions Before Lab 07
+
+| Task | Owner | Expected Output |
+|---|---|---|
+| Create the HTML structure for all main pages | Thiri Thant | Home page, Dashboard, Add Expense page, Expense List page |
+| Implement Add Expense function | Thiri Sandar | Expense form that saves records to Local Storage |
+| Implement Expense List and Dashboard Summary | Nang Woo Non | List of expenses, total spending, remaining budget |
+| Implement Edit and Delete functions | Team | Users can update or remove expense records |
+| Create system flow diagram | Thiri Thant | Diagram showing user actions and data flow |
+| Test the prototype using sample expense data | Team | Test results and identified improvements |
+| Update README and project documentation | Thiri Sandar | Updated GitHub evidence and documentation |
 
 ## Lecturer / TA Notes
 
-
-
-
+- To be completed after receiving feedback from the lecturer or teaching assistant.
