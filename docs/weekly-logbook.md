@@ -176,9 +176,7 @@ Product Concept and UI/UX Wireframe
 | Member Name | Contribution | Evidence / Commit Link |
 |---|---|---|
 | | Thiri Thant | Created and updated the main Budget Tracker prototype screens, including the homepage/dashboard, input form, record list, and detail view. Created the user flow diagram, prepared sample budget transaction records, and updated the CSV data to support the prototype. | GitHub commits: Create index.html, Create wireframe-html, Create input-form.html, Create record-list.html, Create detail-view.html, Create user-flow.mmd, Update user-flow.mmd, Create Budget_tracker_sample_records.csv, Update Budget_tracker_sample_records.csv |
-
 | Thiri Sandar | Created and updated the wireframe pages including homepage, input form, record list, and detail view. Also created the user flow diagram and sample budget records. | GitHub commits: Create index.html, Create wireframe-html, Create input-form.html, Create record-list.html, Create detail-view.html, Create user-flow.mmd, Update Budget_tracker_sample_records.csv |
-
 | Nangwoo Non | Updated product concept, case study brief, feature requirement mapping, screen inventory checklist, wireframe specification, wireframe usability checklist, weekly logbook, and README documentation. | GitHub commits: Update product-concept.md, Update case-study-brief.md, Update feature-requirement-mapping.md, Update screen-inventory-checklist.md, Update wireframe-specification.md, Update wireframe-usability-checklist.md, Update weekly-logbook.md |
 
 ## Decisions Made
@@ -221,9 +219,7 @@ Budget Tracker
 |---|---|---|
 
 | Thiri Thant | Renamed the user flow diagram to data-flow diagram and supported documentation updates. | Rename user-flow.mmd to data-flow.mmd |
-
 | Thiri Sandar | Updated prototype pages including dashboard, detail view, input form, record list, and admin view. Created use-case and user/data-flow diagrams. | Update dashboard.html, detail-view.html, input-form.html, record-list.html, admin-view.html, use-case-diagram, data-flow.mmd |
-
 | Nang Woo Non | Updated project documentation including case study brief, data structure, feature-value mapping, technical architecture, business model canvas, and weekly logbook. | Update case-study-brief.md, data-structure.md, feature-value-mapping.md, technical-architecture.md, business-model-canvas.md, weekly-logbook.md |
 
 ## Decisions Made Today
