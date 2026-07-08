@@ -1,10 +1,10 @@
 TransactionID,TransactionType,Category,Amount,PaymentMethod,Date,Status,Description
 BT-001,Income,Allowance,20000,Bank Transfer,2026-06-01,Complete,Monthly allowance received from parents.
 BT-002,Expense, Food,100,Cash,2026-06-02,Complete,Lunch at university cafeteria.
-BT-003,Expense,Transportation,100,Cash,2026-06-03,Complete,Bus fare to campus.
-BT-004,Expense,Education,5000,E-wallet,2026-06-04,Complete,Purchased a programming textbook.
-BT-005,Income,Part-time job,15000,Bank Transfer,2026-06-05,Complete,Weekly salary from café job.
-BT-006,Expense,Groceries,200,Debit Card,2026-06-06,Complete,Bought groceries for the week.
-BT-007,Expense,Entertainment,250,E-wallet,2026-06-07,Complete,Movie ticket with friends.
+BT-003,Expense,Transportation,100,Cash,2026-06-03,Complete,Motorbike to campus.
+BT-004,Expense,Education,500,E-wallet,2026-06-04,Complete,Purchased a programming textbook.
+BT-005,Income,Part-time job,15000,Bank Transfer,2026-06-05,Complete,Monthly salary from café job.
+BT-006,Expense,Groceries,200,Visa Card,2026-06-06,Complete,Bought groceries for the week.
+BT-007,Expense,Entertainment,50,E-wallet,2026-06-07,Complete,Movie ticket with friends.
 BT-008,Expense,Utilities,300,Online Banking,2026-06-08,Complete,Mobile phone prepaid top-up.
 
