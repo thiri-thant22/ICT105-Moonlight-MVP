@@ -16,20 +16,37 @@ This practice case helps the team design and develop the Budget Tracker Systems.
 
 # Lab 06 Practice Case Brief
 
-## Case: Smart Campus Lost-and-Found System
+## Case: Budget Tracker System
 
-Students often lose items on campus and do not know where to report, search, or claim them. Current alternatives include asking friends, posting in chat groups, visiting the security office, or waiting for someone to return the item.
+Students and young professionals often spend money without recording their daily expenses. Many users rely on memory, notebooks, phone notes, or Excel spreadsheets, which can be inconvenient and time-consuming. As a result, they may forget where their money was spent, exceed their planned budget, and have difficulty managing their monthly allowance or salary.
 
 ## Target Users
 
-- Student who lost an item
-- Student or staff who found an item
-- Admin/security staff who verifies and updates item status
+- University students who want to manage their monthly allowance
+- Young professionals who want to track daily expenses and control spending
+- Users who need a simple way to record, search, edit, and review their expenses
+
 
 ## Product Direction
+A web-based Budget Tracker system or prototype that allows users to add expenses, view expense records, search and filter expenses, set a budget, view spending summaries, and edit or delete incorrect expense records.
 
-A web-based system or prototype that allows users to report lost/found items, search existing records, view item details, track status, and allow admin to update item status.
+The system should help users understand their spending habits and avoid overspending by showing total expenses, remaining budget, and categorized expense information.
+
+Main Features
+
+- Add Expense
+- View Expense List
+- Search and Filter Expenses
+- Dashboard Summary
+- Budget Setting
+- Edit Expense
+- Delete Expense
+- Confirmation Message after adding, editing, or deleting an expense
 
 ## Lab 06 Focus
 
-Use this case only for practice. Students must apply the same method to their own group case.
+Use this project case to develop the first functional prototype of the Budget Tracker system.
+
+The team will focus on implementing the most important MVP features, including Add Expense, View Expense List, Dashboard Summary, and basic Edit/Delete functions.
+
+The prototype should demonstrate how users can record expenses, monitor their spending, and manage their budget more easily than using notebooks, phone notes, or spreadsheets.
