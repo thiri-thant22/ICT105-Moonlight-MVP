@@ -1,1 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Budget Tracker</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f5f8ff;
+color:#333;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:#fff;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:30px;
+font-weight:700;
+color:#2563eb;
+}
+
+.logo span{
+color:#111;
+}
+
+nav a{
+text-decoration:none;
+margin:0 15px;
+color:#444;
+font-weight:500;
+}
+
+nav a:hover{
+color:#2563eb;
+}
+
+.btn{
+padding:10px 22px;
+background:#2563eb;
+color:#fff;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:70px 8%;
+flex-wrap:wrap;
+}
+
+.left{
+flex:1;
+}
+
+.left h1{
+font-size:52px;
+margin-bottom:20px;
+}
+
+.left h1 span{
+color:#2563eb;
+}
+
+.left p{
+font-size:18px;
+color:#666;
+margin-bottom:30px;
+line-height:1.8;
+}
+
+.action button{
+padding:15px 30px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+margin-right:15px;
+font-size:16px;
+}
+
+.start{
+background:#2563eb;
+color:white;
+}
+
+.learn{
+background:white;
+border:2px solid #2563eb;
+color:#2563eb;
+}
+
+.right{
+flex:1;
+display:flex;
+justify-content:center;
+}
+
+.summary{
+width:350px;
+background:white;
+padding:30px;
+border-radius:18px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.summary h2{
+margin-bottom:20px;
+}
+
+.item{
+display:flex;
+justify-content:space-between;
+padding:12px 0;
+border-bottom:1px solid #eee;
+}
+
+.cards{
+padding:50px 8%;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.card h3{
+color:#2563eb;
+font-size:35px;
+margin-bottom:10px;
+}
+
+.features{
+padding:60px 8%;
+}
+
+.features h2{
+text-align:center;
+margin-bottom:40px;
+font-size:40px;
+}
+
+.feature-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.feature{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.feature h3{
+margin-bottom:15px;
+color:#2563eb;
+}
+
+footer{
+background:white;
+text-align:center;
+padding:25px;
+margin-top:60px;
+}
+
+@media(max-width:900px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.left h1{
+font-size:38px;
+}
+
+.right{
+margin-top:40px;
+}
+
+nav{
+display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+💰 Budget<span>Tracker</span>
+</div>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="input-form.html">Add Expense</a>
+    <a href="record-list.html">Records</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="admin-view.html">Admin</a>
+</nav>
+
+<button class="btn" onclick="welcome()">
+Get Started
+</button>
+
+</header>
+
+<section class="hero">
+
+<div class="left">
+
+<h1>
+Manage Your <span>Budget</span><br>
+With Confidence
+</h1>
+
+<p>
+Track your daily expenses, monitor your spending,
+and stay within your monthly budget using one
+simple application.
+</p>
+
+<div class="action">
+
+<a href="input-form.html">
+    <button class="start">
+        Start Tracking
+    </button>
+</a>
+
+<button class="learn">
+Learn More
+</button>
+
+</div>
+
+</div>
+
+<div class="right">
+
+<div class="summary">
+
+<h2>Budget Summary</h2>
+
+<div class="item">
+<span>Total Budget</span>
+<strong>$2,000</strong>
+</div>
+
+<div class="item">
+<span>Total Expenses</span>
+<strong>$1,450</strong>
+</div>
+
+<div class="item">
+<span>Remaining</span>
+<strong style="color:green">$550</strong>
+</div>
+
+<div class="item">
+<span>Transactions</span>
+<strong>68</strong>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cards">
+
+<div class="card">
+<h3>68</h3>
+<p>Total Transactions</p>
+</div>
+
+<div class="card">
+<h3>$1450</h3>
+<p>Total Expenses</p>
+</div>
+
+<div class="card">
+<h3>8</h3>
+<p>Expense Categories</p>
+</div>
+
+<div class="card">
+<h3>92%</h3>
+<p>Budget Goal</p>
+</div>
+
+</section>
+
+<section class="features">
+
+<h2>Key Features</h2>
+
+<div class="feature-grid">
+
+<div class="feature">
+<h3>💵 Expense Tracking</h3>
+<p>Record daily expenses quickly.</p>
+</div>
+
+<div class="feature">
+<h3>📊 Dashboard</h3>
+<p>View spending summaries and reports.</p>
+</div>
+
+<div class="feature">
+<h3>🔍 Search Records</h3>
+<p>Find expenses by category or date.</p>
+</div>
+
+<div class="feature">
+<h3>📈 Analytics</h3>
+<p>Monitor your financial habits.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Budget Tracker | ICT105 Project
+
+</footer>
+
+<script>
+
+function welcome(){
+
+alert("Welcome to Budget Tracker!");
+
+}
+
+</script>
+
+</body>
+</html>
