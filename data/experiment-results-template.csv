@@ -1,1 +1,5 @@
 tester_code,task_id,task_description,completed_yes_no,time_seconds,help_needed_yes_no,error_or_confusion,rating_1_5,improvement_note
+T01,TK01,Add a new expense,Yes,20,No,None,5,Easy to use
+T01,TK02,View transaction history,Yes,15,No,None,5,Good layout
+T02,TK01,Add a new expense,Yes,32,Yes,Could not find Save button immediately,4,Make Save button more visible
+T03,TK03,Check dashboard summary,No,45,Yes,Dashboard information was confusing,3,Use clearer labels
