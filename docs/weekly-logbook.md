@@ -242,9 +242,9 @@ Budget Tracker
 
 | Member Name | Contribution Today | GitHub Evidence / Commit / File Updated |
 |---|---|---|
-| Thiri Thant | Worked on /docs/customer_segments_value.csv and /diagrams/data-flow.mmd|  |
-| Thiri Sandar | Worked on /diagrams/system-architecture.mmd |  |
-| Nang Woo Non | Worked on /docs/case-study-brief.md, /docs/business-model-canvas.md, /docs/data-structure.md, /docs/feature-value-mapping.md, /docs/technical-architecture.md, /docs/weekly-logbook.md |  |
+| Thiri Thant | Worked on /docs/customer_segments_value.csv and /diagrams/data-flow.mmd| https://github.com/thiri-thant22/ICT105-Moonlight-MVP |
+| Thiri Sandar | Worked on /diagrams/system-architecture.mmd | https://github.com/thiri-thant22/ICT105-Moonlight-MVP |
+| Nang Woo Non | Worked on /docs/case-study-brief.md, /docs/business-model-canvas.md, /docs/data-structure.md, /docs/feature-value-mapping.md, /docs/technical-architecture.md, /docs/weekly-logbook.md | https://github.com/thiri-thant22/ICT105-Moonlight-MVP |
 
 ## Decisions Made Today
 
