@@ -1,0 +1,6 @@
+tester_code,tester_type,campus_role,experience_with_budget_tracking,reason_selected
+T01,University student,Undergraduate,Uses a budgeting app regularly,Primary target user
+T02,University student,Undergraduate,Tracks expenses manually,Can evaluate expense recording workflow
+T03,University student,International Student,Never used a budget tracker,Can test first-time usability
+T04,Staff,Administrative Staff,Manages monthly expenses,Potential admin user
+T05,Young Professional,Freelancer,Uses spreadsheets for budgeting,Can evaluate dashboard and reports
