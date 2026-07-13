@@ -177,7 +177,33 @@ Product Concept and UI/UX Wireframe
 |---|---|---|
 | Thiri Thant | create budget-tracker-sample-records.csv, user-flow.mmd, index.html,input-form.html and record-list.html |  |
 | Thiri Sandar | Create Feature-requirement-mapping.md, screen-inventory-checklist.md, wireframe-specification.md, admin-view.html,dashboard.html and detail-view.html| |
-| Nang Woo Non | create case-study-brief.md, product-concept.md and wireframe-usability-checklist.md | docs/product-concept.md |
+| Nang Woo Non | create case-study-brief.md, product-concept.md and wireframe-usability-checklist.md | # Product Concept
+
+## 1. Project Title
+Budget Tracker System
+
+## 2. Target User
+Primary user: Students and young professionals.
+Secondary user: Anyone who wants to manage their personal budget.
+
+## 3. Problem Statement
+Many people have difficulty tracking their expenses and often overspend.
+
+## 4. Proposed IT Product
+A web-based budget tracker that allows users to record income and expenses, categorize transactions, view spending summaries, and monitor their monthly budget.
+
+## 5. Core Value Proposition
+The system helps users manage their money more easily and avoid overspending.
+
+## 6. MVP Scope
+The MVP will include expense recording, income recording, categories, budget summary, monthly report, and dashboard.
+
+## 7. Out of Scope for Current Semester
+- Bank account integration
+- Online payment features
+- Advanced security implementation
+- Mobile app deployment
+- AI spending prediction|
 
 ## Decisions Made
 
