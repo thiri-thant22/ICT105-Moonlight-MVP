@@ -50,3 +50,21 @@ Use this project case to develop the first functional prototype of the Budget Tr
 The team will focus on implementing the most important MVP features, including Add Expense, View Expense List, Dashboard Summary, and basic Edit/Delete functions.
 
 The prototype should demonstrate how users can record expenses, monitor their spending, and manage their budget more easily than using notebooks, phone notes, or spreadsheets.
+
+
+# Lab 07 Case Study Brief: Budget Tracker
+
+## Problem Context
+Many university students and young professionals struggle to manage their personal finances because they do not consistently record their daily expenses. As a result, they often overspend and have difficulty tracking where their money goes. Current alternatives include writing expenses in notebooks, using spreadsheets, or relying on memory, which can be inconvenient, time-consuming, and inaccurate.
+
+## Practice Purpose
+This case is used only for guided practice in Lab 07. Students must later apply the same process to their own group case.
+
+## Example MVP Experiment Direction
+The team wants to test whether students and young professionals can use a simple digital workflow to record expenses, view expense records, search and filter transactions, monitor spending through a dashboard, and manage expense data efficiently.
+
+## Example Critical Assumption
+Students and young professionals will use a simple digital Budget Tracker if it is easier, faster, and more organized than using notebooks, spreadsheets, or remembering expenses manually.
+
+## Example Experiment Type
+Clickable web prototype, form-based simulation, or simple HTML/CSS/JavaScript prototype with Local Storage.
