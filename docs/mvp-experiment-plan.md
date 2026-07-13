@@ -1,17 +1,14 @@
 # MVP Experiment Plan
 
 ## 1. Group and Project Information
-- Group name:
-- Project title:
-- Repository link:
-- Main target user:
-- Prototype platform:
+- Group name: Moonlight
+- Project title: Budget Tracker
+- Repository link:  https://github.com/thiri-thant22
+- Main target user: University students and young professionals
+- Prototype platform: HTML , CSS , JavaScript (Browser Local Storage)
 
 ## 2. Experiment Objective
-Write one clear sentence explaining what your team wants to learn before deeper implementation.
-
-Example:
-> We want to test whether students can complete the main lost-item reporting and item-search workflow without help.
+We want to  treat whether users can easily record expenses, view their spending summary and navigate the Budget Tracker without assistance.
 
 ## 3. Requirement Scope for the Experiment
 List the requirement IDs that will be tested in this experiment.
