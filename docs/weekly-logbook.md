@@ -230,7 +230,7 @@ The MVP will include expense recording, income recording, categories, budget sum
 # Weekly Logbook - Lab 06
 
 ## Group Name
-Moonlight
+MoonLight
 
 ## Project Title
 Budget Tracker
@@ -242,9 +242,9 @@ Budget Tracker
 
 | Member Name | Contribution Today | GitHub Evidence / Commit / File Updated |
 |---|---|---|
-| Thiri Thant |  |  |
-| Thiri Sandar |  |  |
-| Nang Woo Non |  |  |
+| Thiri Thant | Worked on /docs/customer_segments_value.csv and /diagrams/data-flow.mmd|  |
+| Thiri Sandar | Worked on /diagrams/system-architecture.mmd |  |
+| Nang Woo Non | Worked on /docs/case-study-brief.md, /docs/business-model-canvas.md, /docs/data-structure.md, /docs/feature-value-mapping.md, /docs/technical-architecture.md, /docs/weekly-logbook.md |  |
 
 ## Decisions Made Today
 
