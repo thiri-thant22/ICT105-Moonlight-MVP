@@ -1,4 +1,5 @@
-segment_id,segment_name,need,value_expected,possible_channel
-CS01,Student who lost an item,Report and search quickly,Higher chance of finding lost item,QR code / website link
-CS02,Student or staff who found an item,Submit found item information,Simple reporting and responsible return process,Web form
-CS03,Admin or security staff,Verify records and update status,Organized item management and tracking,Admin panel
+SegmentID,CustomerSegment,Problems,ValueProvided,Features
+CS-001,University Students,Difficulty managing daily expenses,Easy expense tracking,Add Expense
+CS-002,University Students,Difficulty saving money,Budget planning,Set Budget
+CS-003,Young Working Adults,Hard to monitor spending,Monthly spending reports,Reports
+CS-004,Freelancers,Irregular income,Income and expense tracking,Add Income
