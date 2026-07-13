@@ -1,5 +1,7 @@
-SegmentID,CustomerSegment,Problems,ValueProvided,Features
-CS-001,University Students,Difficulty managing daily expenses,Easy expense tracking,Add Expense
-CS-002,University Students,Difficulty saving money,Budget planning,Set Budget
-CS-003,Young Working Adults,Hard to monitor spending,Monthly spending reports,Reports
-CS-004,Freelancers,Irregular income,Income and expense tracking,Add Income
+segment_id,customer_segment,customer_needs,value_provided,features
+CS01,University Students,Track daily income and expenses,Simple and organized expense tracking,Add Income Add Expense
+CS02,University Students,Manage monthly budget,Avoid overspending with budget planning,Set Budget Dashboard
+CS03,Young Working Adults,Monitor monthly spending,View spending summary and reports,Dashboard Data View
+CS04,Young Working Adults,Know where money is spent,Access complete transaction history,Record List
+CS05,Freelancers,Track irregular income and expenses,Manage both income and expenses in one place,Add Income Record List
+CS06,All Users,Manage personal finances easily,User-friendly budget tracking system,Dashboard Reports
