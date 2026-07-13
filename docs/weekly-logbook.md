@@ -242,9 +242,9 @@ Budget Tracker
 
 | Member Name | Contribution Today | GitHub Evidence / Commit / File Updated |
 |---|---|---|
-| Thiri Thant | Update   |  |
-| Thiri Sandar | Updated prototype pages including dashboard, detail view and admin view. Created use-case diagrams. | Update dashboard.html, detail-view.html, input-form.html, record-list.html, admin-view.html, use-case-diagram, data-flow.mmd |
-| Nang Woo Non | Updated project documentation including case study brief, data structure, feature-value mapping, technical architecture, business model canvas, and weekly logbook. | Update case-study-brief.md, data-structure.md, feature-value-mapping.md, technical-architecture.md, business-model-canvas.md, weekly-logbook.md |
+| Thiri Thant |  |  |
+| Thiri Sandar |  |  |
+| Nang Woo Non |  |  |
 
 ## Decisions Made Today
 
