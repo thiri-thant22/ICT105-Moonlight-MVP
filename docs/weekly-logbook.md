@@ -175,9 +175,9 @@ Product Concept and UI/UX Wireframe
 
 | Member Name | Contribution | Evidence / Commit Link |
 |---|---|---|
-| Thiri Thant | |
-| Thiri Sandar | |
-| Nang Woo Non | |
+| Thiri Thant | create budget-tracker-sample-records.csv, user-flow.mmd  |
+| Thiri Sandar | Create Feature-requirement-mapping.md, screen-inventory-checklist.md and wireframe-specification.md| |
+| Nang Woo Non | create case-study-brief.md, product-concept.md and wireframe-usability-checklist.md | |
 
 ## Decisions Made
 
