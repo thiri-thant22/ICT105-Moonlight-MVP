@@ -1,0 +1,6 @@
+tester_code,task_id,task_description,completed,time_seconds,help_needed,confusion_point,rating_clarity_1_5,notes
+T01,T1,Understand homepage purpose,Yes,30,No,,5,Homepage clearly explained the app purpose and navigation
+T01,T2,Add a new expense,Yes,75,No,,5,Expense form was easy to complete
+T02,T3,Search expense records,Yes,40,No,,5,Search and category filter worked well
+T03,T4,View expense details,Yes,35,No,,4,Expected an edit button on the detail page
+T04,T5,Update expense status in Admin page,Yes,65,Yes,Status update location was not immediately obvious,4,Admin functions worked but buttons could be more noticeable
