@@ -1,1 +1,11 @@
 tester_code,understood_purpose_1_5,completed_task_1_5,form_clear_1_5,search_useful_1_5,status_clear_1_5,would_use_1_5,most_useful_feature,confusing_part,suggested_improvement
+T01,5,5,5,4,5,5,Dashboard,None,Add spending charts for better visualization
+T02,4,4,5,5,4,4,Record List,Budget setting,Use clearer labels for budget information
+T03,5,4,4,4,5,5,Expense Tracking,None,Add more expense categories
+T04,4,5,5,4,4,5,Monthly Reports,Search filter,Allow filtering by category and date
+T05,5,5,5,5,5,5,Dashboard Summary,None,Add budget reminder notifications
+T06,5,4,5,4,5,5,Income Tracking,None,Provide monthly income comparison charts
+T07,4,4,4,5,4,4,Transaction History,Dashboard layout,Improve dashboard layout and spacing
+T08,5,5,5,5,5,5,Budget Management,None,Add export to PDF or Excel feature
+T09,4,4,5,4,4,4,Reports,Expense input form,Make the expense form easier to complete
+T10,5,5,5,5,5,5,Dashboard,None,Display savings progress with a chart
