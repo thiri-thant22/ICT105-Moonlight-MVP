@@ -161,3 +161,32 @@ User Flow Diagram: /diagrams/user-flow.md
 ### Team Contribution
 All team members contributed to the project by analyzing requirements, designing UI/UX wireframes, preparing project documentation, creating the user flow diagram, and updating the shared GitHub repository with their individual commits.
 
+## Lab 07: MVP Experiment Design
+
+### Experiment Objective
+Our team will test whether users can easily record expenses, view their spending summary, and navigate the Budget Tracker website without assistance.
+
+### Critical Assumptions
+- Users understand the purpose of the Budget Tracker from the homepage.
+- Users can successfully record an expense without help.
+- Users can easily understand the dashboard summary and navigation.
+
+### MVP Experiment Type
+We selected a clickable web prototype with task-based usability testing because it allows us to evaluate whether users can complete the main tasks and provide useful feedback before implementation.
+
+### Success Metrics
+- At least 80% of users complete all assigned tasks successfully.
+- At least 90% of expense records are submitted correctly.
+- At least 80% of users understand the dashboard summary.
+- Average usability rating is 4 out of 5 or higher.
+
+### Files Added in Lab 07
+- `/docs/mvp-experiment-plan.md`
+- `/docs/critical-assumptions.md`
+- `/docs/experiment-script.md`
+- `/docs/success-metrics.md`
+- `/docs/feedback-form.md`
+- `/docs/weekly-logbook.md`
+
+### Connection to Final Prototype
+The experiment results will help the team improve the user interface, simplify navigation, fix usability problems, and validate the main features before developing the final Budget Tracker prototype.
