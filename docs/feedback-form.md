@@ -1,26 +1,30 @@
 # Feedback Form Template
 
 ## Tester Information
-- Tester code:
-- Tester type: Student / Staff / Admin / Other
-- Date:
+
+- Tester Code: T01
+- Tester Type: Student
+- Date: 13 July 2026
 
 ## Rating Questions
-Rate from 1 = strongly disagree to 5 = strongly agree.
 
-| Question | Rating 1-5 |
-|---|---:|
-| I understood the purpose of the system from the first screen. | |
-| I could complete the main task without help. | |
-| The form fields were clear. | |
-| The search/filter function was useful. | |
-| The status information was clear. | |
-| The prototype would help solve the problem. | |
+Rate from **1 = Strongly Disagree** to **5 = Strongly Agree**
+
+| Question | Rating (1-5) |
+|----------|--------------|
+| I understood the purpose of the Budget Tracker from the first screen. | 5 |
+| I could add an expense without any help. | 4 |
+| The expense form was easy to understand and complete. | 5 |
+| The Dashboard summary was clear and useful. | 4 |
+| I could easily find, edit, or delete an expense record. | 4 |
+| I think this Budget Tracker would help me manage my spending. | 5 |
 
 ## Open Questions
-1. What was the most useful part of the prototype?
-2. What was confusing?
-3. What information was missing?
-4. What should the team improve before the final prototype?
-5. Would you use this system if it were available? Why or why not?
 
+1. Was it easy to record your income or expense? Why or why not?
+2. Was the Dashboard easy to understand? 
+3. Did you have any difficulty finding a transaction using the search or filter feature?
+4. Is there any information or feature you think is missing from the Budget Tracker?
+5. Would this Budget Tracker help you manage your personal expenses? Why or why not?
+6. Which part of the prototype should be improved before the final version?
+7. Do you have any additional suggestions for improving the system?
