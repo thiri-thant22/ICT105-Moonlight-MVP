@@ -283,3 +283,46 @@ Budget Tracker
 ## Lecturer / TA Notes
 
 - To be completed after receiving feedback from the lecturer or teaching assistant.
+
+
+# Weekly Logbook - Lab 07
+
+## Group Information
+- Group name: Moon Light
+- Project title: Budget Tracker
+- Date: 7/14/2026
+- Repository link: [Enter GitHub Repository Link]
+
+## What We Completed Today
+- [x] Reviewed requirements, user stories, MVP features, architecture, and wireframes
+- [x] Identified critical assumptions
+- [x] Selected MVP experiment type
+- [x] Defined test users and success metrics
+- [x] Prepared experiment script and feedback form
+- [x] Updated GitHub repository and README
+
+## Member Contributions
+
+| Member Name | Contribution | Evidence/Commit/Issue Link |
+|---|---|---|
+| Thiri Sandar | Updated weekly-logbook, prepared sample-test-users and sample-experiment-results, updated README and screenshots | GitHub Commit Link |
+| Nang Woo Non | Updated critical-assumptions, experiment-script, feedback-form, mvp-experiment-plan, readme-update-template, success-metrics | GitHub Commit Link |
+| Thiri Thant | Worked on prototype, experiment-results-template, feedback-form-template, experiment-flow,  | GitHub Commit Link |
+
+## Key Decisions
+
+| Decision | Reason | Evidence/Requirement Link |
+|---|---|---|
+| Selected a web-based Budget Tracker as the MVP | It addresses the main problem of tracking daily expenses in a simple way | User Stories, MVP Feature List |
+| Used Local Storage to save expense records | Easy to implement for the prototype without requiring a backend database | FR-04 Data Storage |
+| Chose a clickable HTML/CSS/JavaScript prototype | Demonstrates the complete user workflow for the MVP | Lab 07 MVP Experiment |
+| Tested the prototype with students and staff | They represent the target users and provide useful usability feedback | Test Users & Experiment Plan |
+| Measured task completion, completion time, and user satisfaction | To evaluate whether the prototype is easy to understand and use | Experiment Results |
+
+## Problems and Next Action
+
+| Problem | Next Action | Responsible Member |
+|---|---|---|
+| Some users needed more guidance when using the Admin page and Dashboard. | Improve labels, navigation, and user instructions. | Thiri Thant |
+| Minor JavaScript and Local Storage issues were found during testing. | Fix bugs, test all features again, and verify data is displayed correctly. | Nang Woo Non |
+| Additional screenshots and testing evidence were needed for documentation. | Capture screenshots, organize experiment results, and update GitHub repository. | Thiri Sandar |
