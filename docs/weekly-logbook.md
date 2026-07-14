@@ -305,9 +305,9 @@ Budget Tracker
 
 | Member Name | Contribution | Evidence/Commit/Issue Link |
 |---|---|---|
-| Thiri Sandar | Updated weekly-logbook, prepared sample-test-users and sample-experiment-results, updated README and screenshots | GitHub Commit Link |
-| Nang Woo Non | Updated critical-assumptions, experiment-script, feedback-form, mvp-experiment-plan, readme-update-template, success-metrics | GitHub Commit Link |
-| Thiri Thant | Worked on prototype, experiment-results-template, feedback-form-template, experiment-flow,  | GitHub Commit Link |
+| Thiri Sandar | Updated weekly-logbook, prepared sample-test-users and sample-experiment-results, updated README and screenshots | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Nang Woo Non | Updated critical-assumptions, experiment-script, feedback-form, mvp-experiment-plan, readme-update-template, success-metrics | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Thiri Thant | Worked on prototype, experiment-results-template, feedback-form-template, experiment-flow,  | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
 
 ## Key Decisions
 
