@@ -10,7 +10,7 @@ Prototype version:
 - Version 1.0 (MVP)
 
 Prototype link or screenshot location:
-- https://github.com/thiri-thant22/ICT105-Moonlight-MVP
+- https://github.com/thiri-thant22/ICT105-Moonlight-MVP/tree/main/prototype
 
 Main task tested:
 - Add a new expense
