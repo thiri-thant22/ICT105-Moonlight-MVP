@@ -190,3 +190,36 @@ We selected a clickable web prototype with task-based usability testing because 
 
 ### Connection to Final Prototype
 The experiment results will help the team improve the user interface, simplify navigation, fix usability problems, and validate the main features before developing the final Budget Tracker prototype.
+
+# README Update - Lab 08
+
+## Lab 08: Customer Validation and Analytics Sheet
+
+### Validation Objective
+Explain what the group tested.
+
+### Prototype Version Tested
+- Version:
+- Link:
+- Screenshots:
+
+### Analytics Summary
+| Metric | Result |
+|---|---:|
+| Total test users | |
+| Task success rate | |
+| Average feedback score | |
+| Average interest level | |
+| Main confusion point | |
+
+### MVP Decision
+State whether the group will continue, revise, or collect more evidence.
+
+### Files Added
+- `/data/validation-results.xlsx`
+- `/data/validation-results.csv`
+- `/docs/customer-validation-summary.md`
+- `/docs/analytics-insights.md`
+- `/docs/mvp-decision.md`
+- `/screenshots/validation-test-screens.png`
+- `/docs/weekly-logbook.md`
