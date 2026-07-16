@@ -326,3 +326,47 @@ Budget Tracker
 | Some users needed more guidance when using the Admin page and Dashboard. | Improve labels, navigation, and user instructions. | Thiri Thant |
 | Minor JavaScript and Local Storage issues were found during testing. | Fix bugs, test all features again, and verify data is displayed correctly. | Nang Woo Non |
 | Additional screenshots and testing evidence were needed for documentation. | Capture screenshots, organize experiment results, and update GitHub repository. | Thiri Sandar |
+
+
+# Weekly Logbook - Lab 08
+
+## Group Information
+- Group name: Moon Light
+- Project title: Budget Tracker
+- Repository link: https://github.com/thiri-thant22
+- Lab date: 7/16/2026
+
+## Work Completed Today
+- [x] Reviewed Lab 07 MVP experiment plan
+- [x] Prepared validation dataset structure
+- [x] Created or updated analytics sheet
+- [x] Wrote customer validation summary
+- [x] Wrote analytics insights
+- [x] Wrote MVP decision
+- [x] Updated README
+- [x] Created GitHub issues for prototype improvements
+
+## Member Contributions
+
+| Member Name | Contribution | GitHub Evidence |
+|---|---|---|
+| Thiri Sandar | Prepared validation-results-sample, validation-results-template, updated case-study-brief and weekly-logbook | GitHub Commit Link |
+| Nang Woo Non | Updated read-me, customer-validation-summary, mvp-decision, test-user-notes| GitHub Commit Link |
+| Thiri Thant | Created analytics-insights, validation-result-flow, validation-results-analytics.xlsx  updated feedback-form-template | GitHub Commit Link |
+
+## Problems Found
+
+- Some users found the Dashboard and Admin pages less intuitive, especially when locating certain functions.
+- A few interface elements required clearer labels and better navigation to improve usability.
+- Minor JavaScript and Local Storage issues were identified during testing and required additional debugging.
+- More user feedback was needed to validate all MVP features and improve the prototype.
+- Some project documentation and screenshots needed updating to match the latest prototype version.
+
+## Next Actions
+
+- Improve the user interface based on customer validation feedback.
+- Fix the remaining JavaScript bugs and verify all Local Storage functions.
+- Enhance the Dashboard and Admin pages to improve usability.
+- Conduct another round of user testing to validate the improvements.
+- Update the validation dataset, analytics report, README, and screenshots.
+- Prepare the final prototype and presentation materials for the next lab.
