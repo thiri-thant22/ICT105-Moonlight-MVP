@@ -1,0 +1,11 @@
+Test_User_ID,User_Role,Prototype_Version,Main_Task,Task_Completed,Time_Seconds,Confusion_Point,Feature_Most_Useful,Feedback_Score_1_5,Interest_Level_1_5,Comment,Requirement_Affected
+TU-01,Student,v0.1,Add a new expense,Yes,90,None,Expense Submission Form,5,5,The expense form was easy to complete.,"FR-03, FR-10, FR-11"
+TU-02,Student,v0.1,View expense records,Yes,70,None,Expense Records List,5,5,The record list is easy to understand.,"FR-05, FR-06"
+TU-03,Student,v0.1,View expense details,Yes,60,None,Expense Detail Page,4,4,The detail page clearly shows all information.,"FR-07, FR-08"
+TU-04,Student,v0.1,Search expenses by category,Yes,75,Category filter,Search & Filter,4,5,More categories would make searching easier.,FR-06
+TU-05,Student,v0.1,View dashboard summary,Yes,65,None,Dashboard,5,5,The dashboard provides a useful spending overview.,FR-12
+TU-06,Admin,v0.1,Update expense status,Yes,95,Status selection,Admin Panel,4,4,Status update works well but labels could be clearer.,"FR-09, FR-08"
+TU-07,Student,v0.1,Submit incomplete expense form,Yes,50,None,Validation Messages,5,5,Required-field messages are clear.,FR-10
+TU-08,Student,v0.1,Delete an expense record,Yes,55,Delete confirmation,Record Management,4,4,The confirmation dialog prevents accidental deletion.,FR-09
+TU-09,Student,v0.1,Review expense history,Yes,68,None,Expense Records,5,4,Viewing previous expenses is convenient.,FR-05
+TU-10,Admin,v0.1,Manage expense records,Yes,100,None,Admin Management,5,5,Managing expense records is straightforward.,FR-09
