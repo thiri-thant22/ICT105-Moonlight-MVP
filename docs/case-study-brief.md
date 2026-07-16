@@ -68,3 +68,28 @@ Students and young professionals will use a simple digital Budget Tracker if it 
 
 ## Example Experiment Type
 Clickable web prototype, form-based simulation, or simple HTML/CSS/JavaScript prototype with Local Storage.
+
+
+# Lab 08 Case Study Brief - Budget Tracker
+
+## Case Context
+Many university students and young professionals find it difficult to manage their daily expenses and monthly budgets. They often forget to record their spending, making it difficult to track expenses and control their finances. Existing workarounds include writing expenses in notebooks, using spreadsheets, or relying on memory, which are often inconvenient and inaccurate.
+
+## MVP Experiment
+The practice MVP experiment tests whether users can:
+1. Add a new expense.
+2. View and search expense records.
+3. Open expense details.
+4. View dashboard summaries and spending insights.
+5. Manage expense records through the admin panel.
+
+## Validation Goal
+The goal is to learn whether the proposed Budget Tracker workflow is easy to understand, useful, and valuable for helping users record and monitor their expenses before developing the final prototype.
+
+## Practice Data
+Use the provided sample dataset:
+- `/data/validation-results-sample.csv`
+- `/data/validation-results-analytics.xlsx`
+
+## Student Group Task
+After studying this practice case, each group must create equivalent validation files using its own selected project case (Budget Tracker), conduct user testing, analyze the results, and improve the prototype based on the feedback.
