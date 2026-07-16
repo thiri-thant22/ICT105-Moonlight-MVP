@@ -191,31 +191,36 @@ We selected a clickable web prototype with task-based usability testing because 
 ### Connection to Final Prototype
 The experiment results will help the team improve the user interface, simplify navigation, fix usability problems, and validate the main features before developing the final Budget Tracker prototype.
 
-# README Update - Lab 08
-
 ## Lab 08: Customer Validation and Analytics Sheet
 
 ### Validation Objective
-Explain what the group tested.
+
+The objective of this validation was to evaluate whether the Budget Tracker Website is easy to use and helps university students record and manage their daily expenses effectively. We also collected feedback on usability, navigation, and the dashboard summary.
 
 ### Prototype Version Tested
-- Version:
-- Link:
-- Screenshots:
+
+- Version: v1.0
+- Link: GitHub Prototype / Figma Prototype
+- Screenshots: /screenshots/validation-test-screens.png
 
 ### Analytics Summary
+
 | Metric | Result |
-|---|---:|
-| Total test users | |
-| Task success rate | |
-| Average feedback score | |
-| Average interest level | |
-| Main confusion point | |
+|--------|--------|
+| Total test users | 20 |
+| Task success rate | 80% |
+| Average feedback score | 3.5 / 5 |
+| Average interest level | 70% |
+| Main confusion point | Some users were confused about the Expense Category and Dashboard Summary. |
 
 ### MVP Decision
-State whether the group will continue, revise, or collect more evidence.
+
+**Continue with minor revisions.**
+
+The validation results show that most users completed the main tasks successfully and found the website useful for tracking their expenses. However, improvements should be made to simplify the dashboard, clarify category labels, and improve navigation.
 
 ### Files Added
+
 - `/data/validation-results.xlsx`
 - `/data/validation-results.csv`
 - `/docs/customer-validation-summary.md`
