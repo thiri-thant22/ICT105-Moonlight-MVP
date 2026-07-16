@@ -1,13 +1,21 @@
-Test_User_ID,User_Role,Prototype_Version,Main_Task,Task_Completed,Time_Seconds,Confusion_Point,Feature_Most_Useful,Feedback_Score_1_5,Interest_Level_1_5,Comment,Requirement_Affected
-TU-01,Student,v0.1,Add a new expense,Yes,85,No confusion,Expense submission form,5,5,The form is simple and easy to complete.,"FR-03, FR-10, FR-11"
-TU-02,Student,v0.1,View expense records,Yes,70,"Search and filter",Expense record list,5,5,The search function helped me find expenses quickly.,"FR-05, FR-06"
-TU-03,Student,v0.1,View expense details,Yes,60,No confusion,Expense detail page,4,4,The detail page clearly shows all transaction information.,"FR-07, FR-08"
-TU-04,Student,v0.1,Add a new expense,Yes,95,Category selection,Expense form,4,5,More expense categories would be helpful.,"FR-03, FR-10"
-TU-05,Student,v0.1,Search expenses by category,Yes,72,No confusion,Category filter,5,5,Filtering expenses makes it easy to find records.,FR-06
-TU-06,Admin,v0.1,Update expense status,Yes,105,Status selection,Admin management page,4,4,Status update works well but could use clearer labels.,"FR-09, FR-08"
-TU-07,Student,v0.1,View dashboard summary,Yes,80,Chart display,Dashboard,4,5,The dashboard provides a good overview of my spending.,FR-12
-TU-08,Student,v0.1,Submit incomplete expense form,Yes,55,No confusion,Validation message,5,5,The required field warning is clear and helpful.,FR-10
-TU-09,Student,v0.1,Delete an expense record,Yes,65,Delete confirmation,Record management,4,4,The confirmation message prevents accidental deletion.,"FR-09, FR-11"
-TU-10,Admin,v0.1,Manage expense records,Yes,110,No confusion,Admin panel,5,5,Managing records is straightforward and efficient.,FR-09
-TU-11,Student,v0.1,Check dashboard statistics,Yes,78,No confusion,Summary cards,5,4,"The total expense summary is useful for tracking spending.",FR-12
-TU-12,Student,v0.1,Review expense details,Yes,68,Privacy note,Expense detail page,4,4,"The prototype only stores necessary information, which protects user privacy.","FR-15, FR-07"
+TestID,TestDate,TesterUserID,UserRole,DeviceType,PrototypeVersion,TaskName,TaskCompleted,CompletionTimeSeconds,EaseOfUseScore,UsefulnessScore,ConfusionPoint,MostUsefulFeature,WouldUseAgain,InterestLevel,RequirementID,MVPDecisionSignal,Notes
+T001,2026-07-20,U001,Student,Mobile,v1,Add expense,Yes,42,5,5,None,Expense Tracking,Yes,5,FR-01,Validated,Easy to record expenses.
+T002,2026-07-20,U002,Student,Laptop,v1,Add income,Yes,38,5,5,None,Income Tracking,Yes,5,FR-02,Validated,Simple income form.
+T003,2026-07-20,U003,Student,Mobile,v1,View dashboard,Yes,34,5,5,None,Dashboard,Yes,5,FR-03,Validated,Dashboard is easy to understand.
+T004,2026-07-20,U004,Student,Desktop,v1,Search transaction,Yes,55,4,4,Search filter,Search Records,Yes,4,FR-04,Partial,Need more search options.
+T005,2026-07-21,U005,Student,Laptop,v1,View record list,Yes,40,5,5,None,Record List,Yes,5,FR-05,Validated,Records are clear.
+T006,2026-07-21,U006,Student,Mobile,v1,Edit expense,No,82,3,3,Edit button,Record List,Maybe,3,FR-06,Revise,Edit button should be clearer.
+T007,2026-07-21,U007,Student,Mobile,v1,Delete transaction,Yes,48,4,4,Delete confirmation,Record List,Yes,4,FR-07,Partial,Need confirmation message.
+T008,2026-07-21,U008,Student,Laptop,v1,View monthly report,Yes,36,5,5,None,Reports,Yes,5,FR-08,Validated,Monthly report is useful.
+T009,2026-07-22,U009,Student,Mobile,v1,Filter by category,No,76,3,4,Category filter,Search Records,Maybe,3,FR-09,Revise,Need category filter.
+T010,2026-07-22,U010,Student,Desktop,v1,Check budget summary,Yes,32,5,5,None,Dashboard,Yes,5,FR-10,Validated,Budget summary is clear.
+T011,2026-07-22,U011,Student,Mobile,v1,Add expense,Yes,41,5,5,None,Expense Tracking,Yes,5,FR-01,Validated,Very easy to use.
+T012,2026-07-22,U012,Student,Laptop,v1,Add income,Yes,39,5,5,None,Income Tracking,Yes,5,FR-02,Validated,Fast and simple.
+T013,2026-07-23,U013,Student,Mobile,v1,View dashboard,Yes,35,4,5,None,Dashboard,Yes,5,FR-03,Validated,Dashboard layout looks good.
+T014,2026-07-23,U014,Student,Desktop,v1,Search transaction,Yes,50,4,4,None,Search Records,Yes,4,FR-04,Validated,Search works well.
+T015,2026-07-23,U015,Student,Laptop,v1,View record list,Yes,43,5,5,None,Record List,Yes,5,FR-05,Validated,Easy to read transactions.
+T016,2026-07-23,U016,Student,Mobile,v1,Edit expense,No,90,2,3,Edit function,Record List,No,2,FR-06,Revise,Editing feature needs improvement.
+T017,2026-07-24,U017,Student,Desktop,v1,Delete transaction,Yes,46,4,4,None,Record List,Yes,4,FR-07,Validated,Delete feature works correctly.
+T018,2026-07-24,U018,Student,Mobile,v1,View monthly report,Yes,37,5,5,None,Reports,Yes,5,FR-08,Validated,Monthly report is helpful.
+T019,2026-07-24,U019,Student,Laptop,v1,Filter by category,Yes,52,4,4,None,Search Records,Yes,4,FR-09,Partial,More filter options would help.
+T020,2026-07-24,U020,Student,Mobile,v1,Check budget summary,Yes,31,5,5,None,Dashboard,Yes,5,FR-10,Validated,Overall experience is excellent.
