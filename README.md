@@ -194,30 +194,29 @@ The experiment results will help the team improve the user interface, simplify n
 ## Lab 08: Customer Validation and Analytics Sheet
 
 ### Validation Objective
-
-The objective of this validation was to evaluate whether the Budget Tracker Website is easy to use and helps university students record and manage their daily expenses effectively. We also collected feedback on usability, navigation, and the dashboard summary.
+The objective of this validation was to evaluate the usability, usefulness, and overall user satisfaction of the Budget Tracker website. Twenty student users tested the prototype by completing key tasks such as adding expenses, viewing records, searching transactions, editing expenses, and checking the dashboard. The collected feedback was used to identify usability issues and determine whether the MVP is ready for further development.
 
 ### Prototype Version Tested
-
-- Version: v1.0
+- Version: v1
 - Link: GitHub Prototype / Figma Prototype
-- Screenshots: /screenshots/validation-test-screens.png
+- Screenshots:
+  - /screenshots/validation-dashboard.png
 
 ### Analytics Summary
 
 | Metric | Result |
 |--------|--------|
 | Total test users | 20 |
-| Task success rate | 80% |
-| Average feedback score | 3.5 / 5 |
-| Average interest level | 70% |
-| Main confusion point | Some users were confused about the Expense Category and Dashboard Summary. |
+| Task success rate | 85.00% |
+| Average feedback score | 4.35 / 5.00 |
+| Average interest level | 4.35 / 5.00 |
+| Main confusion point | Edit button / Category filter |
 
 ### MVP Decision
 
-**Continue with minor revisions.**
+**Decision:** Continue with revisions (Partial Validation)
 
-The validation results show that most users completed the main tasks successfully and found the website useful for tracking their expenses. However, improvements should be made to simplify the dashboard, clarify category labels, and improve navigation.
+Most users completed the required tasks successfully (85% task success rate) and gave positive feedback on the system. However, several users experienced difficulties with the Edit Expense feature and Category Filter. These usability issues should be improved before the next prototype version.
 
 ### Files Added
 
@@ -226,5 +225,5 @@ The validation results show that most users completed the main tasks successfull
 - `/docs/customer-validation-summary.md`
 - `/docs/analytics-insights.md`
 - `/docs/mvp-decision.md`
-- `/screenshots/validation-test-screens.png`
+- `/screenshots/validation-dashboard.png`
 - `/docs/weekly-logbook.md`
