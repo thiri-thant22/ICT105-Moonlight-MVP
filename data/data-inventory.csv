@@ -1,12 +1,9 @@
 Data_Field,Example_Value,Purpose,Personal_Data,Sensitive_Data,Visibility,Keep_Remove_Replace,Responsible_Action
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-
+User,User,Identify the account owner,Yes,No,User and Admin only,Keep,Use a username or anonymous ID where possible
+Email,user@example.com,Login and account recovery,Yes,Yes,User and Admin only,Keep if needed,Protect and never display publicly
+Monthly Budget,10000 THB,Set the user's monthly budget,Yes,Yes,User only,Keep,Store securely and restrict unauthorized access
+Income Amount,25000 THB,Record the user's income,Yes,Yes,User only,Keep,Protect financial information
+Expense Amount,350 THB,Record daily expenses,Yes,Yes,User only,Keep,Store securely and do not share with others
+Expense Category,Food,Organize expense records,No,No,User only,Keep,Used for reports and filtering
+Transaction Date,2026-07-20,Record transaction history,No,No,User only,Keep,Maintain accurate records
+Transaction Note,Lunch,Provide additional details for a transaction,Possibly,No,User only,Keep with caution,Avoid storing unnecessary personal information
