@@ -1,0 +1,9 @@
+Asset_Name,Type,Source_URL,License_or_Permission,Used_In,Credit_Required,Risk_Level,Action
+Font Awesome,Icon Library,https://fontawesome.com/,Free License,All Prototype Pages,No,Low,Keep license information
+Google Fonts (Poppins),Font,https://fonts.google.com/specimen/Poppins,Open Font License (OFL),All Prototype Pages,No,Keep OFL license
+Chart.js,JavaScript Library,https://www.chartjs.org/,MIT License,Dashboard Page,No,Include MIT license if distributed
+Placeholder Images,Images,https://placehold.co/,Free Placeholder Images,Homepage and Dashboard,No,Replace with final project images if needed
+HTML5,Framework,https://developer.mozilla.org/,Open Web Standard,N/A,No,None,None
+CSS3,Framework,https://developer.mozilla.org/,Open Web Standard,N/A,No,None,None
+JavaScript (ES6),Programming Language,https://developer.mozilla.org/,Open Web Standard,All Prototype Pages,No,None,None
+Local Storage,Web API,https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage,Browser API,Expense Data Storage,No,Low,Store only sample/non-sensitive data
