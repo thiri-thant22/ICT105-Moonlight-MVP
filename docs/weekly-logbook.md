@@ -350,9 +350,9 @@ Budget Tracker
 
 | Member Name | Contribution | GitHub Evidence |
 |---|---|---|
-| Thiri Sandar | Prepared validation-results-sample, validation-results-template, updated case-study-brief and weekly-logbook | GitHub Commit Link |
-| Nang Woo Non | Updated read-me, customer-validation-summary, mvp-decision, test-user-notes| GitHub Commit Link |
-| Thiri Thant | Created analytics-insights, validation-result-flow, validation-results-analytics.xlsx  updated feedback-form-template | GitHub Commit Link |
+| Thiri Sandar | Prepared validation-results-sample, validation-results-template, updated case-study-brief and weekly-logbook | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Nang Woo Non | Updated read-me, customer-validation-summary, mvp-decision, test-user-notes| https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Thiri Thant | Created analytics-insights, validation-result-flow, validation-results-analytics.xlsx  updated feedback-form-template | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
 
 ## Problems Found
 
@@ -377,7 +377,7 @@ Budget Tracker
 Moon Light
 
 ## Date
-[Enter Lab Date]
+7/19/2026
 
 ## Members Present
 - Thiri Sandar
@@ -397,9 +397,9 @@ Moon Light
 
 | Member | Contribution | GitHub Evidence |
 |---|---|---|
-| Thiri Sandar | Prepared privacy review, ethical review, data inventory, and updated documentation | GitHub Commit Link |
-| Nang Woo Non | Completed security review, risk register, and requirements update | GitHub Commit Link |
-| Thiri Thant | Reviewed prototype implementation, verified Local Storage, and checked admin functions | GitHub Commit Link |
+| Thiri Sandar | Updated weekly-logbook, case-study-brief, created security-review-checklist, third-party-register-template, user-consent-statement | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Nang Woo Non | Updated Readme, created data-handling-policy, ip-and-third-party-assets, legal-ethical-checklist, privacy-and-data-protection, risk-register, security-risk-check | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Thiri Thant | Created privacy-security-review, risk-register, data-invertory, updated-requirements-note  | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
 
 ## Decisions Made
 
