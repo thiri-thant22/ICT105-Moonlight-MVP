@@ -93,3 +93,15 @@ Use the provided sample dataset:
 
 ## Student Group Task
 After studying this practice case, each group must create equivalent validation files using its own selected project case (Budget Tracker), conduct user testing, analyze the results, and improve the prototype based on the feedback.
+
+
+# Case Study Brief: Budget Tracker
+
+## Problem Context
+Many university students and young professionals find it difficult to manage their daily expenses and monthly budgets. They often forget to record their spending, making it hard to track expenses and control their finances. Current alternatives include writing expenses in notebooks, using spreadsheets, or relying on memory, which can be time-consuming and inaccurate.
+
+## Proposed Prototype
+A web-based Budget Tracker prototype where users can add expense records, view and search expense history, filter transactions by category, view spending summaries through a dashboard, and allow an admin to manage expense records and update their status.
+
+## Responsible IT Focus for Lab 09
+Students must review what information is collected, ensure that unnecessary personal or financial information is not requested, explain clearly how user data is used, properly acknowledge any third-party assets and libraries, and ensure that admin functions such as managing or updating records are clearly separated from normal user functions. The prototype should also use sample or non-sensitive data during testing and follow basic privacy and security practices.
