@@ -370,3 +370,56 @@ Budget Tracker
 - Conduct another round of user testing to validate the improvements.
 - Update the validation dataset, analytics report, README, and screenshots.
 - Prepare the final prototype and presentation materials for the next lab.
+
+# Weekly Logbook - Lab 09
+
+## Group Name
+Moon Light
+
+## Date
+[Enter Lab Date]
+
+## Members Present
+- Thiri Sandar
+- Nang Woo Non
+- Thiri Thant
+
+## Work Completed Today
+- **Data inventory:** Reviewed all data collected by the Budget Tracker prototype and confirmed that only necessary expense information is stored.
+- **Privacy review:** Verified that no sensitive personal or financial information is required from users and that only sample data is used during testing.
+- **Ethical review:** Ensured that user participation is voluntary and feedback is collected with user consent for educational purposes only.
+- **IP review:** Reviewed third-party assets, including Google Fonts and Chart.js, and confirmed that appropriate licenses are followed.
+- **Security review:** Checked input validation, Local Storage usage, admin functions, and protection of user data within the prototype.
+- **Risk register:** Identified possible risks such as accidental data deletion, browser Local Storage limitations, and user input errors, and documented mitigation actions.
+- **Requirements update note:** Updated project documentation to reflect security, privacy, and ethical considerations without changing the core MVP features.
+
+## Member Contributions
+
+| Member | Contribution | GitHub Evidence |
+|---|---|---|
+| Thiri Sandar | Prepared privacy review, ethical review, data inventory, and updated documentation | GitHub Commit Link |
+| Nang Woo Non | Completed security review, risk register, and requirements update | GitHub Commit Link |
+| Thiri Thant | Reviewed prototype implementation, verified Local Storage, and checked admin functions | GitHub Commit Link |
+
+## Decisions Made
+
+- Continue using Local Storage for the MVP prototype because it meets the project requirements.
+- Do not collect real financial information during testing; use only sample expense data.
+- Keep the admin functions separate from normal user functions.
+- Continue using only properly licensed third-party resources.
+- Apply user feedback to improve the prototype before the final presentation.
+
+## Issues / Blockers
+
+- Some users requested clearer labels and navigation in the Dashboard and Admin pages.
+- Local Storage is suitable only for the prototype and cannot support multiple users or cloud synchronization.
+- Additional usability testing is needed before the final submission.
+
+## Next Action Before Lab 10
+
+- Improve the user interface based on user feedback.
+- Fix any remaining JavaScript and navigation issues.
+- Complete the final prototype testing.
+- Update screenshots and documentation.
+- Review all functional requirements before the final presentation.
+- Push all final updates to the GitHub repository.
