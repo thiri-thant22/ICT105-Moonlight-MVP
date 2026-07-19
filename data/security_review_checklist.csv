@@ -1,0 +1,8 @@
+Area,Check_Question,Yes_No_Partial,Risk_Level,Mitigation_Action
+Input form,Are required expense fields validated?,Yes,Low,Validate all required fields before saving expense records.
+Input form,Are sensitive personal details avoided?,Yes,Low,Do not collect unnecessary personal information.
+Admin function,Are admin actions separated from user actions?,Yes,Medium,Restrict edit and delete functions to the Admin page only.
+Data display,Is personal information hidden from public screens?,Yes,Low,Display only expense-related information and avoid exposing personal data.
+Status update,Can only the admin update or delete expense records?,Yes,Medium,Allow only admin functions to modify or remove records.
+Local Storage,Is data stored only in the user's browser?,Yes,Medium,Store data locally using Local Storage and avoid transmitting it externally.
+Prototype data,Does the prototype use sample or non-sensitive data?,Yes,Low,Use sample expense records instead of real financial information.
