@@ -1,8 +1,7 @@
 Risk_ID,Category,Risk_Description,Affected_Feature_or_Requirement,Severity,Likelihood,Mitigation_Action,Owner,GitHub_Evidence,Status
-R-01,,,,,,,,,
-R-01,,,,,,,,,
-R-01,,,,,,,,,
-R-01,,,,,,,,,
-R-01,,,,,,,,,
-R-01,,,,,,,,,
-
+R-01,Privacy,User financial information may be accessed by unauthorized users,FR-05 Data View,High,Medium,Restrict access to authorized users only and protect personal financial data,Technical Lead,Issue #09,Open
+R-02,Security,Unauthorized users may edit or delete transaction records,FR-06 Record Management,High,Medium,Require authentication and allow only authorized users to edit or delete records,Technical Lead,Issue #10,Open
+R-03,IP,Icons or images may be used without proper license,UI Design,Medium,Medium,Use open-license assets and document all sources,Documentation Lead,Issue #11,In Progress
+R-04,Ethical,Users may misunderstand budget summaries as financial advice,FR-04 Dashboard,Medium,Low,Display a disclaimer that the system is for personal budget tracking only,Product Lead,Issue #12,Closed
+R-05,Data Quality,Duplicate or incorrect transaction entries may affect budget reports,FR-03 Record List,Medium,Medium,Validate input data and prevent duplicate transactions,Technical Lead,Issue #13,Open
+R-06,Privacy,Transaction notes may contain sensitive personal information,FR-02 Add Transaction,High,Low,Allow users to edit or delete notes and avoid exposing personal information,UX Lead,Issue #14,Open
