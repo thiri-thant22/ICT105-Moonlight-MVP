@@ -227,3 +227,38 @@ Most users completed the required tasks successfully (85% task success rate) and
 - `/docs/mvp-decision.md`
 - `/screenshots/validation-dashboard.png`
 - `/docs/weekly-logbook.md`
+
+# README Update Template for Lab 09
+
+## Lab 09 - Responsible IT Check
+
+### Responsible Design Summary
+
+During Lab 09, the team reviewed the Budget Tracker Website to identify privacy, ethical, intellectual property (IP), and basic security risks.
+
+- **Privacy:** The website collects only the information required for budget tracking, including username, email address, income, expenses, categories, transaction dates, and optional notes. Sensitive personal information such as national ID numbers, bank account details, and credit card information is not collected.
+- **Ethical:** The system provides transparent and accurate financial tracking without misleading users or providing financial advice. All users have equal access to the website's features.
+- **Intellectual Property (IP):** The project uses legally licensed and publicly available tools such as GitHub, Visual Studio Code, Power BI, and ChatGPT. Any third-party resources are used in accordance with their licenses.
+- **Basic Security:** The system implements user authentication, input validation, and access control to protect user data. Each user can only access and manage their own financial records.
+
+### Files Added
+
+- `docs/legal-ethical-checklist.md`
+- `docs/privacy-and-data-protection.md`
+- `docs/ip-and-third-party-assets.md`
+- `docs/security-risk-check.md`
+- `docs/risk-register.md`
+- `docs/updated-requirements-note.md`
+- `docs/weekly-logbook.md`
+
+### Requirement Update
+
+No changes were made to **system-requirements.md** after Lab 09. The review focused on improving privacy, security, legal compliance, and responsible IT practices without modifying the system's functional requirements.
+
+### Team Contributions
+
+| Member | Contribution |
+|--------|--------------|
+| Nang Woo Non | Created the Legal & Ethical Checklist, Privacy and Data Protection, IP and Third-Party Assets, Risk Register, and Security Risk Check documents. Also updated the project README. |
+| Thiri Thant | Created and updated the Data Inventory, Risk Register, Privacy Security Review, Updated Requirements Note, and other supporting project files. |
+| Thiri Sander | Updated the Weekly Logbook, User Consent Statement, Case Study Brief, Third-Party Assets Register Template, reviewed the project documentation, verified the Responsible IT deliverables, and committed the final Lab 09 files to the GitHub repository. |
