@@ -105,3 +105,23 @@ A web-based Budget Tracker prototype where users can add expense records, view a
 
 ## Responsible IT Focus for Lab 09
 Students must review what information is collected, ensure that unnecessary personal or financial information is not requested, explain clearly how user data is used, properly acknowledge any third-party assets and libraries, and ensure that admin functions such as managing or updating records are clearly separated from normal user functions. The prototype should also use sample or non-sensitive data during testing and follow basic privacy and security practices.
+
+
+# Lab 10 Case Study Brief: Budget Tracker
+
+## Practice purpose
+This case is used only for Lab 10 guided practice. Students must apply the same implementation process to their own selected group case.
+
+## Problem context
+Many university students and young professionals find it difficult to manage their daily expenses and monthly budgets. They often forget to record their spending, making it hard to track where their money goes and control their finances. Current alternatives include writing expenses in notebooks, using spreadsheets, or relying on memory, which can be inconvenient and inaccurate.
+
+## Target users
+- University students who want to manage their daily expenses
+- Young professionals who want to monitor their monthly spending
+- Admin who manages and reviews expense records in the prototype
+
+## Minimum prototype idea
+A web-based Budget Tracker system that allows users to add expense records, view transaction history, search and filter expenses by category, view expense details, monitor spending through a dashboard, and allow an admin to manage expense records.
+
+## Practice note
+The provided HTML/CSS/JavaScript prototype uses browser Local Storage and sample data. It does not require a backend. Stronger groups may replace Local Storage with Firebase, Supabase, PHP/MySQL, or another backend database.
