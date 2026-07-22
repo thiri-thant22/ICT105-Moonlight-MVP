@@ -423,3 +423,46 @@ Moon Light
 - Update screenshots and documentation.
 - Review all functional requirements before the final presentation.
 - Push all final updates to the GitHub repository.
+
+# Weekly Logbook - Lab 10
+
+## Lab Topic
+MVP Implementation Sprint 1
+
+## What We Built Today
+- Developed the Homepage with navigation and project overview.
+- Implemented the Add Expense form with input validation and Local Storage.
+- Created the Expense Records, Detail View, Dashboard, and Admin pages with responsive navigation.
+
+## Requirement IDs Addressed
+- FR-03: Users can add new expense records with validation.
+- FR-05: Users can view and search expense records.
+- FR-09: Admin can manage and update expense records.
+
+## Contribution by Members
+
+| Member | Contribution | Evidence |
+|---|---|---|
+| Thiri Sandar | Updated documentation, weekly-logbook, case-study-brief-Budget Tracker | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Nang Woo Non | Updated feature-implementation-status-template, implementation-plan-template, README update | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Thiri Thant | Updated sample-records and status-categories, prototype-link, diagram  | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+
+## Screenshots Added
+- /screenshots/homepage.png
+- /screenshots/input-form.png
+- /screenshots/record-list.png
+- /screenshots/detail-view.png
+- /screenshots/dashboard.png
+- /screenshots/admin-view.png
+
+## Problems Faced
+- Some JavaScript functions required debugging before Local Storage worked correctly.
+- Navigation between pages needed improvement to provide a smoother user experience.
+- The dashboard layout required adjustments to display information more clearly on smaller screens.
+
+## Plan for Next Lab
+- Improve the user interface based on testing feedback.
+- Fix remaining JavaScript issues and optimize page navigation.
+- Complete testing of all MVP features.
+- Update screenshots and documentation.
+- Prepare the final prototype for presentation.
