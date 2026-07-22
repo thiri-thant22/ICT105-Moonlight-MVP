@@ -8,3 +8,13 @@ BT-006,Expense,Groceries,500,Visa Card,2026-06-06,Complete,Bought groceries for 
 BT-007,Expense,Entertainment,50,E-wallet,2026-06-07,Complete,Movie ticket with friends.
 BT-008,Expense,Utilities,300,Online Banking,2026-06-08,Complete,Mobile phone prepaid top-up.
 
+#########################
+
+record_id,transaction_type,amount,category,transaction_date,description,status,user
+TR-001,Expense,120 THB,Food,2026-02-02,Lunch at university cafeteria,Completed,user01@example.com
+TR-002,Income,12000 THB,Salary,2026-02-03,Monthly salary received,Completed,user02@example.com
+TR-003,Expense,45 THB,Transportation,2026-02-04,Bus fare to university,Completed,user03@example.com
+TR-004,Expense,350 THB,Shopping,2026-02-04,Purchased school supplies,Completed,user04@example.com
+TR-005,Expense,180 THB,Entertainment,2026-02-05,Movie ticket,Pending,user05@example.com
+TR-006,Income,1500 THB,Freelance,2026-02-05,Website design payment,Completed,user06@example.com
+
