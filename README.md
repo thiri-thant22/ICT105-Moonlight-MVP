@@ -262,3 +262,47 @@ No changes were made to **system-requirements.md** after Lab 09. The review focu
 | Nang Woo Non | Created the Legal & Ethical Checklist, Privacy and Data Protection, IP and Third-Party Assets, Risk Register, and Security Risk Check documents. Also updated the project README. |
 | Thiri Thant | Created and updated the Data Inventory, Risk Register, Privacy Security Review, Updated Requirements Note, and other supporting project files. |
 | Thiri Sander | Updated the Weekly Logbook, User Consent Statement, Case Study Brief, Third-Party Assets Register Template, reviewed the project documentation, verified the Responsible IT deliverables, and committed the final Lab 09 files to the GitHub repository. |
+
+## Lab 10 - MVP Implementation Sprint 1
+
+### Sprint Goal
+
+Our goal in Lab 10 is to develop the first working version of the Budget Tracker Website based on the approved requirements, wireframes, architecture, and responsible design review.
+
+### Implementation Approach
+
+- Platform/tools: HTML, CSS, JavaScript, Visual Studio Code, GitHub
+- Backend status: Simulated backend (Local Storage)
+- Data storage/simulation: Browser Local Storage
+- Prototype link or folder: /prototype
+
+### Features Implemented in Sprint 1
+
+| Feature | Requirement ID | Status | Evidence |
+|---------|----------------|--------|----------|
+| Homepage | FR-01 | Completed | Homepage UI screenshot |
+| Input form | FR-03 | Completed | Add Expense page screenshot |
+| Record list | FR-05 | Completed | Expense List screenshot |
+| Search/filter | FR-06 | Completed | Search feature screenshot |
+| Detail view | FR-07 | Completed | Transaction detail screenshot |
+| Status tracking | FR-08 | Completed | Dashboard summary screenshot |
+| Admin view | FR-09 | Not Required | Student prototype |
+| Dashboard | FR-12 | Completed | Dashboard screenshot |
+
+### Screenshots
+
+- Homepage: `/screenshots/homepage.png`
+- Input form: `/screenshots/add-expense.png`
+- Record list: `/screenshots/expense-list.png`
+- Detail view: `/screenshots/detail-view.png`
+- Admin/status view: Not implemented (not required)
+
+### Team Contribution
+
+| Member | Contribution |
+|--------|--------------|
+| Thiri Thant| Developed the Budget Tracker prototype, implemented and updated the Homepage (`index.html`), created and updated the Budget Tracker sample records and status categories, prepared the Prototype Link, and updated implementation files. |
+| Thiri Sander | Updated the README, Weekly Logbook, and Case Study Brief. Reviewed the project documentation and verified the Sprint 1 deliverables before submission. |
+| Nang Woo Non | Created and updated the Implementation Plan, Implementation Flow Diagram (`implementation-flow.mmd`), Feature Implementation Status Template, and contributed to implementation planning and project structure. |
+
+All group members contributed to the same GitHub repository through commits, documentation updates, implementation, and prototype testing.
