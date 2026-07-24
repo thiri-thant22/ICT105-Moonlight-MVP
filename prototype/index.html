@@ -5,10 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Budget Tracker</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
 
@@ -21,38 +18,83 @@ scroll-behavior:smooth;
 }
 
 body{
-background:linear-gradient(135deg,#eef4ff,#dbeafe,#ffffff);
-color:#333;
+background:#eef4ff;
+color:#1f2937;
+overflow-x:hidden;
+}
+
+body::before{
+content:"";
+position:fixed;
+width:450px;
+height:450px;
+background:#3b82f622;
+border-radius:50%;
+top:-180px;
+right:-120px;
+filter:blur(60px);
+z-index:-2;
+}
+
+body::after{
+content:"";
+position:fixed;
+width:380px;
+height:380px;
+background:#06b6d422;
+border-radius:50%;
+bottom:-160px;
+left:-120px;
+filter:blur(70px);
+z-index:-2;
 }
 
 header{
+position:sticky;
+top:0;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:18px 8%;
-background:rgba(255,255,255,.8);
-backdrop-filter:blur(15px);
-box-shadow:0 8px 25px rgba(0,0,0,.08);
-position:sticky;
-top:0;
-z-index:100;
+padding:18px 7%;
+background:rgba(255,255,255,.82);
+backdrop-filter:blur(18px);
+box-shadow:0 6px 18px rgba(0,0,0,.06);
+z-index:999;
 }
 
 .logo{
 font-size:30px;
-font-weight:700;
+font-weight:800;
 color:#2563eb;
 }
 
 .logo span{
-color:#111;
+color:#111827;
+}
+
+nav{
+display:flex;
+align-items:center;
+gap:28px;
 }
 
 nav a{
 text-decoration:none;
-margin:0 15px;
-color:#444;
+color:#374151;
 font-weight:500;
+transition:.3s;
+position:relative;
+}
+
+nav a::after{
+content:"";
+position:absolute;
+left:0;
+bottom:-6px;
+width:0;
+height:3px;
+background:#2563eb;
+border-radius:20px;
 transition:.3s;
 }
 
@@ -60,38 +102,49 @@ nav a:hover{
 color:#2563eb;
 }
 
-.btn{
+nav a:hover::after{
+width:100%;
+}
+
+.top-btn{
 padding:12px 24px;
-background:#2563eb;
-color:white;
 border:none;
-border-radius:10px;
+border-radius:12px;
+background:linear-gradient(135deg,#2563eb,#3b82f6);
+color:white;
+font-weight:600;
 cursor:pointer;
 transition:.3s;
 }
 
-.btn:hover{
+.top-btn:hover{
 transform:translateY(-3px);
-box-shadow:0 10px 20px rgba(37,99,235,.3);
+box-shadow:0 10px 20px rgba(37,99,235,.35);
 }
 
 .hero{
-display:flex;
-justify-content:space-between;
+padding:70px 7%;
+display:grid;
+grid-template-columns:1.2fr .8fr;
+gap:45px;
 align-items:center;
-padding:80px 8%;
-flex-wrap:wrap;
 }
 
-.left{
-flex:1;
-animation:fadeLeft 1s ease;
+.left h4{
+display:inline-block;
+padding:8px 18px;
+background:#dbeafe;
+color:#2563eb;
+border-radius:40px;
+margin-bottom:18px;
+font-size:14px;
 }
 
 .left h1{
-font-size:58px;
-line-height:1.2;
-margin-bottom:20px;
+font-size:60px;
+line-height:1.1;
+margin-bottom:22px;
+font-weight:800;
 }
 
 .left h1 span{
@@ -100,187 +153,475 @@ color:#2563eb;
 
 .left p{
 font-size:18px;
-color:#666;
-line-height:1.8;
-margin-bottom:30px;
+line-height:1.9;
+color:#6b7280;
+margin-bottom:35px;
+max-width:620px;
 }
 
-.action button{
-padding:15px 30px;
-font-size:16px;
+.hero-buttons{
+display:flex;
+gap:18px;
+flex-wrap:wrap;
+}
+
+.primary{
+padding:15px 34px;
 border:none;
-border-radius:12px;
+background:#2563eb;
+color:white;
+border-radius:14px;
 cursor:pointer;
-margin-right:15px;
+font-size:16px;
+font-weight:600;
 transition:.3s;
 }
 
-.start{
-background:#2563eb;
-color:white;
-}
-
-.start:hover{
+.primary:hover{
 transform:translateY(-4px);
-box-shadow:0 10px 25px rgba(37,99,235,.35);
+box-shadow:0 16px 30px rgba(37,99,235,.35);
 }
 
-.learn{
-background:white;
+.secondary{
+padding:15px 34px;
 border:2px solid #2563eb;
+background:white;
 color:#2563eb;
+border-radius:14px;
+cursor:pointer;
+font-size:16px;
+font-weight:600;
+transition:.3s;
 }
 
-.learn:hover{
+.secondary:hover{
 background:#2563eb;
 color:white;
 }
 
 .right{
-flex:1;
 display:flex;
 justify-content:center;
-animation:fadeRight 1s ease;
 }
 
-.summary{
-width:360px;
-background:rgba(255,255,255,.85);
-backdrop-filter:blur(10px);
+.dashboard-card{
+width:390px;
+background:white;
+border-radius:28px;
 padding:30px;
-border-radius:20px;
-box-shadow:0 20px 45px rgba(0,0,0,.1);
-transition:.3s;
+box-shadow:0 25px 50px rgba(0,0,0,.10);
 }
 
-.summary:hover{
+.card-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:25px;
+}
+
+.card-header h2{
+font-size:25px;
+}
+
+.badge{
+padding:8px 14px;
+background:#dcfce7;
+color:#16a34a;
+border-radius:30px;
+font-size:13px;
+font-weight:600;
+}
+
+.balance{
+padding:22px;
+background:linear-gradient(135deg,#2563eb,#4f8cff);
+border-radius:22px;
+color:white;
+margin-bottom:24px;
+}
+
+.balance h3{
+font-size:15px;
+font-weight:400;
+margin-bottom:8px;
+}
+
+.balance h1{
+font-size:42px;
+font-weight:700;
+}
+
+.stat{
+display:flex;
+justify-content:space-between;
+padding:16px 0;
+border-bottom:1px solid #edf2f7;
+}
+
+.stat:last-child{
+border:none;
+}
+
+.stat span{
+color:#6b7280;
+}
+
+.stat strong{
+font-size:17px;
+}
+
+.progress-box{
+margin-top:25px;
+}
+
+.progress-title{
+display:flex;
+justify-content:space-between;
+margin-bottom:10px;
+font-size:14px;
+font-weight:600;
+}
+
+.progress{
+height:12px;
+background:#e5e7eb;
+border-radius:30px;
+overflow:hidden;
+}
+
+.progress div{
+width:74%;
+height:100%;
+background:linear-gradient(90deg,#2563eb,#38bdf8);
+border-radius:30px;
+animation:grow 2s ease;
+}
+
+@keyframes grow{
+from{
+width:0;
+}
+to{
+width:74%;
+}
+}
+
+.quick-stats{
+padding:20px 7% 10px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:22px;
+}
+
+.box{
+background:white;
+padding:28px;
+border-radius:22px;
+box-shadow:0 15px 30px rgba(0,0,0,.06);
+transition:.35s;
+position:relative;
+overflow:hidden;
+}
+
+.box::before{
+content:"";
+position:absolute;
+width:90px;
+height:90px;
+border-radius:50%;
+background:#2563eb11;
+top:-35px;
+right:-35px;
+}
+
+.box:hover{
 transform:translateY(-8px);
 }
 
-.summary h2{
-margin-bottom:20px;
-}
-
-.item{
-display:flex;
-justify-content:space-between;
-padding:14px 0;
-border-bottom:1px solid #eee;
-}
-
-.cards{
-padding:60px 8%;
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-gap:25px;
-}
-
-.card{
-background:white;
-padding:30px;
-border-radius:20px;
-text-align:center;
-box-shadow:0 10px 25px rgba(0,0,0,.08);
-transition:.3s;
-}
-
-.card:hover{
-transform:translateY(-10px);
-box-shadow:0 20px 35px rgba(37,99,235,.18);
-}
-
-.card h3{
-font-size:36px;
+.box h2{
+font-size:38px;
 color:#2563eb;
 margin-bottom:10px;
 }
 
-.features{
-padding:70px 8%;
+.box p{
+color:#6b7280;
+font-size:15px;
 }
 
-.features h2{
+.section{
+padding:70px 7%;
+}
+
+.section-title{
 text-align:center;
 font-size:42px;
-margin-bottom:45px;
+margin-bottom:15px;
+font-weight:800;
+}
+
+.section-text{
+text-align:center;
+color:#6b7280;
+max-width:650px;
+margin:auto;
+margin-bottom:50px;
+line-height:1.8;
 }
 
 .feature-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
+grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+gap:28px;
 }
 
 .feature{
 background:white;
-padding:30px;
-border-radius:20px;
-box-shadow:0 10px 25px rgba(0,0,0,.08);
-transition:.3s;
+padding:35px 28px;
+border-radius:24px;
+box-shadow:0 15px 30px rgba(0,0,0,.06);
+transition:.35s;
 }
 
 .feature:hover{
-background:#2563eb;
-color:white;
 transform:translateY(-10px);
 }
 
-.feature h3{
-color:#2563eb;
-margin-bottom:15px;
+.icon{
+width:70px;
+height:70px;
+border-radius:18px;
+background:#dbeafe;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+margin-bottom:22px;
 }
 
-.feature:hover h3{
+.feature h3{
+margin-bottom:14px;
+font-size:22px;
+}
+
+.feature p{
+color:#6b7280;
+line-height:1.8;
+}
+
+.overview{
+padding:70px 7%;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.panel{
+background:white;
+padding:30px;
+border-radius:25px;
+box-shadow:0 18px 35px rgba(0,0,0,.07);
+}
+
+.panel h2{
+margin-bottom:25px;
+}
+
+.chart{
+display:flex;
+align-items:flex-end;
+justify-content:space-between;
+height:220px;
+gap:12px;
+margin-top:20px;
+}
+
+.bar{
+flex:1;
+background:linear-gradient(to top,#2563eb,#60a5fa);
+border-radius:15px 15px 6px 6px;
+animation:bars 1.5s ease;
+}
+
+.bar:nth-child(1){
+height:40%;
+}
+
+.bar:nth-child(2){
+height:75%;
+}
+
+.bar:nth-child(3){
+height:55%;
+}
+
+.bar:nth-child(4){
+height:95%;
+}
+
+.bar:nth-child(5){
+height:65%;
+}
+
+.bar:nth-child(6){
+height:85%;
+}
+
+@keyframes bars{
+from{
+height:0;
+}
+}
+
+.activity{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 0;
+border-bottom:1px solid #edf2f7;
+}
+
+.activity:last-child{
+border:none;
+}
+
+.activity strong{
+display:block;
+margin-bottom:4px;
+}
+
+.activity span{
+font-size:14px;
+color:#6b7280;
+}
+
+.price{
+font-weight:700;
+color:#ef4444;
+}
+
+.cta{
+margin:80px 7%;
+background:linear-gradient(135deg,#2563eb,#4f8cff);
+padding:55px;
+border-radius:30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:25px;
 color:white;
+}
+
+.cta h2{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.cta p{
+opacity:.9;
+max-width:620px;
+line-height:1.8;
+}
+
+.cta button{
+padding:16px 34px;
+border:none;
+border-radius:14px;
+background:white;
+color:#2563eb;
+font-weight:700;
+font-size:16px;
+cursor:pointer;
+transition:.3s;
+}
+
+.cta button:hover{
+transform:scale(1.05);
 }
 
 footer{
-background:#1e3a8a;
+margin-top:80px;
+background:white;
+padding:35px 7%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:15px;
+box-shadow:0 -3px 18px rgba(0,0,0,.05);
+}
+
+footer p{
+color:#6b7280;
+}
+
+.social{
+display:flex;
+gap:14px;
+}
+
+.social div{
+width:45px;
+height:45px;
+background:#eff6ff;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:20px;
+cursor:pointer;
+transition:.3s;
+}
+
+.social div:hover{
+background:#2563eb;
 color:white;
-text-align:center;
-padding:30px;
-margin-top:60px;
 }
 
-@keyframes fadeLeft{
-from{
-opacity:0;
-transform:translateX(-60px);
-}
-to{
-opacity:1;
-transform:translateX(0);
-}
-}
+@media(max-width:980px){
 
-@keyframes fadeRight{
-from{
-opacity:0;
-transform:translateX(60px);
+nav{
+display:none;
 }
-to{
-opacity:1;
-transform:translateX(0);
-}
-}
-
-@media(max-width:900px){
 
 .hero{
-flex-direction:column;
+grid-template-columns:1fr;
 text-align:center;
 }
 
 .left h1{
-font-size:40px;
+font-size:46px;
 }
 
-.right{
-margin-top:40px;
+.hero-buttons{
+justify-content:center;
 }
 
-nav{
-display:none;
+.dashboard-card{
+width:100%;
+max-width:420px;
+}
+
+.cta{
+text-align:center;
+justify-content:center;
+}
+
+}
+
+@media(max-width:600px){
+
+.left h1{
+font-size:36px;
+}
+
+.section-title{
+font-size:34px;
+}
+
+.cta h2{
+font-size:30px;
 }
 
 }
@@ -304,7 +645,7 @@ display:none;
 <a href="admin-view.html">Admin</a>
 </nav>
 
-<button class="btn" onclick="welcome()">
+<button class="top-btn" onclick="welcome()">
 Get Started
 </button>
 
@@ -314,24 +655,31 @@ Get Started
 
 <div class="left">
 
+<h4>Smart Personal Finance</h4>
+
 <h1>
-Manage Your <span>Budget</span><br>
-With Confidence
+Control Your
+<span>Money</span><br>
+Like Never Before
 </h1>
 
 <p>
-Track your daily expenses, monitor your spending,
-and stay within your monthly budget using one
-simple application.
+Track every expense, manage your monthly budget,
+analyse spending behaviour and stay financially
+organised with a clean and powerful Budget Tracker.
 </p>
 
-<div class="action">
+<div class="hero-buttons">
 
 <a href="input-form.html">
-<button class="start">Start Tracking</button>
+<button class="primary">
+Start Tracking
+</button>
 </a>
 
-<button class="learn">Learn More</button>
+<button class="secondary">
+Explore Features
+</button>
 
 </div>
 
@@ -339,28 +687,58 @@ simple application.
 
 <div class="right">
 
-<div class="summary">
+<div class="dashboard-card">
 
-<h2>Budget Summary</h2>
+<div class="card-header">
 
-<div class="item">
+<h2>Overview</h2>
+
+<div class="badge">
+Active
+</div>
+
+</div>
+
+
+<div class="balance">
+
+<h3>Current Balance</h3>
+
+<h1>$5,480</h1>
+
+</div>
+
+<div class="stat">
 <span>Total Budget</span>
-<strong>$2,000</strong>
+<strong>$8,000</strong>
 </div>
 
-<div class="item">
+<div class="stat">
 <span>Total Expenses</span>
-<strong>$1,450</strong>
+<strong>$2,520</strong>
 </div>
 
-<div class="item">
-<span>Remaining</span>
-<strong style="color:green;">$550</strong>
+<div class="stat">
+<span>Total Income</span>
+<strong>$8,000</strong>
 </div>
 
-<div class="item">
+<div class="stat">
 <span>Transactions</span>
-<strong>68</strong>
+<strong>126</strong>
+</div>
+
+<div class="progress-box">
+
+<div class="progress-title">
+<span>Monthly Budget</span>
+<span>74%</span>
+</div>
+
+<div class="progress">
+<div></div>
+</div>
+
 </div>
 
 </div>
@@ -369,68 +747,308 @@ simple application.
 
 </section>
 
-<section class="cards">
+<section class="quick-stats">
 
-<div class="card">
-<h3>68</h3>
+<div class="box">
+<h2>126</h2>
 <p>Total Transactions</p>
 </div>
 
-<div class="card">
-<h3>$1450</h3>
+<div class="box">
+<h2>$2520</h2>
 <p>Total Expenses</p>
 </div>
 
-<div class="card">
-<h3>8</h3>
+<div class="box">
+<h2>12</h2>
 <p>Expense Categories</p>
 </div>
 
-<div class="card">
-<h3>92%</h3>
-<p>Budget Goal</p>
+<div class="box">
+<h2>74%</h2>
+<p>Budget Progress</p>
 </div>
 
 </section>
 
-<section class="features">
+<section class="section">
 
-<h2>Key Features</h2>
+<h2 class="section-title">
+Why Choose Budget Tracker?
+</h2>
+
+<p class="section-text">
+Everything you need to organize your personal finances,
+monitor expenses and make smarter budgeting decisions
+from one beautiful dashboard.
+</p>
 
 <div class="feature-grid">
 
 <div class="feature">
-<h3><i class="fa-solid fa-wallet"></i> Expense Tracking</h3>
-<p>Record your daily expenses quickly and easily with a clean input form.</p>
+
+<div class="icon">
+💳
+</div>
+
+<h3>Expense Tracking</h3>
+
+<p>
+Quickly record every expense with simple forms
+and keep your financial records organized.
+</p>
+
 </div>
 
 <div class="feature">
-<h3><i class="fa-solid fa-chart-line"></i> Dashboard</h3>
-<p>View your total budget, expenses, and remaining balance instantly.</p>
+
+<div class="icon">
+📈
+</div>
+
+<h3>Analytics</h3>
+
+<p>
+Understand your spending patterns using
+modern charts and financial summaries.
+</p>
+
 </div>
 
 <div class="feature">
-<h3><i class="fa-solid fa-magnifying-glass"></i> Search Records</h3>
-<p>Quickly search expenses by category, date, or description.</p>
+
+<div class="icon">
+📂
+</div>
+
+<h3>Category Management</h3>
+
+<p>
+Separate expenses into categories to identify
+where your money goes every month.
+</p>
+
 </div>
 
 <div class="feature">
-<h3><i class="fa-solid fa-chart-pie"></i> Analytics</h3>
-<p>Analyze your spending habits with clear financial insights.</p>
+
+<div class="icon">
+🔍
+</div>
+
+<h3>Search Records</h3>
+
+<p>
+Instantly search transactions by category,
+date or description whenever needed.
+</p>
+
+</div>
+
+<div class="feature">
+
+<div class="icon">
+📅
+</div>
+
+<h3>Monthly Reports</h3>
+
+<p>
+Review monthly financial reports and
+measure your budgeting performance.
+</p>
+
+</div>
+
+<div class="feature">
+
+<div class="icon">
+🛡️
+</div>
+
+<h3>Easy Management</h3>
+
+<p>
+A clean interface that helps students
+manage their budgets with confidence.
+</p>
+
 </div>
 
 </div>
 
 </section>
 
+<section class="overview">
+
+<div class="panel">
+
+<h2>
+Expense Analytics
+</h2>
+
+<div class="chart">
+
+<div class="bar"></div>
+
+<div class="bar"></div>
+
+<div class="bar"></div>
+
+<div class="bar"></div>
+
+<div class="bar"></div>
+
+<div class="bar"></div>
+
+</div>
+
+</div>
+
+<div class="panel">
+
+<h2>
+Recent Activity
+</h2>
+
+<div class="activity">
+
+<div>
+
+<strong>Groceries</strong>
+
+<span>Today • Food</span>
+
+</div>
+
+<div class="price">
+-$85
+</div>
+
+</div>
+
+<div class="activity">
+
+<div>
+
+<strong>Transport</strong>
+
+<span>Yesterday • Travel</span>
+
+</div>
+
+<div class="price">
+-$26
+</div>
+
+</div>
+
+<div class="activity">
+
+<div>
+
+<strong>Electric Bill</strong>
+
+<span>2 Days Ago</span>
+
+</div>
+
+<div class="price">
+-$140
+</div>
+
+</div>
+
+<div class="activity">
+
+<div>
+
+<strong>Restaurant</strong>
+
+<span>Weekend</span>
+
+</div>
+
+<div class="price">
+-$48
+</div>
+
+</div>
+
+<div class="activity">
+
+<div>
+
+<strong>Shopping</strong>
+
+<span>Last Week</span>
+
+</div>
+
+<div class="price">
+-$212
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<div>
+
+<h2>
+Start Managing Your Budget Today
+</h2>
+
+<p>
+Create expenses, monitor reports, review transactions
+and stay on top of your financial goals using one
+simple Budget Tracker application.
+</p>
+
+</div>
+
+<a href="input-form.html">
+
+<button>
+
+Track Expenses
+
+</button>
+
+</a>
+
+</section>
+
 <footer>
+
+<p>
 © 2026 Budget Tracker | ICT105 Project
+</p>
+
+<div class="social">
+
+<div>📘</div>
+
+<div>📧</div>
+
+<div>📱</div>
+
+<div>🌐</div>
+
+</div>
+
 </footer>
 
 <script>
 
 function welcome(){
-    alert("🎉 Welcome to Budget Tracker!");
+
+alert("Welcome to Budget Tracker!");
+
 }
 
 </script>
