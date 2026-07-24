@@ -13,9 +13,9 @@ The GitHub repository is public and can be accessed without login. However, the 
 
 ## Screens Included
 - Homepage (`index.html`)
-- Input Form (`input.html`)
+- Input Form (`input-form.html`)
 - Record List (`record-list.html`)
-- Detail View (`data-view.html`)
+- Detail View (`detail-view.html`)
 - Dashboard (`dashboard.html`)
 - Admin View (`admin-view.html`)
 
