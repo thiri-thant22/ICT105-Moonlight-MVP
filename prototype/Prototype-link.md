@@ -1,31 +1,38 @@
 # Prototype Link
 
-Use this file if your group uses Figma, Canva, Google Forms/Sheets, Airtable, AppSheet, Glide, Bubble, Notion, Power BI/Tableau dashboard, or another online platform.
+Use this file if your group uses Figma, AppSheet, Glide, Airtable, Google Sheets, Power BI, Tableau, hosted web app, or another external platform.
 
-## Prototype Platform
+## Prototype URL
+Repository: https://github.com/thiri-thant22/ICT105-Moonlight-MVP
 
-- Platform: HTML, CSS, JavaScript (GitHub Repository)
-- Prototype Link: https://github.com/thiri-thant22/ICT105-Moonlight-MVP/tree/main/prototype
-- Access Note: The prototype is currently under development. Start from `index.html` to navigate through the available pages.
-- Last Updated: 2026-07-22
+Prototype Folder:
+https://github.com/thiri-thant22/ICT105-Moonlight-MVP/tree/main/prototype
 
-## Requirement Coverage
+## Access Notes
+The GitHub repository is public and can be accessed without login. However, the prototype has not yet been deployed as a public website (such as GitHub Pages). To review the prototype, open the `prototype` folder in the repository and start with `index.html`. The prototype is still under development and will be updated during future labs.
 
-| Requirement ID | Where It Is Shown in the Prototype |
-|---|---|
-| FR-01 | index.html (Homepage) |
-| FR-02 | index.html (Navigation Menu and Get Started Button) |
-| FR-03 | input.html (Add Expense Form) |
-| FR-04 | input.html (Expense Record Storage - In Progress) |
-| FR-05 | record-list.html (View Expense Records) |
-| FR-06 | record-list.html (Search and Filter - In Progress) |
-| FR-07 | data-view.html (Expense Details) |
-| FR-08 | dashboard.html (Budget Status and Remaining Budget) |
-| FR-09 | admin-view.html (Edit/Delete Expense - Planned) |
-| FR-10 | input.html (Input Validation - In Progress) |
-| FR-11 | input.html (Confirmation Message - Planned) |
-| FR-12 | dashboard.html (Dashboard Summary) |
-| FR-13 | All HTML Pages (Consistent Layout and Navigation) |
-| FR-14 | All HTML Pages (Responsive Design - In Progress) |
-| FR-15 | admin-view.html and data-view.html (Privacy Protection - Planned) |
-| FR-16 | Entire Prototype (Supports Lab 04 User Stories and MVP Features) |
+## Screens Included
+- Homepage (`index.html`)
+- Input Form (`input.html`)
+- Record List (`record-list.html`)
+- Detail View (`data-view.html`)
+- Dashboard (`dashboard.html`)
+- Admin View (`admin-view.html`)
+
+## Requirements Demonstrated
+- FR-01 – Homepage
+- FR-02 – User Navigation
+- FR-03 – Add Expense
+- FR-04 – Store Expense Records
+- FR-05 – View Expenses
+- FR-06 – Search and Filter Expenses
+- FR-07 – Expense Details
+- FR-08 – Budget Status
+- FR-09 – Edit/Delete Expense
+- FR-10 – Input Validation
+- FR-11 – Confirmation Message
+- FR-12 – Dashboard
+- FR-13 – Consistent User Interface
+- FR-14 – Responsive Design
+- FR-15 – Privacy
+- FR-16 – Requirement Traceability
