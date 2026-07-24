@@ -7,6 +7,9 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 <style>
 
 *{
@@ -14,10 +17,11 @@ margin:0;
 padding:0;
 box-sizing:border-box;
 font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
 }
 
 body{
-background:#f5f8ff;
+background:linear-gradient(135deg,#eef4ff,#dbeafe,#ffffff);
 color:#333;
 }
 
@@ -26,10 +30,12 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:18px 8%;
-background:#fff;
-box-shadow:0 2px 10px rgba(0,0,0,.08);
+background:rgba(255,255,255,.8);
+backdrop-filter:blur(15px);
+box-shadow:0 8px 25px rgba(0,0,0,.08);
 position:sticky;
 top:0;
+z-index:100;
 }
 
 .logo{
@@ -47,6 +53,7 @@ text-decoration:none;
 margin:0 15px;
 color:#444;
 font-weight:500;
+transition:.3s;
 }
 
 nav a:hover{
@@ -54,28 +61,36 @@ color:#2563eb;
 }
 
 .btn{
-padding:10px 22px;
+padding:12px 24px;
 background:#2563eb;
-color:#fff;
+color:white;
 border:none;
-border-radius:8px;
+border-radius:10px;
 cursor:pointer;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:0 10px 20px rgba(37,99,235,.3);
 }
 
 .hero{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:70px 8%;
+padding:80px 8%;
 flex-wrap:wrap;
 }
 
 .left{
 flex:1;
+animation:fadeLeft 1s ease;
 }
 
 .left h1{
-font-size:52px;
+font-size:58px;
+line-height:1.2;
 margin-bottom:20px;
 }
 
@@ -86,22 +101,28 @@ color:#2563eb;
 .left p{
 font-size:18px;
 color:#666;
-margin-bottom:30px;
 line-height:1.8;
+margin-bottom:30px;
 }
 
 .action button{
 padding:15px 30px;
+font-size:16px;
 border:none;
-border-radius:10px;
+border-radius:12px;
 cursor:pointer;
 margin-right:15px;
-font-size:16px;
+transition:.3s;
 }
 
 .start{
 background:#2563eb;
 color:white;
+}
+
+.start:hover{
+transform:translateY(-4px);
+box-shadow:0 10px 25px rgba(37,99,235,.35);
 }
 
 .learn{
@@ -110,18 +131,30 @@ border:2px solid #2563eb;
 color:#2563eb;
 }
 
+.learn:hover{
+background:#2563eb;
+color:white;
+}
+
 .right{
 flex:1;
 display:flex;
 justify-content:center;
+animation:fadeRight 1s ease;
 }
 
 .summary{
-width:350px;
-background:white;
+width:360px;
+background:rgba(255,255,255,.85);
+backdrop-filter:blur(10px);
 padding:30px;
-border-radius:18px;
-box-shadow:0 5px 20px rgba(0,0,0,.1);
+border-radius:20px;
+box-shadow:0 20px 45px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.summary:hover{
+transform:translateY(-8px);
 }
 
 .summary h2{
@@ -131,39 +164,45 @@ margin-bottom:20px;
 .item{
 display:flex;
 justify-content:space-between;
-padding:12px 0;
+padding:14px 0;
 border-bottom:1px solid #eee;
 }
 
 .cards{
-padding:50px 8%;
+padding:60px 8%;
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
-gap:20px;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px;
 }
 
 .card{
 background:white;
-padding:25px;
-border-radius:15px;
+padding:30px;
+border-radius:20px;
 text-align:center;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 35px rgba(37,99,235,.18);
 }
 
 .card h3{
+font-size:36px;
 color:#2563eb;
-font-size:35px;
 margin-bottom:10px;
 }
 
 .features{
-padding:60px 8%;
+padding:70px 8%;
 }
 
 .features h2{
 text-align:center;
-margin-bottom:40px;
-font-size:40px;
+font-size:42px;
+margin-bottom:45px;
 }
 
 .feature-grid{
@@ -174,21 +213,55 @@ gap:25px;
 
 .feature{
 background:white;
-padding:25px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.feature:hover{
+background:#2563eb;
+color:white;
+transform:translateY(-10px);
 }
 
 .feature h3{
-margin-bottom:15px;
 color:#2563eb;
+margin-bottom:15px;
+}
+
+.feature:hover h3{
+color:white;
 }
 
 footer{
-background:white;
+background:#1e3a8a;
+color:white;
 text-align:center;
-padding:25px;
+padding:30px;
 margin-top:60px;
+}
+
+@keyframes fadeLeft{
+from{
+opacity:0;
+transform:translateX(-60px);
+}
+to{
+opacity:1;
+transform:translateX(0);
+}
+}
+
+@keyframes fadeRight{
+from{
+opacity:0;
+transform:translateX(60px);
+}
+to{
+opacity:1;
+transform:translateX(0);
+}
 }
 
 @media(max-width:900px){
@@ -199,7 +272,7 @@ text-align:center;
 }
 
 .left h1{
-font-size:38px;
+font-size:40px;
 }
 
 .right{
@@ -224,11 +297,11 @@ display:none;
 </div>
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="input-form.html">Add Expense</a>
-    <a href="record-list.html">Records</a>
-    <a href="dashboard.html">Dashboard</a>
-    <a href="admin-view.html">Admin</a>
+<a href="index.html">Home</a>
+<a href="input-form.html">Add Expense</a>
+<a href="record-list.html">Records</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="admin-view.html">Admin</a>
 </nav>
 
 <button class="btn" onclick="welcome()">
@@ -255,14 +328,10 @@ simple application.
 <div class="action">
 
 <a href="input-form.html">
-    <button class="start">
-        Start Tracking
-    </button>
+<button class="start">Start Tracking</button>
 </a>
 
-<button class="learn">
-Learn More
-</button>
+<button class="learn">Learn More</button>
 
 </div>
 
@@ -286,7 +355,7 @@ Learn More
 
 <div class="item">
 <span>Remaining</span>
-<strong style="color:green">$550</strong>
+<strong style="color:green;">$550</strong>
 </div>
 
 <div class="item">
@@ -331,23 +400,23 @@ Learn More
 <div class="feature-grid">
 
 <div class="feature">
-<h3>💵 Expense Tracking</h3>
-<p>Record daily expenses quickly.</p>
+<h3><i class="fa-solid fa-wallet"></i> Expense Tracking</h3>
+<p>Record your daily expenses quickly and easily with a clean input form.</p>
 </div>
 
 <div class="feature">
-<h3>📊 Dashboard</h3>
-<p>View spending summaries and reports.</p>
+<h3><i class="fa-solid fa-chart-line"></i> Dashboard</h3>
+<p>View your total budget, expenses, and remaining balance instantly.</p>
 </div>
 
 <div class="feature">
-<h3>🔍 Search Records</h3>
-<p>Find expenses by category or date.</p>
+<h3><i class="fa-solid fa-magnifying-glass"></i> Search Records</h3>
+<p>Quickly search expenses by category, date, or description.</p>
 </div>
 
 <div class="feature">
-<h3>📈 Analytics</h3>
-<p>Monitor your financial habits.</p>
+<h3><i class="fa-solid fa-chart-pie"></i> Analytics</h3>
+<p>Analyze your spending habits with clear financial insights.</p>
 </div>
 
 </div>
@@ -355,19 +424,14 @@ Learn More
 </section>
 
 <footer>
-
 © 2026 Budget Tracker | ICT105 Project
-
 </footer>
 
 <script>
 
 function welcome(){
-
-alert("Welcome to Budget Tracker!");
-
+    alert("🎉 Welcome to Budget Tracker!");
 }
-    
 
 </script>
 
