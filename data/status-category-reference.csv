@@ -1,1 +1,5 @@
-
+field,allowed_values,notes
+transaction_type,Income; Expense,Use only one value per transaction
+category,Food; Transportation; Shopping; Bills; Entertainment; Healthcare; Education; Salary; Freelance; Other,Groups may adapt categories to their own project
+status,Pending; Completed; Cancelled,Use status values that fit the transaction
+payment_method,Cash; Bank Transfer; Credit Card; Debit Card; E-Wallet; Online Banking,Use one payment method per transaction
