@@ -1,7 +1,7 @@
 # Prototype Testing Notes
 
 ## Test Environment
-- Prototype link or folder: prototype/
+- Prototype link or folder: https://github.com/thiri-thant22/ICT105-Moonlight-MVP/tree/main/prototype
 - Browser/device used: Google Chrome (Windows 11 Laptop)
 - Tester role: Student User
 - Test date: 24 July 2026
