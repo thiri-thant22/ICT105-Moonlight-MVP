@@ -491,9 +491,9 @@ MVP Implementation Sprint 2 and Startup Metrics
 
 | Member Name | Contribution | File/Feature Updated | GitHub Evidence |
 |---|---|---|---|
-| Thiri Sandar | Updated the case study brief, weekly logbook, screenshots and created the implementation metrics flow diagram. | `case-study-brief.md`, `weekly-logook.md`, `screenshots`, `implementation-metrics-flow.mmd` | GitHub Commit Link |
-| Nang Woo Non | Created startup metrics, prototype testing notes, and updated the feature implementation status template, README.md . | `startup-metrics.md`, `prototype-testing-notes.md`,`feature-implementation-status-template.md`, `README.md` . | GitHub Commit Link |
-| Thiri Thant | Updated the prototype link, sample expense records, and status/category reference files. | `prototype-link.md`, `Budget_tracker_sample_records.csv`, `status-category-reference.csv` | GitHub Commit Link |
+| Thiri Sandar | Updated the case study brief, weekly logbook, screenshots and created the implementation metrics flow diagram. | `case-study-brief.md`, `weekly-logook.md`, `screenshots`, `implementation-metrics-flow.mmd` | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Nang Woo Non | Created startup metrics, prototype testing notes, and updated the feature implementation status template, README.md . | `startup-metrics.md`, `prototype-testing-notes.md`,`feature-implementation-status-template.md`, `README.md` . | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Thiri Thant | Updated the prototype link, sample expense records, and status/category reference files. | `prototype-link.md`, `Budget_tracker_sample_records.csv`, `status-category-reference.csv` | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
 
 ## Requirements Addressed
 
