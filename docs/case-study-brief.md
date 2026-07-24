@@ -125,3 +125,23 @@ A web-based Budget Tracker system that allows users to add expense records, view
 
 ## Practice note
 The provided HTML/CSS/JavaScript prototype uses browser Local Storage and sample data. It does not require a backend. Stronger groups may replace Local Storage with Firebase, Supabase, PHP/MySQL, or another backend database.
+
+
+# Lab 11 Case Study Brief: Budget Tracker
+
+## Practice Case Context
+Many university students and young professionals struggle to manage their daily expenses and monthly budgets. They often forget to record their spending, making it difficult to monitor where their money goes and stay within their budget. Current alternatives include writing expenses in notebooks, using spreadsheets, or relying on memory, which can be time-consuming and inaccurate.
+
+## Sprint 2 Practice Goal
+In Lab 11, the practice goal is to improve the working Budget Tracker prototype from Lab 10 by enhancing data handling, expense management, and dashboard analytics.
+
+## Required Practice Functions
+- Add or simulate expense records.
+- Display a list of expense records.
+- Search and filter records by category, date, or payment method.
+- View detailed information for a selected expense.
+- Update, edit, or delete expense records from an admin/manager view.
+- Display dashboard metrics such as total expenses, total transactions, spending by category, and recent expense trends.
+
+## Reminder
+This practice case is only for learning. Your graded work must apply the same implementation and validation process to your own group case.
