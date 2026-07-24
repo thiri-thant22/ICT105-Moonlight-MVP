@@ -466,3 +466,64 @@ MVP Implementation Sprint 1
 - Complete testing of all MVP features.
 - Update screenshots and documentation.
 - Prepare the final prototype for presentation.
+
+# Weekly Logbook - Lab 11
+
+## Lab Topic
+MVP Implementation Sprint 2 and Startup Metrics
+
+## Group Case
+**Project Title:** Budget Tracker
+
+**Selected Case:** A web-based Budget Tracker that helps students and young professionals record, manage, and analyze their daily expenses.
+
+## Work Completed Today
+- Updated the prototype link and project documentation.
+- Created startup metrics for measuring prototype performance.
+- Added sample expense records for testing.
+- Created and updated prototype testing notes.
+- Created a status and category reference for expense records.
+- Updated the feature implementation status template.
+- Updated the case study brief.
+- Created the implementation metrics flow diagram.
+
+## Member Contributions
+
+| Member Name | Contribution | File/Feature Updated | GitHub Evidence |
+|---|---|---|---|
+| Thiri Sandar | Updated the case study brief and created the implementation metrics flow diagram. | `case-study-brief.md`, `implementation-metrics-flow.mmd` | GitHub Commit Link |
+| Nang Woo Non | Created startup metrics, prototype testing notes, and updated the feature implementation status template. | `startup-metrics.md`, `prototype-testing-notes.md`, `feature-implementation-status-template.md` | GitHub Commit Link |
+| Thiri Thant | Updated the prototype link, sample expense records, and status/category reference files. | `prototype-link.md`, `Budget_tracker_sample_records.csv`, `status-category-reference.csv` | GitHub Commit Link |
+
+## Requirements Addressed
+
+- **FR-03:** Add expense records.
+- **FR-05:** View expense records.
+- **FR-06:** Search and filter expense records.
+- **FR-07:** View expense details.
+- **FR-09:** Manage expense records.
+- **FR-12:** Dashboard metrics and analytics.
+
+## Metrics Added
+
+- Total expense records
+- Total expenses
+- Expenses by category
+- Number of transactions
+- Prototype testing completion rate
+- Startup metrics documentation
+
+## Problems Found
+
+- Some prototype documentation needed updating to match the latest implementation.
+- Additional sample expense records were required for testing.
+- Startup metrics and testing documentation needed to be standardized across the project.
+- Minor prototype improvements were identified during testing.
+
+## Next Action Before Lab 12
+
+- Complete the remaining prototype improvements based on testing feedback.
+- Improve the dashboard and analytics visualization.
+- Verify all functional requirements are fully implemented.
+- Perform another round of usability testing.
+- Update documentation, screenshots, and GitHub repository before the final submission.
