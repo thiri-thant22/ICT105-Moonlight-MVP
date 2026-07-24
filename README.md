@@ -306,3 +306,56 @@ Our goal in Lab 10 is to develop the first working version of the Budget Tracker
 | Nang Woo Non | Created and updated the Implementation Plan, Implementation Flow Diagram (`implementation-flow.mmd`), Feature Implementation Status Template, and contributed to implementation planning and project structure. |
 
 All group members contributed to the same GitHub repository through commits, documentation updates, implementation, and prototype testing.
+
+
+# README Update Template - Lab 11
+
+## Lab 11: MVP Implementation Sprint 2 and Startup Metrics
+
+### Prototype Progress
+
+From Lab 10 to Lab 11, the team improved the Budget Tracker Website by completing more functional features and fixing issues identified during testing. The expense recording system is now fully connected with Local Storage, the dashboard displays real-time financial summaries, and users can manage their expenses more efficiently. Search and filter functions have also been improved, making it easier to find transaction records. Overall, the prototype is more stable and closer to the final version.
+
+### Implemented / Improved Features
+
+| Requirement ID | Feature | Status | Evidence |
+|----------------|-------------------------|-----------|---------------------------|
+| FR-03 | Add Expense Form | Completed | GitHub Commit & Screenshot |
+| FR-06 | Search and Filter | Completed | GitHub Commit & Screenshot |
+| FR-08 | Record Management | Completed | GitHub Commit & Screenshot |
+| FR-12 | Dashboard Summary | Completed | GitHub Commit & Screenshot |
+
+### Startup/Product Metrics
+
+The following metrics were implemented:
+- Total Expense Records
+- Total Income
+- Total Expenses
+- Remaining Balance
+- Most Used Expense Category
+- Task Completion Rate
+
+### Prototype Screenshots
+
+- Homepage
+- Dashboard
+- Add Expense Page
+- Expense List
+- Search & Filter Page
+- Edit/Delete Expense Page
+
+### Member Contributions
+
+| Member | Contribution |
+|--------|--------------|
+| Thiri Thant | Developed the homepage and main HTML pages, updated `index.html`, maintained the prototype link, updated sample records and status category reference files, and supported overall frontend implementation. |
+| Thiri Sandar | Managed project documentation, updated the weekly logbook, created the implementation matrix flow diagram, updated the case study brief, maintained README documentation, and coordinated project progress. |
+| Nang Woo Non | Created the startup metrics document, prepared and updated prototype testing notes, updated the feature implementation status template, tested prototype features, and documented testing results and improvements. |
+
+### Remaining Work
+
+- Improve responsive design for mobile devices.
+- Add stronger input validation and error messages.
+- Improve search performance.
+- Final testing with additional sample data.
+- Prepare the final presentation and project demonstration.
