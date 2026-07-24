@@ -1,7 +1,13 @@
-record_id,transaction_type,amount,category,transaction_date,description,status,user
-BT-001,Expense,120 THB,Food,2026-02-02,Lunch at university cafeteria,Completed,user01@example.com
-BT-002,Income,12000 THB,Salary,2026-02-03,Monthly salary received,Completed,user02@example.com
-BT-003,Expense,45 THB,Transportation,2026-02-04,Bus fare to university,Completed,user03@example.com
-BT-004,Expense,350 THB,Shopping,2026-02-04,Purchased school supplies,Completed,user04@example.com
-BT-005,Expense,180 THB,Entertainment,2026-02-05,Movie ticket,Pending,user05@example.com
-BT-006,Income,1500 THB,Freelance,2026-02-05,Website design payment,Completed,user06@example.com
+transaction_id,transaction_type,category,amount,payment_method,transaction_date,status,days_since_transaction,user,priority
+BT001,Expense,Food,120,Cash,2026-06-01,Completed,5,user01@example.com,High
+BT002,Income,Salary,25000,Bank Transfer,2026-06-02,Completed,4,user02@example.com,High
+BT003,Expense,Transportation,80,Cash,2026-06-03,Completed,3,user03@example.com,Medium
+BT004,Expense,Education,450,E-Wallet,2026-06-04,Completed,2,user04@example.com,Medium
+BT005,Income,Freelance,3500,Bank Transfer,2026-06-05,Completed,1,user05@example.com,High
+BT006,Expense,Shopping,850,Credit Card,2026-06-06,Pending,0,user06@example.com,Medium
+BT007,Expense,Entertainment,300,E-Wallet,2026-06-07,Completed,2,user07@example.com,Low
+BT008,Expense,Bills,1200,Online Banking,2026-06-08,Completed,1,user08@example.com,High
+BT009,Expense,Healthcare,600,Cash,2026-06-09,Pending,0,user09@example.com,High
+BT010,Income,Allowance,5000,Bank Transfer,2026-06-10,Completed,0,user10@example.com,Medium
+BT011,Expense,Groceries,950,Debit Card,2026-06-11,Completed,0,user11@example.com,Medium
+BT012,Expense,Utilities,450,Online Banking,2026-06-12,Pending,0,user12@example.com,Low
