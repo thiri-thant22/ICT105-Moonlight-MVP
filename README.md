@@ -348,9 +348,9 @@ The following metrics were implemented:
 
 | Member | Contribution |
 |--------|--------------|
-| Thiri Thant | Developed the homepage and main HTML pages, updated `index.html`, maintained the prototype link, updated sample records and status category reference files, and supported overall frontend implementation. |
-| Thiri Sandar | Managed project documentation, updated the weekly logbook, created the implementation matrix flow diagram, updated the case study brief, maintained README documentation, and coordinated project progress. |
-| Nang Woo Non | Created the startup metrics document, prepared and updated prototype testing notes, updated the feature implementation status template, tested prototype features, and documented testing results and improvements. |
+| Thiri Thant | Developed and updated the homepage (`index.html`), created the Power BI dashboard image, maintained the prototype link, updated sample records and status category reference files, and supported the Budget Tracker interface improvements. |
+| Thiri Sandar | Created the Lab 11 prototype records dataset, updated the weekly logbook, prepared the case study brief, created the implementation matrix flow, and maintained the project documentation. |
+| Nang Woo Non | Created the Lab 11 activity log dataset, developed the startup metrics, prepared prototype testing notes, updated the feature implementation status template, updated the README, and supported testing and validation of the Budget Tracker prototype. |
 
 ### Remaining Work
 
