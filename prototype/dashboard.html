@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dashboard | Budget Tracker</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
 
@@ -17,138 +17,297 @@ font-family:'Poppins',sans-serif;
 }
 
 body{
-background:#f5f8ff;
-color:#333;
+background:#eef4ff;
+color:#1f2937;
+overflow-x:hidden;
+}
+
+body::before{
+content:"";
+position:fixed;
+width:420px;
+height:420px;
+background:#2563eb22;
+border-radius:50%;
+top:-180px;
+right:-120px;
+filter:blur(70px);
+z-index:-2;
+}
+
+body::after{
+content:"";
+position:fixed;
+width:360px;
+height:360px;
+background:#06b6d422;
+border-radius:50%;
+bottom:-160px;
+left:-120px;
+filter:blur(70px);
+z-index:-2;
 }
 
 header{
+position:sticky;
+top:0;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:18px 8%;
-background:#fff;
-box-shadow:0 2px 10px rgba(0,0,0,.08);
+padding:18px 7%;
+background:rgba(255,255,255,.88);
+backdrop-filter:blur(16px);
+box-shadow:0 8px 20px rgba(0,0,0,.06);
+z-index:999;
 }
 
 .logo{
 font-size:30px;
-font-weight:700;
+font-weight:800;
 color:#2563eb;
 }
 
 .logo span{
-color:#111;
+color:#111827;
+}
+
+nav{
+display:flex;
+gap:28px;
 }
 
 nav a{
 text-decoration:none;
-margin:0 15px;
-color:#444;
+color:#374151;
 font-weight:500;
+position:relative;
+transition:.3s;
+}
+
+nav a::after{
+content:"";
+position:absolute;
+left:0;
+bottom:-6px;
+width:0;
+height:3px;
+background:#2563eb;
+border-radius:20px;
+transition:.3s;
 }
 
 nav a:hover{
 color:#2563eb;
 }
 
+nav a:hover::after{
+width:100%;
+}
+
 .container{
-width:92%;
+width:90%;
+max-width:1400px;
 margin:40px auto;
 }
 
-.title{
-margin-bottom:25px;
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:30px;
+margin-bottom:40px;
+flex-wrap:wrap;
+}
+
+.title h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.title p{
+color:#6b7280;
+font-size:18px;
+}
+
+.status{
+background:linear-gradient(135deg,#2563eb,#4f8cff);
+padding:25px 35px;
+border-radius:22px;
+color:white;
+min-width:260px;
+box-shadow:0 20px 40px rgba(37,99,235,.30);
+}
+
+.status h3{
+font-weight:400;
+margin-bottom:10px;
+}
+
+.status h1{
+font-size:42px;
 }
 
 .cards{
-
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:20px;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px;
 margin-bottom:35px;
-
 }
 
 .card{
+background:white;
+padding:28px;
+border-radius:24px;
+box-shadow:0 15px 30px rgba(0,0,0,.08);
+transition:.35s;
+position:relative;
+overflow:hidden;
+}
 
-background:#fff;
-padding:25px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
+.card::before{
+content:"";
+position:absolute;
+width:90px;
+height:90px;
+background:#2563eb11;
+border-radius:50%;
+top:-35px;
+right:-35px;
+}
 
+.card:hover{
+transform:translateY(-8px);
 }
 
 .card h3{
-
-font-size:18px;
-margin-bottom:15px;
-color:#666;
-
+font-size:16px;
+color:#6b7280;
+margin-bottom:16px;
 }
 
 .card h1{
-
-font-size:35px;
+font-size:38px;
 color:#2563eb;
-
 }
 
-.summary{
-
-background:#fff;
-padding:25px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
-
+.grid{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:30px;
 }
 
-.summary table{
+.panel{
+background:white;
+padding:30px;
+border-radius:24px;
+box-shadow:0 15px 30px rgba(0,0,0,.08);
+}
 
+.panel h2{
+margin-bottom:25px;
+}
+
+table{
 width:100%;
 border-collapse:collapse;
-
 }
 
-.summary th{
-
+th{
 background:#2563eb;
 color:white;
-padding:12px;
-
+padding:15px;
+font-weight:600;
 }
 
-.summary td{
-
-padding:12px;
-border-bottom:1px solid #eee;
+td{
+padding:15px;
+border-bottom:1px solid #edf2f7;
 text-align:center;
+}
 
+.progress-card{
+display:flex;
+flex-direction:column;
+gap:22px;
+}
+
+.progress-box{
+background:#f8fbff;
+padding:18px;
+border-radius:18px;
+}
+
+.progress-title{
+display:flex;
+justify-content:space-between;
+margin-bottom:10px;
+font-weight:600;
+}
+
+.progress{
+height:12px;
+background:#dbeafe;
+border-radius:30px;
+overflow:hidden;
+}
+
+.progress div{
+height:100%;
+width:0%;
+background:linear-gradient(90deg,#2563eb,#38bdf8);
+border-radius:30px;
+transition:1s;
+}
+
+.category-list{
+margin-top:10px;
+}
+
+.item{
+display:flex;
+justify-content:space-between;
+padding:14px 0;
+border-bottom:1px solid #edf2f7;
+}
+
+.item:last-child{
+border:none;
 }
 
 footer{
-
-margin-top:40px;
+margin-top:50px;
 background:white;
-padding:20px;
+padding:25px;
 text-align:center;
-
+box-shadow:0 -5px 15px rgba(0,0,0,.05);
+color:#6b7280;
 }
 
-@media(max-width:768px){
-
-header{
-
-flex-direction:column;
-gap:15px;
-
-}
+@media(max-width:950px){
 
 nav{
+display:none;
+}
 
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
+.grid{
+grid-template-columns:1fr;
+}
 
+.hero{
+flex-direction:column;
+align-items:flex-start;
+}
+
+}
+
+@media(max-width:600px){
+
+.title h1{
+font-size:36px;
+}
+
+.status{
+width:100%;
 }
 
 }
@@ -179,11 +338,23 @@ justify-content:center;
 
 <div class="container">
 
+<div class="hero">
+
 <div class="title">
 
-<h1>Dashboard</h1>
+<h1>Financial Dashboard</h1>
 
-<p>Overview of your expense records.</p>
+<p>Monitor your spending and budget performance in real time.</p>
+
+</div>
+
+<div class="status">
+
+<h3>Total Balance</h3>
+
+<h1 id="balanceAmount">$0.00</h1>
+
+</div>
 
 </div>
 
@@ -193,7 +364,7 @@ justify-content:center;
 
 <h3>Total Expenses</h3>
 
-<h1 id="totalExpense">$0</h1>
+<h1 id="totalExpense">$0.00</h1>
 
 </div>
 
@@ -209,7 +380,7 @@ justify-content:center;
 
 <h3>Food Expenses</h3>
 
-<h1 id="foodExpense">$0</h1>
+<h1 id="foodExpense">$0.00</h1>
 
 </div>
 
@@ -217,17 +388,21 @@ justify-content:center;
 
 <h3>Shopping Expenses</h3>
 
-<h1 id="shoppingExpense">$0</h1>
+<h1 id="shoppingExpense">$0.00</h1>
 
 </div>
 
 </div>
 
-<div class="summary">
+<div class="grid">
 
-<h2 style="margin-bottom:20px;">Category Summary</h2>
+<div class="panel">
+
+<h2>Category Summary</h2>
 
 <table>
+
+<thead>
 
 <tr>
 
@@ -237,11 +412,75 @@ justify-content:center;
 
 </tr>
 
+</thead>
+
 <tbody id="summaryTable">
 
 </tbody>
 
 </table>
+
+</div>
+
+<div class="panel progress-card">
+
+<h2>Budget Overview</h2>
+
+<div class="progress-box">
+
+<div class="progress-title">
+
+<span>Budget Used</span>
+
+<span id="progressText">0%</span>
+
+</div>
+
+<div class="progress">
+
+<div id="progressBar"></div>
+
+</div>
+
+</div>
+
+<div class="category-list">
+
+<div class="item">
+
+<span>Highest Category</span>
+
+<strong id="highestCategory">-</strong>
+
+</div>
+
+<div class="item">
+
+<span>Average Expense</span>
+
+<strong id="averageExpense">$0.00</strong>
+
+</div>
+
+<div class="item">
+
+<span>Total Categories</span>
+
+<strong id="categoryCount">0</strong>
+
+</div>
+
+<div class="item">
+
+<span>Latest Status</span>
+
+<strong style="color:#16a34a;">Updated</strong>
+
+</div>
+
+</div>
+
+</div>
 
 </div>
 
@@ -255,55 +494,41 @@ justify-content:center;
 
 <script>
 
-const expenses =
-JSON.parse(localStorage.getItem("expenses")) || [];
+const expenses=JSON.parse(localStorage.getItem("expenses"))||[];
 
-let totalExpense = 0;
-let foodExpense = 0;
-let shoppingExpense = 0;
+let totalExpense=0;
+let foodExpense=0;
+let shoppingExpense=0;
 
-const categoryTotals = {};
+const categoryTotals={};
 
 expenses.forEach(expense=>{
 
-const amount = Number(expense.amount);
+const amount=Number(expense.amount)||0;
 
-totalExpense += amount;
+totalExpense+=amount;
 
 if(expense.category==="Food"){
-foodExpense += amount;
+foodExpense+=amount;
 }
 
 if(expense.category==="Shopping"){
-shoppingExpense += amount;
+shoppingExpense+=amount;
 }
 
-if(categoryTotals[expense.category]){
-
-categoryTotals[expense.category]+=amount;
-
-}else{
-
-categoryTotals[expense.category]=amount;
-
-}
+categoryTotals[expense.category]=(categoryTotals[expense.category]||0)+amount;
 
 });
 
-document.getElementById("totalExpense").innerHTML =
-"$"+totalExpense.toFixed(2);
+document.getElementById("totalExpense").textContent="$"+totalExpense.toFixed(2);
+document.getElementById("totalTransaction").textContent=expenses.length;
+document.getElementById("foodExpense").textContent="$"+foodExpense.toFixed(2);
+document.getElementById("shoppingExpense").textContent="$"+shoppingExpense.toFixed(2);
 
-document.getElementById("totalTransaction").innerHTML =
-expenses.length;
+const balance=5000-totalExpense;
+document.getElementById("balanceAmount").textContent="$"+balance.toFixed(2);
 
-document.getElementById("foodExpense").innerHTML =
-"$"+foodExpense.toFixed(2);
-
-document.getElementById("shoppingExpense").innerHTML =
-"$"+shoppingExpense.toFixed(2);
-
-const table =
-document.getElementById("summaryTable");
+const table=document.getElementById("summaryTable");
 
 if(expenses.length===0){
 
@@ -315,23 +540,48 @@ table.innerHTML=`
 
 }else{
 
-for(let category in categoryTotals){
+for(const category in categoryTotals){
 
 table.innerHTML+=`
-
 <tr>
-
 <td>${category}</td>
-
 <td>$${categoryTotals[category].toFixed(2)}</td>
-
 </tr>
-
 `;
 
 }
 
 }
+
+let highest="-";
+let highestValue=0;
+
+for(const category in categoryTotals){
+
+if(categoryTotals[category]>highestValue){
+
+highestValue=categoryTotals[category];
+highest=category;
+
+}
+
+}
+
+document.getElementById("highestCategory").textContent=highest;
+
+document.getElementById("averageExpense").textContent="$"+(expenses.length?totalExpense/expenses.length:0).toFixed(2);
+
+document.getElementById("categoryCount").textContent=Object.keys(categoryTotals).length;
+
+const budget=5000;
+let percent=(totalExpense/budget)*100;
+
+if(percent>100){
+percent=100;
+}
+
+document.getElementById("progressBar").style.width=percent+"%";
+document.getElementById("progressText").textContent=percent.toFixed(0)+"%";
 
 </script>
 
