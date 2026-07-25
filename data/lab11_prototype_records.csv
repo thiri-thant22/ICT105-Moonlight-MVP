@@ -1,0 +1,16 @@
+RecordID,SubmittedDate,LastUpdatedDate,ExpenseCategory,PaymentMethod,Priority,CurrentStatus,ProcessingDays,RequirementID,OwnerRole
+E001,2026-07-15,2026-07-15,Food,Cash,High,Recorded,0,FR-03,User
+E002,2026-07-15,2026-07-16,Transportation,QR Payment,Medium,Verified,1,FR-05,Admin
+E003,2026-07-16,2026-07-16,Shopping,Credit Card,High,Recorded,0,FR-03,User
+E004,2026-07-16,2026-07-17,Education,Bank Transfer,Low,Approved,1,FR-08,Admin
+E005,2026-07-17,2026-07-18,Entertainment,Cash,Medium,Pending Review,1,FR-06,Admin
+E006,2026-07-17,2026-07-18,Bills,Bank Transfer,High,Approved,1,FR-09,Admin
+E007,2026-07-18,2026-07-18,Healthcare,Cash,Low,Recorded,0,FR-03,User
+E008,2026-07-18,2026-07-19,Food,Debit Card,Medium,Verified,1,FR-05,Admin
+E009,2026-07-19,2026-07-20,Transportation,Cash,High,Approved,1,FR-06,Admin
+E010,2026-07-19,2026-07-21,Shopping,QR Payment,Low,Pending Review,2,FR-12,Admin
+E011,2026-07-20,2026-07-20,Utilities,Bank Transfer,Medium,Recorded,0,FR-03,User
+E012,2026-07-20,2026-07-22,Education,Credit Card,High,Approved,2,FR-08,Admin
+E013,2026-07-21,2026-07-21,Food,Cash,Low,Recorded,0,FR-03,User
+E014,2026-07-21,2026-07-23,Entertainment,Debit Card,Medium,Verified,2,FR-06,Admin
+E015,2026-07-22,2026-07-24,Bills,Bank Transfer,High,Approved,2,FR-09,Admin
