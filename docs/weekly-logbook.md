@@ -532,28 +532,54 @@ MVP Implementation Sprint 2 and Startup Metrics
 # Weekly Logbook - Lab 12
 
 ## Group Name
+Moon Light
 
 ## Project Title
+Budget Tracker
 
 ## Lab Date
+[7/27/2026]
 
 ## Work Completed Today
 
 | Member Name | Contribution | File/Commit Evidence |
 | --- | --- | --- |
-| Member 1 | | |
-| Member 2 | | |
-| Member 3 | | |
+| Thiri Sandar | Updated  `case-study-brief.md`, `weekly-logbook.md`, created `acquisition-metrics-template.csv` and `channel-plan-template.csv`. | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Nang Woo Non | Created `acquisition-metrics.md`, `go-to-market-plan`, `landing-page-content.md`, `marketing-message.md`, updated `README-update-template`. | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Thiri Thant | Updated `screenshots/README.md`, created `sample-budget-teacker-landing-metrics.csv`, `landing-page-to-prototype-flow.mmd`, `landing-page-link.md` . | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
 
 ## Landing Page Progress
-Describe what was created or improved.
+
+The Budget Tracker landing page was improved to introduce the project, explain its purpose and key features, and encourage users to try the prototype. Navigation links were added to connect the homepage with the Add Expense, Records, Dashboard, and Admin pages. The page was also updated with a clearer layout and call-to-action buttons.
 
 ## Go-to-Market Progress
-Describe target users, channels, and messages.
+
+The target users are university students and young professionals who want to manage their daily expenses. The team plans to introduce the prototype through GitHub, QR codes, class communication channels, and social media. The main message is that the Budget Tracker helps users record expenses, monitor spending, and develop better budgeting habits.
 
 ## Metrics Plan
-Describe what will be measured and how.
+
+The team will measure:
+- Landing page views
+- CTA (Try Demo) button clicks
+- Demo attempts
+- Feedback responses
+- Number of testers
+- User engagement with the Budget Tracker prototype
+
+These metrics will be recorded using the acquisition metrics template and startup metrics documentation.
 
 ## Problems Encountered
 
+- Navigation between prototype pages required additional testing.
+- Some landing page content and call-to-action buttons needed improvement.
+- More realistic sample data was required for prototype testing.
+- Minor UI adjustments were made to improve responsiveness.
+
 ## Next Action Before Lab 13
+
+- Finalize the landing page design and content.
+- Complete testing of all navigation links.
+- Improve the dashboard and analytics features.
+- Collect additional user feedback.
+- Update documentation and GitHub repository with the latest changes.
+- Prepare the final prototype for presentation.
