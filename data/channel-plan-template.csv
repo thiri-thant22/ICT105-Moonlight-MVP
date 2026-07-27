@@ -1,4 +1,4 @@
 channel,target_user,message_angle,cta,metric,responsible_note
-Class chat,Students,Solve common campus lost-item problem,Try Demo,CTA clicks,Avoid collecting unnecessary personal data
-Campus QR poster,Students on campus,Quick report and search access,Scan QR,QR scans/page views,Use general location only
-Email,Potential testers,Request feedback for class prototype,Give Feedback,Feedback responses,Explain data use clearly
+Class presentation,University students,Manage your daily expenses and stay within your budget,Try Demo,CTA clicks,Do not collect sensitive financial information
+Campus QR poster,Students on campus,Quickly record and track your daily expenses,Scan QR,QR scans/page views,Use sample data only during testing
+Email,Potential testers,Request feedback on the Budget Tracker prototype,Give Feedback,Feedback responses,Explain clearly how user feedback will be used
