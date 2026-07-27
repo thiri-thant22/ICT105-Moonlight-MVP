@@ -4,7 +4,7 @@
 [`prototype/index.html`]
 
 ## Prototype Demo URL
-[Paste your input-form.html / demo link here]
+[`prototype/input-form.html`]
 
 ## CTA Used
 Try Demo
