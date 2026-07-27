@@ -95,7 +95,7 @@ Use the provided sample dataset:
 After studying this practice case, each group must create equivalent validation files using its own selected project case (Budget Tracker), conduct user testing, analyze the results, and improve the prototype based on the feedback.
 
 
-# Case Study Brief: Budget Tracker
+# Lab 9 Case Study Brief: Budget Tracker
 
 ## Problem Context
 Many university students and young professionals find it difficult to manage their daily expenses and monthly budgets. They often forget to record their spending, making it hard to track expenses and control their finances. Current alternatives include writing expenses in notebooks, using spreadsheets, or relying on memory, which can be time-consuming and inaccurate.
@@ -143,5 +143,22 @@ In Lab 11, the practice goal is to improve the working Budget Tracker prototype 
 - Update, edit, or delete expense records from an admin/manager view.
 - Display dashboard metrics such as total expenses, total transactions, spending by category, and recent expense trends.
 
-## Reminder
-This practice case is only for learning. Your graded work must apply the same implementation and validation process to your own group case.
+
+# Lab 12 Case Study Brief: Budget Tracker
+
+## Case context
+Many university students and young professionals find it difficult to manage their daily expenses and monthly budgets. They often forget to record their spending, making it hard to track where their money goes and stay within their budget. Current alternatives include writing expenses in notebooks, using spreadsheets, or relying on memory, which can be inconvenient, time-consuming, and inaccurate.
+
+## Proposed prototype
+A web-based Budget Tracker that allows users to:
+- add and record daily expenses;
+- view expense records;
+- search and filter expenses by category or date;
+- view detailed expense information;
+- edit or delete expense records;
+- view dashboard summaries and spending analytics;
+- manage expense records through an admin panel.
+
+## Lab 12 practice focus
+For the practice case, create a landing page that introduces the Budget Tracker, explains its main features and benefits, targets students and young professionals, and invites users to try the demo or test the prototype.
+
