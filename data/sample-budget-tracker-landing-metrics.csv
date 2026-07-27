@@ -1,0 +1,9 @@
+metric_id,metric_name,description,sample_value,how_to_collect
+M-01,Homepage Views,Number of users who open the homepage (index.html),65,Page visits or manual observation
+M-02,Expense Records Added,Number of expense records submitted through input-form.html,30,Count submitted transactions
+M-03,Record List Views,Number of users who view the record-list.html page,28,Page visits or manual observation
+M-04,Expense Detail Views,Number of users who open detail-view.html,18,Page visits or click counter
+M-05,Dashboard Views,Number of users who access dashboard.html,22,Page visits or manual observation
+M-06,Search and Filter Usage,Number of searches or filters used in record-list.html,16,JavaScript event counter or manual observation
+M-07,Admin Actions,Number of edit or delete actions performed in admin-view.html,12,Count admin operations
+M-08,Task Success Rate,Percentage of users who successfully complete the main tasks,0.85,Successful tasks ÷ Total tasks
