@@ -359,3 +359,38 @@ The following metrics were implemented:
 - Improve search performance.
 - Final testing with additional sample data.
 - Prepare the final presentation and project demonstration.
+
+
+## Lab 12 – Landing Page and Digital Go-to-Market
+
+### Landing Page
+- Landing page folder/link: [`prototype/index.html`]
+- Main CTA: Try Demo → Input Expense → Save Record → View Result
+- Prototype/demo link: [`prototype/index.html`]
+
+### Go-to-Market Plan
+- Target early users: Students and young professionals.
+- Selected channels: Class Chat, Email, Poster with QR Code, Social Media.
+- Main marketing message: Manage your income and expenses easily with Budget Tracker and take control of your personal finances.
+
+### Acquisition Metrics
+- Metric 1: Landing Page Views
+- Metric 2: Demo Attempts
+- Metric 3: Feedback Responses
+
+### Screenshots
+- Landing page screenshot:https://github.com/thiri-thant22/ICT105-Moonlight-MVP/blob/main/screeenshots/landing-page.png
+- CTA screenshot: https://github.com/thiri-thant22/ICT105-Moonlight-MVP/blob/main/screeenshots/call-to-action.png
+
+### Requirement Alignment
+The landing page reflects the main features of the Budget Tracker Website, including Add Expense (FR-03), Search & Filter (FR-06), Record Management (FR-08), and Dashboard Summary (FR-12). The call-to-action encourages users to try the prototype and provide feedback to improve the final version.
+
+### Member Contributions
+
+### Member Contributions
+
+| Member | Contribution | Commit/Issue Evidence |
+|--------|--------------|-----------------------|
+| Thiri Thant | Cated and updated landing page, CTA screenshots, prototype link, index page, landing page link, acquisition metrics table | Create landing-page-link.md, Update landing-page-link.md, Update index.html, landing-page.png, call-to-action.png, prototype-link-or-demo-screen.png, acquisition-metrics-table.png |
+| Thiri Sandar | Updated weekly logbook, case study brief, channel plan template, acquisition metrics template, and created channel plan & acquisition metrics templates | Update weekly-logbook.md, Update case-study-brief.md, Update channel-plan-template.csv, Update acquisition-metrics-template.csv, Create channel-plan-template.csv, Create acquisition-metrics-template.csv |
+| Nang Woo Non | Created go-to-market documents including marketing message, landing page content, acquisition metrics, and go-to-market plan, updated the README | Create marketing-message.md, Create landing-page-content.md, Create go-to-market-plan.md, Create acquisition-metrics.md |
