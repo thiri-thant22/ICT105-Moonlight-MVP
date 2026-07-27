@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Dashboard | Budget Tracker</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -55,8 +58,8 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:18px 7%;
-background:rgba(255,255,255,.88);
-backdrop-filter:blur(16px);
+background:rgba(255,255,255,.9);
+backdrop-filter:blur(18px);
 box-shadow:0 8px 20px rgba(0,0,0,.06);
 z-index:999;
 }
@@ -80,8 +83,8 @@ nav a{
 text-decoration:none;
 color:#374151;
 font-weight:500;
-position:relative;
 transition:.3s;
+position:relative;
 }
 
 nav a::after{
@@ -92,8 +95,8 @@ bottom:-6px;
 width:0;
 height:3px;
 background:#2563eb;
-border-radius:20px;
 transition:.3s;
+border-radius:20px;
 }
 
 nav a:hover{
@@ -110,13 +113,12 @@ max-width:1400px;
 margin:40px auto;
 }
 
-.hero{
-display:flex;
-justify-content:space-between;
-align-items:center;
+.top{
+display:grid;
+grid-template-columns:1fr 360px;
 gap:30px;
-margin-bottom:40px;
-flex-wrap:wrap;
+margin-bottom:35px;
+align-items:center;
 }
 
 .title h1{
@@ -125,31 +127,31 @@ margin-bottom:10px;
 }
 
 .title p{
-color:#6b7280;
 font-size:18px;
+color:#6b7280;
+line-height:1.8;
 }
 
-.status{
+.balanceCard{
 background:linear-gradient(135deg,#2563eb,#4f8cff);
-padding:25px 35px;
-border-radius:22px;
+padding:30px;
+border-radius:24px;
 color:white;
-min-width:260px;
-box-shadow:0 20px 40px rgba(37,99,235,.30);
+box-shadow:0 20px 40px rgba(37,99,235,.3);
 }
 
-.status h3{
+.balanceCard h3{
 font-weight:400;
 margin-bottom:10px;
 }
 
-.status h1{
+.balanceCard h1{
 font-size:42px;
 }
 
 .cards{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
 gap:25px;
 margin-bottom:35px;
 }
@@ -159,20 +161,7 @@ background:white;
 padding:28px;
 border-radius:24px;
 box-shadow:0 15px 30px rgba(0,0,0,.08);
-transition:.35s;
-position:relative;
-overflow:hidden;
-}
-
-.card::before{
-content:"";
-position:absolute;
-width:90px;
-height:90px;
-background:#2563eb11;
-border-radius:50%;
-top:-35px;
-right:-35px;
+transition:.3s;
 }
 
 .card:hover{
@@ -180,9 +169,9 @@ transform:translateY(-8px);
 }
 
 .card h3{
-font-size:16px;
 color:#6b7280;
-margin-bottom:16px;
+margin-bottom:15px;
+font-size:16px;
 }
 
 .card h1{
@@ -216,7 +205,6 @@ th{
 background:#2563eb;
 color:white;
 padding:15px;
-font-weight:600;
 }
 
 td{
@@ -225,23 +213,33 @@ border-bottom:1px solid #edf2f7;
 text-align:center;
 }
 
-.progress-card{
+.side{
 display:flex;
 flex-direction:column;
-gap:22px;
+gap:20px;
 }
 
-.progress-box{
-background:#f8fbff;
-padding:18px;
-border-radius:18px;
+.box{
+background:white;
+padding:24px;
+border-radius:24px;
+box-shadow:0 15px 30px rgba(0,0,0,.08);
 }
 
-.progress-title{
+.box h2{
+margin-bottom:20px;
+}
+
+.item{
 display:flex;
 justify-content:space-between;
-margin-bottom:10px;
-font-weight:600;
+align-items:center;
+padding:14px 0;
+border-bottom:1px solid #edf2f7;
+}
+
+.item:last-child{
+border:none;
 }
 
 .progress{
@@ -249,6 +247,7 @@ height:12px;
 background:#dbeafe;
 border-radius:30px;
 overflow:hidden;
+margin-top:15px;
 }
 
 .progress div{
@@ -259,28 +258,20 @@ border-radius:30px;
 transition:1s;
 }
 
-.category-list{
-margin-top:10px;
-}
-
-.item{
+.progressInfo{
 display:flex;
 justify-content:space-between;
-padding:14px 0;
-border-bottom:1px solid #edf2f7;
-}
-
-.item:last-child{
-border:none;
+margin-top:12px;
+font-weight:600;
 }
 
 footer{
 margin-top:50px;
-background:white;
 padding:25px;
+background:white;
 text-align:center;
-box-shadow:0 -5px 15px rgba(0,0,0,.05);
 color:#6b7280;
+box-shadow:0 -5px 15px rgba(0,0,0,.05);
 }
 
 @media(max-width:950px){
@@ -289,13 +280,12 @@ nav{
 display:none;
 }
 
-.grid{
+.top{
 grid-template-columns:1fr;
 }
 
-.hero{
-flex-direction:column;
-align-items:flex-start;
+.grid{
+grid-template-columns:1fr;
 }
 
 }
@@ -304,10 +294,6 @@ align-items:flex-start;
 
 .title h1{
 font-size:36px;
-}
-
-.status{
-width:100%;
 }
 
 }
@@ -326,7 +312,7 @@ width:100%;
 
 <nav>
 
-<a href="index.html">Home</a>
+<a href="index2.html">Home</a>
 <a href="input-form.html">Add Expense</a>
 <a href="record-list.html">Records</a>
 <a href="dashboard.html">Dashboard</a>
@@ -338,21 +324,24 @@ width:100%;
 
 <div class="container">
 
-<div class="hero">
+<div class="top">
 
 <div class="title">
 
 <h1>Financial Dashboard</h1>
 
-<p>Monitor your spending and budget performance in real time.</p>
+<p>
+View your budget, expenses and spending summary
+in one place.
+</p>
 
 </div>
 
-<div class="status">
+<div class="balanceCard">
 
-<h3>Total Balance</h3>
+<h3>Current Balance</h3>
 
-<h1 id="balanceAmount">$0.00</h1>
+<h1 id="balanceAmount">฿0.00</h1>
 
 </div>
 
@@ -362,9 +351,17 @@ width:100%;
 
 <div class="card">
 
+<h3>Total Budget</h3>
+
+<h1 id="budgetAmount">฿5,480</h1>
+
+</div>
+
+<div class="card">
+
 <h3>Total Expenses</h3>
 
-<h1 id="totalExpense">$0.00</h1>
+<h1 id="totalExpense">฿2,520</h1>
 
 </div>
 
@@ -372,23 +369,15 @@ width:100%;
 
 <h3>Total Transactions</h3>
 
-<h1 id="totalTransaction">0</h1>
+<h1 id="totalTransaction">126</h1>
 
 </div>
 
 <div class="card">
 
-<h3>Food Expenses</h3>
+<h3>Total Categories</h3>
 
-<h1 id="foodExpense">$0.00</h1>
-
-</div>
-
-<div class="card">
-
-<h3>Shopping Expenses</h3>
-
-<h1 id="shoppingExpense">$0.00</h1>
+<h1 id="categoryCount">0</h1>
 
 </div>
 
@@ -422,19 +411,11 @@ width:100%;
 
 </div>
 
-<div class="panel progress-card">
+<div class="side">
 
-<h2>Budget Overview</h2>
+<div class="box">
 
-<div class="progress-box">
-
-<div class="progress-title">
-
-<span>Budget Used</span>
-
-<span id="progressText">0%</span>
-
-</div>
+<h2>Budget Usage</h2>
 
 <div class="progress">
 
@@ -442,9 +423,19 @@ width:100%;
 
 </div>
 
+<div class="progressInfo">
+
+<span>Used</span>
+
+<span id="progressText">72%</span>
+
 </div>
 
-<div class="category-list">
+</div>
+
+<div class="box">
+
+<h2>Statistics</h2>
 
 <div class="item">
 
@@ -458,23 +449,23 @@ width:100%;
 
 <span>Average Expense</span>
 
-<strong id="averageExpense">$0.00</strong>
+<strong id="averageExpense">฿0.00</strong>
 
 </div>
 
 <div class="item">
 
-<span>Total Categories</span>
+<span>Food Expense</span>
 
-<strong id="categoryCount">0</strong>
+<strong id="foodExpense">฿0.00</strong>
 
 </div>
 
 <div class="item">
 
-<span>Latest Status</span>
+<span>Shopping Expense</span>
 
-<strong style="color:#16a34a;">Updated</strong>
+<strong id="shoppingExpense">฿0.00</strong>
 
 </div>
 
@@ -494,45 +485,86 @@ width:100%;
 
 <script>
 
-const expenses=JSON.parse(localStorage.getItem("expenses"))||[];
+const expenses = JSON.parse(localStorage.getItem("expenses")) || [];
 
-let totalExpense=0;
-let foodExpense=0;
-let shoppingExpense=0;
+const budget = 8000;
 
-const categoryTotals={};
+let totalExpense = 2,520;
+let foodExpense = 0;
+let shoppingExpense = 0;
+
+const categoryTotals = {};
 
 expenses.forEach(expense=>{
 
-const amount=Number(expense.amount)||0;
+const amount = Number(expense.amount) || 0;
 
-totalExpense+=amount;
+totalExpense += amount;
 
 if(expense.category==="Food"){
-foodExpense+=amount;
+foodExpense += amount;
 }
 
 if(expense.category==="Shopping"){
-shoppingExpense+=amount;
+shoppingExpense += amount;
 }
 
-categoryTotals[expense.category]=(categoryTotals[expense.category]||0)+amount;
+categoryTotals[expense.category] =
+(categoryTotals[expense.category] || 0) + amount;
 
 });
 
-document.getElementById("totalExpense").textContent="$"+totalExpense.toFixed(2);
-document.getElementById("totalTransaction").textContent=expenses.length;
-document.getElementById("foodExpense").textContent="$"+foodExpense.toFixed(2);
-document.getElementById("shoppingExpense").textContent="$"+shoppingExpense.toFixed(2);
+const balance = budget - totalExpense;
 
-const balance=5000-totalExpense;
-document.getElementById("balanceAmount").textContent="$"+balance.toFixed(2);
+document.getElementById("budgetAmount").textContent =
+"฿" + budget.toFixed(2);
 
-const table=document.getElementById("summaryTable");
+document.getElementById("balanceAmount").textContent =
+"฿" + balance.toFixed(2);
+
+document.getElementById("totalExpense").textContent =
+"฿" + totalExpense.toFixed(2);
+
+document.getElementById("totalTransaction").textContent =
+expenses.length;
+
+document.getElementById("foodExpense").textContent =
+"฿" + foodExpense.toFixed(2);
+
+document.getElementById("shoppingExpense").textContent =
+"฿" + shoppingExpense.toFixed(2);
+
+document.getElementById("categoryCount").textContent =
+Object.keys(categoryTotals).length;
+
+const average =
+expenses.length ? totalExpense / expenses.length : 0;
+
+document.getElementById("averageExpense").textContent =
+"฿" + average.toFixed(2);
+
+let highestCategory = "-";
+let highestAmount = 0;
+
+for(const category in categoryTotals){
+
+if(categoryTotals[category] > highestAmount){
+
+highestAmount = categoryTotals[category];
+highestCategory = category;
+
+}
+
+}
+
+document.getElementById("highestCategory").textContent =
+highestCategory;
+
+const table = document.getElementById("summaryTable");
 
 if(expenses.length===0){
 
-table.innerHTML=`
+table.innerHTML = `
 <tr>
 <td colspan="2">No expense records found.</td>
 </tr>
@@ -542,10 +574,10 @@ table.innerHTML=`
 
 for(const category in categoryTotals){
 
-table.innerHTML+=`
+table.innerHTML += `
 <tr>
 <td>${category}</td>
-<td>$${categoryTotals[category].toFixed(2)}</td>
+<td>£${categoryTotals[category].toFixed(2)}</td>
 </tr>
 `;
 
@@ -553,35 +585,17 @@ table.innerHTML+=`
 
 }
 
-let highest="-";
-let highestValue=0;
+let percent = (totalExpense / budget) * 100;
 
-for(const category in categoryTotals){
-
-if(categoryTotals[category]>highestValue){
-
-highestValue=categoryTotals[category];
-highest=category;
-
+if(percent > 100){
+percent = 100;
 }
 
-}
+document.getElementById("progressBar").style.width =
+percent + "%";
 
-document.getElementById("highestCategory").textContent=highest;
-
-document.getElementById("averageExpense").textContent="$"+(expenses.length?totalExpense/expenses.length:0).toFixed(2);
-
-document.getElementById("categoryCount").textContent=Object.keys(categoryTotals).length;
-
-const budget=5000;
-let percent=(totalExpense/budget)*100;
-
-if(percent>100){
-percent=100;
-}
-
-document.getElementById("progressBar").style.width=percent+"%";
-document.getElementById("progressText").textContent=percent.toFixed(0)+"%";
+document.getElementById("progressText").textContent =
+percent.toFixed(0) + "%";
 
 </script>
 
