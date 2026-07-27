@@ -1,10 +1,9 @@
 # Landing Page Link
 
 ## Landing Page URL
-[https://github.com/thiri-thant22/ICT105-Moonlight-MVP/blob/main/prototype/index.html]
+[`project/index.html`](project/index.html)
 
 ## Prototype Demo URL
-[https://github.com/thiri-thant22/ICT105-Moonlight-MVP/blob/main/prototype/input-form.html]
 
 ## CTA Used
 Try Demo
