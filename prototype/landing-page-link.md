@@ -1,7 +1,7 @@
 # Landing Page Link
 
 ## Landing Page URL
-[Paste your index.html / GitHub Pages link here]
+[`prototype/index.html`]
 
 ## Prototype Demo URL
 [Paste your input-form.html / demo link here]
