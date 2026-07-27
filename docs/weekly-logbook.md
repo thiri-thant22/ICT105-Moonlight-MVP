@@ -527,3 +527,33 @@ MVP Implementation Sprint 2 and Startup Metrics
 - Verify all functional requirements are fully implemented.
 - Perform another round of usability testing.
 - Update documentation, screenshots, and GitHub repository before the final submission.
+
+
+# Weekly Logbook - Lab 12
+
+## Group Name
+
+## Project Title
+
+## Lab Date
+
+## Work Completed Today
+
+| Member Name | Contribution | File/Commit Evidence |
+| --- | --- | --- |
+| Member 1 | | |
+| Member 2 | | |
+| Member 3 | | |
+
+## Landing Page Progress
+Describe what was created or improved.
+
+## Go-to-Market Progress
+Describe target users, channels, and messages.
+
+## Metrics Plan
+Describe what will be measured and how.
+
+## Problems Encountered
+
+## Next Action Before Lab 13
