@@ -76,15 +76,20 @@ color:#111827;
 
 nav{
 display:flex;
-gap:28px;
+align-items:center;
+gap:26px;
 }
 
 nav a{
 text-decoration:none;
-color:#374151;
 font-weight:500;
+color:#334155;
 transition:.3s;
 position:relative;
+}
+
+nav a:hover{
+color:#2563eb;
 }
 
 nav a::after{
@@ -95,16 +100,29 @@ bottom:-6px;
 width:0;
 height:3px;
 background:#2563eb;
+border-radius:30px;
 transition:.3s;
-border-radius:20px;
-}
-
-nav a:hover{
-color:#2563eb;
 }
 
 nav a:hover::after{
 width:100%;
+}
+
+.demo-btn{
+padding:12px 26px;
+border:none;
+border-radius:30px;
+background:linear-gradient(135deg,#2563eb,#06b6d4);
+color:white;
+font-weight:600;
+cursor:pointer;
+transition:.35s;
+box-shadow:0 10px 25px rgba(37,99,235,.25);
+}
+
+.demo-btn:hover{
+transform:translateY(-3px);
+box-shadow:0 15px 35px rgba(37,99,235,.40);
 }
 
 .container{
@@ -317,6 +335,11 @@ font-size:36px;
 <a href="record-list.html">Records</a>
 <a href="dashboard.html">Dashboard</a>
 <a href="admin-view.html">Admin</a>
+<a href="input-form.html">
+<button class="demo-btn">
+Try Demo
+</button>
+</a>
 
 </nav>
 
@@ -341,7 +364,7 @@ in one place.
 
 <h3>Current Balance</h3>
 
-<h1 id="balanceAmount">฿5,480</h1>
+<h1 id="balanceAmount">£0.00</h1>
 
 </div>
 
@@ -353,7 +376,7 @@ in one place.
 
 <h3>Total Budget</h3>
 
-<h1 id="budgetAmount">฿8,000</h1>
+<h1 id="budgetAmount">฿5,480</h1>
 
 </div>
 
