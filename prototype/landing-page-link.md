@@ -4,6 +4,7 @@
 [https://thiri-thant22.github.io/ICT105-Moonlight-MVP/prototype/index.html]
 
 ## Prototype Demo URL
+[https://thiri-thant22.github.io/ICT105-Moonlight-MVP/prototype/input-form.html]
 
 ## CTA Used
 Try Demo
