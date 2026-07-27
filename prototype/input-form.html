@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Add Expense | Budget Tracker</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -17,59 +20,89 @@ font-family:'Poppins',sans-serif;
 }
 
 body{
-background:#f5f8ff;
-color:#333;
+background:linear-gradient(135deg,#eef6ff,#ffffff);
+min-height:100vh;
+color:#1e293b;
 }
 
 header{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:18px 8%;
-background:#fff;
-box-shadow:0 2px 10px rgba(0,0,0,.08);
-position:sticky;
-top:0;
+padding:20px 7%;
+background:white;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
 }
 
 .logo{
-font-size:30px;
-font-weight:700;
+font-size:28px;
+font-weight:800;
 color:#2563eb;
 }
 
 .logo span{
-color:#111;
+color:#111827;
+}
+
+nav{
+display:flex;
+align-items:center;
+gap:26px;
 }
 
 nav a{
 text-decoration:none;
-margin:0 15px;
-color:#444;
 font-weight:500;
+color:#334155;
+transition:.3s;
+position:relative;
 }
 
 nav a:hover{
 color:#2563eb;
 }
 
-.btn{
-padding:10px 22px;
+nav a::after{
+content:"";
+position:absolute;
+left:0;
+bottom:-6px;
+width:0;
+height:3px;
 background:#2563eb;
-color:#fff;
+border-radius:30px;
+transition:.3s;
+}
+
+nav a:hover::after{
+width:100%;
+}
+
+.demo-btn{
+padding:12px 26px;
 border:none;
-border-radius:8px;
+border-radius:30px;
+background:linear-gradient(135deg,#2563eb,#06b6d4);
+color:white;
+font-weight:600;
 cursor:pointer;
+transition:.35s;
+box-shadow:0 10px 25px rgba(37,99,235,.25);
+}
+
+.demo-btn:hover{
+transform:translateY(-3px);
+box-shadow:0 15px 35px rgba(37,99,235,.40);
 }
 
 .container{
 width:90%;
 max-width:700px;
-margin:50px auto;
-background:#fff;
-padding:35px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
+margin:60px auto;
+background:white;
+padding:40px;
+border-radius:25px;
+box-shadow:0 20px 45px rgba(0,0,0,.1);
 }
 
 .container h1{
@@ -80,103 +113,77 @@ color:#2563eb;
 
 .container p{
 text-align:center;
-color:#666;
-margin-bottom:30px;
+color:#64748b;
+margin-bottom:35px;
 }
 
-.input-group{
+
+.form-group{
 margin-bottom:20px;
 }
 
-.input-group label{
+label{
 display:block;
-margin-bottom:8px;
 font-weight:600;
+margin-bottom:8px;
 }
 
-.input-group input,
-.input-group select,
-.input-group textarea{
+input,select,textarea{
+
 width:100%;
-padding:12px;
-border:1px solid #ccc;
-border-radius:8px;
+padding:14px;
+border:1px solid #dbeafe;
+border-radius:12px;
+outline:none;
 font-size:15px;
+
 }
+
+input:focus,
+select:focus,
+textarea:focus{
+
+border-color:#2563eb;
+
+}
+
 
 textarea{
 height:120px;
 resize:none;
 }
 
-.buttons{
-display:flex;
-gap:15px;
-margin-top:25px;
-}
 
-.save{
-flex:1;
-padding:14px;
-background:#2563eb;
+button{
+
+width:100%;
+padding:16px;
+border:none;
+border-radius:15px;
+background:linear-gradient(135deg,#2563eb,#06b6d4);
 color:white;
-border:none;
-border-radius:8px;
-cursor:pointer;
 font-size:16px;
-}
-
-.reset{
-flex:1;
-padding:14px;
-background:#e5e7eb;
-border:none;
-border-radius:8px;
-cursor:pointer;
-font-size:16px;
-}
-
-.message{
-margin-top:20px;
-padding:12px;
-border-radius:8px;
-display:none;
 font-weight:600;
+cursor:pointer;
+transition:.3s;
+
 }
 
-.success{
-background:#dcfce7;
-color:#166534;
+
+button:hover{
+
+transform:translateY(-3px);
+
 }
 
-.error{
-background:#fee2e2;
-color:#991b1b;
-}
 
-footer{
-margin-top:50px;
-background:#fff;
+.back{
+
+display:block;
 text-align:center;
-padding:20px;
-}
-
-@media(max-width:768px){
-
-header{
-flex-direction:column;
-gap:15px;
-}
-
-nav{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-}
-
-.buttons{
-flex-direction:column;
-}
+margin-top:20px;
+text-decoration:none;
+color:#2563eb;
 
 }
 
@@ -184,7 +191,9 @@ flex-direction:column;
 
 </head>
 
+
 <body>
+
 
 <header>
 
@@ -193,184 +202,184 @@ flex-direction:column;
 </div>
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="input-form.html">Add Expense</a>
-    <a href="record-list.html">Records</a>
-    <a href="dashboard.html">Dashboard</a>
-    <a href="admin-view.html">Admin</a>
-</nav>
 
-<button class="btn">
-My Budget
+<a href="index.html">Home</a>
+
+<a href="input-form.html">Add Expense</a>
+
+<a href="record-list.html">Records</a>
+
+<a href="dashboard.html">Dashboard</a>
+
+<a href="admin-view.html">Admin</a>
+
+<a href="input-form.html">
+<button class="demo-btn">
+Try Demo
 </button>
+</a>
+
+</nav>
 
 </header>
 
+
+
 <div class="container">
+
 
 <h1>Add New Expense</h1>
 
-<p>Record your daily expenses and keep track of your spending.</p>
+<p>
+Record your daily spending and manage your budget easily.
+</p>
+
+
 
 <form id="expenseForm">
 
-<div class="input-group">
-<label>Expense Title</label>
-<input
-type="text"
-id="title"
-placeholder="Example: Lunch"
-required>
+
+<div class="form-group">
+
+<label>Amount</label>
+
+<input type="number" id="amount" placeholder="Enter amount" required>
+
 </div>
 
-<div class="input-group">
+
+
+<div class="form-group">
+
 <label>Category</label>
+
 <select id="category" required>
+
 <option value="">Select Category</option>
+
 <option>Food</option>
-<option>Transport</option>
-<option>Shopping</option>
+
+<option>Transportation</option>
+
 <option>Education</option>
+
+<option>Shopping</option>
+
 <option>Entertainment</option>
-<option>Health</option>
-<option>Others</option>
+
+<option>Utilities</option>
+
+<option>Other</option>
+
 </select>
+
 </div>
 
-<div class="input-group">
-<label>Amount ($)</label>
-<input
-type="number"
-id="amount"
-placeholder="Enter Amount"
-required>
-</div>
 
-<div class="input-group">
+
+<div class="form-group">
+
 <label>Date</label>
-<input
-type="date"
-id="date"
-required>
+
+<input type="date" id="date" required>
+
 </div>
 
-<div class="input-group">
+
+
+<div class="form-group">
+
 <label>Payment Method</label>
-<select id="payment" required>
-<option value="">Select Payment</option>
+
+<select id="payment">
+
 <option>Cash</option>
-<option>Credit Card</option>
-<option>Debit Card</option>
-<option>Mobile Banking</option>
-<option>E-Wallet</option>
+
+<option>Bank Transfer</option>
+
+<option>E-wallet</option>
+
+<option>Card</option>
+
 </select>
+
 </div>
 
-<div class="input-group">
+
+
+<div class="form-group">
+
 <label>Description</label>
-<textarea
-id="description"
-placeholder="Write something..."
-required></textarea>
-</div>
 
-<div class="buttons">
-
-<button
-type="submit"
-class="save">
-Save Expense
-</button>
-
-<button
-type="reset"
-class="reset">
-Clear
-</button>
+<textarea id="description" placeholder="Enter expense details"></textarea>
 
 </div>
 
-<div id="message" class="message"></div>
+
+
+<button type="submit">
+
+Add Expense
+
+</button>
+
 
 </form>
 
+
+<a href="index.html" class="back">
+
+← Back to Home
+
+</a>
+
+
 </div>
 
-<footer>
 
-© 2026 Budget Tracker | ICT105 Project
-
-</footer>
 
 <script>
 
-const form = document.getElementById("expenseForm");
-const message = document.getElementById("message");
+document.getElementById("expenseForm").addEventListener("submit",function(e){
 
-let expenses = JSON.parse(localStorage.getItem("expenses")) || [];
+e.preventDefault();
 
-form.addEventListener("submit", function(e){
 
-    e.preventDefault();
+let expense={
 
-    const title = document.getElementById("title").value.trim();
-    const category = document.getElementById("category").value;
-    const amount = document.getElementById("amount").value;
-    const date = document.getElementById("date").value;
-    const payment = document.getElementById("payment").value;
-    const description = document.getElementById("description").value.trim();
+amount:document.getElementById("amount").value,
 
-    if(
-        title === "" ||
-        category === "" ||
-        amount === "" ||
-        date === "" ||
-        payment === "" ||
-        description === ""
-    ){
+category:document.getElementById("category").value,
 
-        message.style.display = "block";
-        message.className = "message error";
-        message.innerHTML = "Please complete all required fields.";
+date:document.getElementById("date").value,
 
-        return;
-    }
+payment:document.getElementById("payment").value,
 
-    const expense = {
+description:document.getElementById("description").value
 
-        id: Date.now(),
+};
 
-        title: title,
 
-        category: category,
+let expenses=JSON.parse(localStorage.getItem("expenses")) || [];
 
-        amount: amount,
 
-        date: date,
+expenses.push(expense);
 
-        payment: payment,
 
-        description: description,
+localStorage.setItem("expenses",JSON.stringify(expenses));
 
-        status: "Completed"
 
-    };
+alert("Expense added successfully!");
 
-    expenses.push(expense);
 
-    localStorage.setItem("expenses", JSON.stringify(expenses));
+window.location.href="record-list.html";
 
-    message.style.display = "block";
-    message.className = "message success";
-    message.innerHTML = "Expense added successfully!";
-
-    form.reset();
-    setTimeout(() => {
-    window.location.href = "record-list.html";
-}, 1000);
 
 });
 
 </script>
+
+
 </body>
+
 </html>
