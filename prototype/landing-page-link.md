@@ -1,7 +1,7 @@
 # Landing Page Link
 
 ## Landing Page URL
-[`project/index.html`](project/index.html)
+[https://thiri-thant22.github.io/ICT105-Moonlight-MVP/prototype/index.html]
 
 ## Prototype Demo URL
 
