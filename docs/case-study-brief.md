@@ -162,3 +162,14 @@ A web-based Budget Tracker that allows users to:
 ## Lab 12 practice focus
 For the practice case, create a landing page that introduces the Budget Tracker, explains its main features and benefits, targets students and young professionals, and invites users to try the demo or test the prototype.
 
+# Lab 13 Case Study Brief: Budget Tracker
+
+## Context
+Many university students and young professionals find it difficult to manage their daily expenses and monthly budgets. They often forget to record their spending, making it difficult to track where their money goes and stay within their budget. Current alternatives include writing expenses in notebooks, using spreadsheets, or relying on memory, which can be inconvenient and inaccurate.
+
+## Prototype Summary
+The proposed Budget Tracker prototype allows users to add and manage expense records, search and filter transactions, view expense details, monitor spending through a dashboard, and allows an admin to edit, update, or delete expense records.
+
+## Lab 13 Practice Goal
+Use this case only to practice sales scenario writing, demo script preparation, user testing planning, testing result analysis, and creating a final improvement list for the Budget Tracker prototype.
+
