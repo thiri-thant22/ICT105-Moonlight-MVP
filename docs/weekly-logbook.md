@@ -583,3 +583,69 @@ These metrics will be recorded using the acquisition metrics template and startu
 - Collect additional user feedback.
 - Update documentation and GitHub repository with the latest changes.
 - Prepare the final prototype for presentation.
+
+# Weekly Logbook - Lab 13
+
+## Group Name
+Moon Light
+
+## Project Title
+Budget Tracker
+
+## Date
+[7/28/2026]
+
+## Members and Contributions
+
+| Member | Contribution This Lab | GitHub Evidence |
+| --- | --- | --- |
+| Thiri Sandar | Updated `case-study-brief.md`, `weekly-logbook.md`, `README_screenshots.md`, created `user-testing-results.md`, `final-improvement-list.csv`,  | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Nang Woo Non | Created `final-improvement-list-template.md`, `sales-scenario-template.md`, `user-testing-plan-template.md`, `user-testing-results-template.md`, `demo-outline-template.md`, `README.md`. | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Thiri Thant | Created `demo-flow.mmd`, `user-testing-flow`, `final-demo-link.md`, `demo-script.md`, `demo-flow.png`. | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+
+## Work Completed
+
+- **Sales scenario:** Prepared a sales scenario explaining how the Budget Tracker helps students and young professionals manage their daily expenses.
+- **Demo script:** Created a demonstration script covering the homepage, adding expenses, viewing records, dashboard, and admin features.
+- **User testing plan:** Prepared testing tasks, selected test users, and defined evaluation criteria.
+- **User testing results:** Collected and reviewed user feedback to identify usability improvements.
+- **Final improvement list:** Documented UI, functionality, and usability improvements based on testing results.
+- **Screenshots:** Captured updated screenshots of the Homepage, Add Expense, Records, Detail View, Dashboard, and Admin pages.
+
+## Key Decisions
+
+- Continue using Local Storage for the final prototype.
+- Improve navigation between all prototype pages.
+- Enhance the dashboard with clearer charts and summary information.
+- Prioritize usability improvements based on user testing feedback.
+- Complete all remaining Functional Requirements before the final presentation.
+
+## Problems Encountered
+
+- Some users required clearer instructions when adding expense records.
+- Dashboard charts and labels needed better explanations.
+- Minor JavaScript and navigation issues were found during testing.
+- Additional responsive design improvements were required for smaller screens.
+
+## Next Actions Before Lab 14
+
+- Complete all remaining prototype improvements.
+- Fix any outstanding JavaScript and UI issues.
+- Verify that every Functional Requirement (FR) has been implemented.
+- Update documentation, screenshots, and GitHub repository.
+- Perform final testing before the project presentation.
+
+## Requirement Traceability Notes
+
+The following requirements should be checked before Lab 14:
+
+- **FR-01:** Homepage and navigation
+- **FR-03:** Add expense records
+- **FR-05:** View expense records
+- **FR-06:** Search and filter expenses
+- **FR-07:** View expense details
+- **FR-08:** Update expense information
+- **FR-09:** Admin management functions
+- **FR-10:** Input validation
+- **FR-11:** Confirmation messages
+- **FR-12:** Dashboard analytics and summary
