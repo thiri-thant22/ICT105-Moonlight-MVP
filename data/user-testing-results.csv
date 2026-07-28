@@ -1,0 +1,6 @@
+Tester_ID,Tester_Type,Task_ID,Task_Description,Completed,Completion_Time_Min,Confusion_Point,Feedback_Score_1_5,Comment,Related_Requirement
+U01,Student,T01,Understand Budget Tracker homepage,Yes,1.1,None,5,"The homepage clearly explains the purpose of the system.",FR-01
+U01,Student,T02,Add a new expense,Yes,2.4,Expense category selection,4,"The expense form is easy to use, but more categories would be helpful.","FR-03, FR-10"
+U02,Student,T03,Search expenses by category,Yes,1.8,None,5,"Searching expenses by category is quick and simple.","FR-05, FR-06"
+U03,Admin,T04,Edit and update an expense record,Yes,2.0,None,4,"The admin functions are useful and easy to understand.","FR-08, FR-09"
+U04,Student,T05,View dashboard summary,Partial,2.9,Chart interpretation,3,"The dashboard is useful, but some charts need clearer labels.",FR-12
