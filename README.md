@@ -391,6 +391,27 @@ The landing page reflects the main features of the Budget Tracker Website, inclu
 
 | Member | Contribution | Commit/Issue Evidence |
 |--------|--------------|-----------------------|
-| Thiri Thant | Cated and updated landing page, CTA screenshots, prototype link, index page, landing page link, acquisition metrics table | Create landing-page-link.md, Update landing-page-link.md, Update index.html, landing-page.png, call-to-action.png, prototype-link-or-demo-screen.png, acquisition-metrics-table.png |
+| Thiri Thant | Crated and updated landing page, CTA screenshots, prototype link, index page, landing page link, acquisition metrics table | Create landing-page-link.md, Update landing-page-link.md, Update index.html, landing-page.png, call-to-action.png, prototype-link-or-demo-screen.png, acquisition-metrics-table.png |
 | Thiri Sandar | Updated weekly logbook, case study brief, channel plan template, acquisition metrics template, and created channel plan & acquisition metrics templates | Update weekly-logbook.md, Update case-study-brief.md, Update channel-plan-template.csv, Update acquisition-metrics-template.csv, Create channel-plan-template.csv, Create acquisition-metrics-template.csv |
 | Nang Woo Non | Created go-to-market documents including marketing message, landing page content, acquisition metrics, and go-to-market plan, updated the README | Create marketing-message.md, Create landing-page-content.md, Create go-to-market-plan.md, Create acquisition-metrics.md |
+
+## Lab 13: Sales Scenario, Demo Script, and User Testing
+
+### Lab 13 Objective
+We prepared the final sales scenario, demo script, user testing plan, user testing results, and final improvement list before Lab 14. These activities helped validate the Budget Tracker Website and identify improvements before the final presentation.
+
+### Files Completed
+- [x] /docs/sales-scenario.md 
+- [x] /docs/demo-script.md
+- [x] /docs/user-testing-plan.md
+- [x] /docs/user-testing-results.md
+- [x] /docs/final-improvement-list.md
+- [x] /docs/weekly-logbook.md
+- [x] /screenshots/demo-flow.png
+- [x] /screenshots/user-testing-evidence.png
+
+### Prototype / Demo Link
+Prototype / Demo link : https://thiri-thant22.github.io/ICT105-Moonlight-MVP/prototype/input-form.html
+
+### Final Preparation Status
+The Budget Tracker Website is ready for the final presentation. The core features, including transaction management, dashboard summary, search and filter, and user testing, have been completed. Minor interface improvements and usability refinements may continue, but the prototype is functional and meets the main project requirements.
