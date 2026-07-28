@@ -34,4 +34,4 @@ For students and young professionals who struggle to manage daily expenses, our 
 - FR-03 – Add Expense Form
 - FR-06 – Search and Filter
 - FR-08 – Record Management
-- FR-12 – Dashboard Summary
+- FR-12 – Dashboard Summary  
