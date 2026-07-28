@@ -1,9 +1,9 @@
 Issue_ID,Issue_Description,Severity,Related_Requirement,Evidence_Source,Proposed_Fix,Owner,Status
 UI-01,Add Expense form is difficult to use on small screens,Critical,FR-03,Tester TU-04,Improve the responsive layout and resize form elements,,Pending
-UX-02,Users found the dashboard charts difficult to understand,Important,FR-12,Tester TU-07,Add chart labels, legends, and clearer summary cards,,Pending
-DATA-03,Expense records cannot be filtered by date,Important,FR-06,Tester TU-02,Add date filter and improve search functionality,,Pending
-UI-04,Navigation between pages is not intuitive,Important,FR-01,Tester TU-05,Add clearer navigation buttons and highlight the active page,,Pending
-ADMIN-05,Admin page lacks confirmation before deleting records,Medium,FR-09,Tester TU-10,Display a confirmation dialog before deleting an expense record,,Pending
-VALID-06,Expense form allows invalid amount values,Critical,FR-10,Tester TU-08,Add input validation to prevent negative or empty amounts,,Pending
-UX-07,Expense detail page does not show enough information,Medium,FR-07,Tester TU-03,Display additional expense details such as payment method and notes,,Pending
-DATA-08,Dashboard does not refresh automatically after adding a new expense,Important,FR-12,Tester TU-11,Automatically update dashboard metrics when records change,,Pending
+UX-02,Users found the dashboard charts difficult to understand,Important,FR-12,Tester TU-07,"Add chart labels, legends, and clearer summary cards",,Pending
+DATA-03,Expense records cannot be filtered by date,Important,FR-06,Tester TU-02,"Add a date filter and improve search functionality",,Pending
+UI-04,Navigation between pages is not intuitive,Important,FR-01,Tester TU-05,"Add clearer navigation buttons and highlight the active page",,Pending
+ADMIN-05,Admin page lacks confirmation before deleting records,Medium,FR-09,Tester TU-10,"Display a confirmation dialog before deleting an expense record",,Pending
+VALID-06,Expense form allows invalid amount values,Critical,FR-10,Tester TU-08,"Add input validation to prevent negative or empty amounts",,Pending
+UX-07,Expense detail page does not show enough information,Medium,FR-07,Tester TU-03,"Display additional expense details such as payment method and notes",,Pending
+DATA-08,Dashboard does not refresh automatically after adding a new expense,Important,FR-12,Tester TU-11,"Automatically update dashboard metrics when records change",,Pending
