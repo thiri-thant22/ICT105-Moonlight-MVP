@@ -414,4 +414,4 @@ We prepared the final sales scenario, demo script, user testing plan, user testi
 Prototype / Demo link : https://thiri-thant22.github.io/ICT105-Moonlight-MVP/prototype/input-form.html
 
 ### Final Preparation Status
-The Budget Tracker Website is ready for the final presentation. The core features, including transaction management, dashboard summary, search and filter, and user testing, have been completed. Minor interface improvements and usability refinements may continue, but the prototype is functional and meets the main project requirements.
+The Budget Tracker Website is ready for the final presentation. The core features, including transaction management, dashboard summary, search and filter, and user testing, have been completed. Minor interface improvements and usability refinements may continue, but the prototype is functional and meets the main project requirements.     
