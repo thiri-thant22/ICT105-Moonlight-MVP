@@ -40,6 +40,6 @@ Future improvements include adding user authentication, cloud database support, 
 
 | Member | Contribution | Evidence Link/Commit/Issue |
 |--------|--------------|----------------------------|
-| Thiri Thant | Developed the landing page, website interface, homepage, prototype improvements, and screenshots. | index.html, landing-page.png, call-to-action.png |
-| Thiri Sandar | Prepared project documentation, README, weekly logbooks, testing reports, and final documentation. | weekly-logbook.md, user-testing-plan.md, user-testing-results.md |
-| Nang Woo Non | Created startup metrics, activity logs, testing evidence, implementation reports, and validation documents. | startup-metrics.md, prototype-testing-notes.md, feature-implementation-status.md, README.md |
+| Thiri Sandar | Front-end Development | https://github.com/ThiriSandar-hash/ICT105-MoonLight-MVP. |
+| Thiri Thant | UI Design | https://github.com/thiri-thant22/ICT105-Moonlight-MVP |
+| Nang Woo Non | Documentation and Testing | https://github.com/nangwoonon/-ICT105-MoonLight-MVP. |
