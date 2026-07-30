@@ -13,75 +13,46 @@
 
 <style>
 
+
 *{
+
 margin:0;
 padding:0;
 box-sizing:border-box;
 font-family:'Poppins',sans-serif;
-scroll-behavior:smooth;
+
 }
 
 
 body{
 
-background:#eef4ff;
+background:#f4f8ff;
 color:#1f2937;
-overflow-x:hidden;
-
-}
-
-
-body::before{
-
-content:"";
-position:fixed;
-width:450px;
-height:450px;
-background:#3b82f622;
-border-radius:50%;
-top:-180px;
-right:-120px;
-filter:blur(60px);
-z-index:-2;
-
-}
-
-
-body::after{
-
-content:"";
-position:fixed;
-width:380px;
-height:380px;
-background:#06b6d422;
-border-radius:50%;
-bottom:-160px;
-left:-120px;
-filter:blur(70px);
-z-index:-2;
 
 }
 
 
 
-/* HEADER */
+/* ===== HEADER ===== */
 
 
 header{
 
-position:sticky;
-top:0;
 display:flex;
 justify-content:space-between;
 align-items:center;
+
 padding:18px 7%;
 
-background:rgba(255,255,255,.82);
-backdrop-filter:blur(18px);
+background:white;
 
-box-shadow:0 6px 18px rgba(0,0,0,.06);
+box-shadow:
+0 5px 20px rgba(0,0,0,.08);
 
-z-index:999;
+position:sticky;
+top:0;
+
+z-index:100;
 
 }
 
@@ -90,10 +61,13 @@ z-index:999;
 .logo{
 
 font-size:30px;
+
 font-weight:800;
+
 color:#2563eb;
 
 }
+
 
 
 .logo span{
@@ -107,8 +81,10 @@ color:#111827;
 nav{
 
 display:flex;
-align-items:center;
+
 gap:25px;
+
+align-items:center;
 
 }
 
@@ -117,10 +93,13 @@ gap:25px;
 nav a{
 
 text-decoration:none;
+
 color:#374151;
+
 font-weight:500;
 
 position:relative;
+
 transition:.3s;
 
 }
@@ -138,14 +117,19 @@ color:#2563eb;
 nav a::after{
 
 content:"";
+
 position:absolute;
-left:0;
-bottom:-6px;
 
 width:0;
+
 height:3px;
 
 background:#2563eb;
+
+left:0;
+
+bottom:-7px;
+
 border-radius:20px;
 
 transition:.3s;
@@ -162,14 +146,21 @@ width:100%;
 
 
 
+
 .demo-btn{
 
 padding:12px 25px;
 
 border:none;
+
 border-radius:30px;
 
-background:linear-gradient(135deg,#2563eb,#06b6d4);
+background:
+linear-gradient(
+135deg,
+#2563eb,
+#06b6d4
+);
 
 color:white;
 
@@ -182,130 +173,36 @@ transition:.3s;
 }
 
 
+
 .demo-btn:hover{
 
 transform:translateY(-3px);
 
-box-shadow:0 10px 25px rgba(37,99,235,.35);
+box-shadow:
+0 10px 25px rgba(37,99,235,.35);
 
 }
 
 
 
-/* PAGE TITLE */
+
+/* ===== CONTAINER ===== */
 
 
 .container{
 
-width:86%;
-margin:60px auto;
+width:90%;
+
+margin:45px auto;
 
 }
 
 
 
-.page-title{
+
+.title{
 
 text-align:center;
-font-size:45px;
-font-weight:800;
-
-color:#2563eb;
-
-margin-bottom:10px;
-
-}
-
-
-
-.subtitle{
-
-text-align:center;
-color:#6b7280;
-
-margin-bottom:45px;
-
-}
-
-
-
-/* SUMMARY CARDS */
-
-
-.summary{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-
-gap:25px;
-
-margin-bottom:40px;
-
-}
-
-
-
-.card{
-
-background:white;
-
-padding:28px;
-
-border-radius:25px;
-
-box-shadow:0 15px 35px rgba(0,0,0,.08);
-
-transition:.35s;
-
-}
-
-
-
-.card:hover{
-
-transform:translateY(-8px);
-
-}
-
-
-
-.card h2{
-
-font-size:38px;
-
-color:#2563eb;
-
-}
-
-
-
-.card p{
-
-color:#6b7280;
-
-}
-
-
-
-/* SEARCH AREA */
-
-
-.search-box{
-
-background:white;
-
-padding:25px;
-
-border-radius:25px;
-
-box-shadow:0 15px 35px rgba(0,0,0,.07);
-
-display:flex;
-
-gap:15px;
-
-flex-wrap:wrap;
 
 margin-bottom:35px;
 
@@ -313,49 +210,103 @@ margin-bottom:35px;
 
 
 
-input,select{
+.title h1{
+
+font-size:42px;
+
+color:#2563eb;
+
+font-weight:800;
+
+}
+
+
+
+.title p{
+
+color:#64748b;
+
+margin-top:10px;
+
+}
+
+/* ===== FILTER ===== */
+
+
+.filter-area{
+
+display:flex;
+
+gap:20px;
+
+margin-bottom:30px;
+
+flex-wrap:wrap;
+
+}
+
+
+
+.filter-area input,
+.filter-area select{
 
 padding:14px 18px;
 
-border:1px solid #dbeafe;
+border:none;
 
 border-radius:15px;
+
+background:white;
+
+box-shadow:
+0 8px 20px rgba(0,0,0,.08);
 
 font-size:15px;
 
 outline:none;
 
+}
+
+
+
+.filter-area input{
+
 flex:1;
 
-}
-
-
-
-input:focus,
-select:focus{
-
-border-color:#2563eb;
+min-width:250px;
 
 }
 
 
 
-/* TABLE */
+.filter-area select{
+
+min-width:200px;
+
+}
+
+
+
+
+
+/* ===== TABLE ===== */
 
 
 .table-box{
 
 background:white;
 
-border-radius:25px;
-
 padding:25px;
 
-box-shadow:0 15px 35px rgba(0,0,0,.08);
+border-radius:22px;
+
+box-shadow:
+0 10px 30px rgba(0,0,0,.08);
 
 overflow-x:auto;
 
 }
+
 
 
 table{
@@ -364,13 +315,21 @@ width:100%;
 
 border-collapse:collapse;
 
+min-width:950px;
+
 }
 
 
 
 th{
 
-background:linear-gradient(135deg,#2563eb,#06b6d4);
+background:
+
+linear-gradient(
+135deg,
+#2563eb,
+#06b6d4
+);
 
 color:white;
 
@@ -386,7 +345,7 @@ padding:15px;
 
 text-align:center;
 
-border-bottom:1px solid #eef2f7;
+border-bottom:1px solid #eee;
 
 }
 
@@ -400,13 +359,14 @@ background:#f8fbff;
 
 
 
+
+
+/* STATUS */
+
+
 .status{
 
-background:#dcfce7;
-
-color:#16a34a;
-
-padding:6px 15px;
+padding:7px 14px;
 
 border-radius:30px;
 
@@ -414,37 +374,29 @@ font-size:13px;
 
 font-weight:600;
 
-}
-
-
-
-.action-btn{
-
-border:none;
-
-padding:8px 14px;
-
-border-radius:12px;
-
 color:white;
 
-cursor:pointer;
+}
 
-font-weight:600;
+
+
+.completed{
+
+background:#22c55e;
 
 }
 
 
 
-.view{
+.pending{
 
-background:#2563eb;
+background:#f59e0b;
 
 }
 
 
 
-.delete{
+.cancelled{
 
 background:#ef4444;
 
@@ -452,79 +404,114 @@ background:#ef4444;
 
 
 
-/* FOOTER */
 
 
-footer{
+/* BUTTON */
 
-margin-top:80px;
 
-background:white;
+.view-btn{
 
-padding:35px;
+padding:8px 15px;
 
-text-align:center;
+border:none;
 
-color:#6b7280;
+border-radius:10px;
 
-box-shadow:0 -5px 20px rgba(0,0,0,.05);
+background:#2563eb;
+
+color:white;
+
+cursor:pointer;
+
+margin-right:5px;
+
+}
+
+
+
+.delete-btn{
+
+padding:8px 15px;
+
+border:none;
+
+border-radius:10px;
+
+background:#ef4444;
+
+color:white;
+
+cursor:pointer;
 
 }
 
 
 
-/* RESPONSIVE */
+.view-btn:hover,
+.delete-btn:hover{
 
-
-@media(max-width:900px){
-
-nav{
-
-display:none;
+transform:translateY(-2px);
 
 }
 
 
-.page-title{
 
-font-size:35px;
-
-}
-
-
-}
 
 </style>
 
+
 </head>
+
 
 <body>
 
 
 <header>
 
+
 <div class="logo">
+
 💰 Budget<span>Tracker</span>
+
 </div>
+
 
 
 <nav>
 
-<a href="index.html">Home</a>
 
-<a href="input-form.html">Add Expense</a>
+<a href="index.html">
+Home
+</a>
 
-<a href="record-list.html">Records</a>
 
-<a href="dashboard.html">Dashboard</a>
+<a href="input-form.html">
+Add Expense
+</a>
 
-<a href="admin-view.html">Admin</a>
+
+<a href="record-list.html">
+Records
+</a>
+
+
+<a href="dashboard.html">
+Dashboard
+</a>
+
+
+<a href="admin-view.html">
+Admin
+</a>
+
 
 
 <a href="input-form.html">
 
 <button class="demo-btn">
+
 Try Demo
+
 </button>
 
 </a>
@@ -532,117 +519,81 @@ Try Demo
 
 </nav>
 
+
 </header>
 
+<!-- ===== RECORD CONTENT ===== -->
 
 
 <div class="container">
 
 
-<h1 class="page-title">
+<div class="title">
+
+<h1>
 Expense Records
 </h1>
 
-
-<p class="subtitle">
-View, search and manage your daily expense history
-</p>
-
-
-
-
-<div class="summary">
-
-
-<div class="card">
-
-<h2 id="totalRecords">
-0
-</h2>
-
 <p>
-Total Records
+View, search and manage all your expense transactions.
 </p>
 
 </div>
 
 
 
-<div class="card">
 
-<h2 id="totalAmount">
-฿0
-</h2>
-
-<p>
-Total Expenses
-</p>
-
-</div>
+<!-- SEARCH FILTER -->
 
 
-
-<div class="card">
-
-<h2 id="totalCategory">
-0
-</h2>
-
-<p>
-Categories
-</p>
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-<div class="search-box">
+<div class="filter-area">
 
 
 <input 
 type="text"
 id="search"
-placeholder="Search expense title..."
+placeholder="🔍 Search expense title..."
 >
 
 
 
-<select id="filter">
+<select id="categoryFilter">
 
 
 <option value="All">
 All Categories
 </option>
 
+
 <option>
 Food
 </option>
+
 
 <option>
 Transport
 </option>
 
+
 <option>
 Shopping
 </option>
+
 
 <option>
 Education
 </option>
 
+
 <option>
 Entertainment
 </option>
 
+
 <option>
 Health
 </option>
+
 
 <option>
 Others
@@ -652,11 +603,14 @@ Others
 </select>
 
 
+
 </div>
 
 
 
 
+
+<!-- TABLE -->
 
 
 <div class="table-box">
@@ -667,31 +621,39 @@ Others
 
 <thead>
 
+
 <tr>
+
 
 <th>
 Title
 </th>
 
+
 <th>
 Category
 </th>
+
 
 <th>
 Amount
 </th>
 
+
 <th>
 Date
 </th>
+
 
 <th>
 Payment
 </th>
 
+
 <th>
 Status
 </th>
+
 
 <th>
 Action
@@ -711,16 +673,17 @@ Action
 </tbody>
 
 
+
 </table>
 
 
 </div>
 
 
+
 </div>
 
-
-
+<!-- ===== FOOTER ===== -->
 
 
 <footer>
@@ -729,6 +692,48 @@ Action
 
 </footer>
 
+
+
+<style>
+
+footer{
+
+margin-top:60px;
+
+padding:25px;
+
+background:white;
+
+text-align:center;
+
+color:#64748b;
+
+box-shadow:
+0 -5px 20px rgba(0,0,0,.05);
+
+}
+
+
+
+@media(max-width:900px){
+
+nav{
+
+display:none;
+
+}
+
+
+.title h1{
+
+font-size:32px;
+
+}
+
+}
+
+
+</style>
 
 
 
@@ -750,19 +755,21 @@ const search =
 document.getElementById("search");
 
 
-const filter =
-document.getElementById("filter");
+const categoryFilter =
+document.getElementById("categoryFilter");
 
 
 
-function displayExpenses(list){
+
+
+function displayExpenses(data){
 
 
 table.innerHTML="";
 
 
 
-if(list.length===0){
+if(data.length===0){
 
 
 table.innerHTML=`
@@ -771,7 +778,7 @@ table.innerHTML=`
 
 <td colspan="7">
 
-No expense records found.
+No Expense Records Found
 
 </td>
 
@@ -779,15 +786,32 @@ No expense records found.
 
 `;
 
-
 return;
 
 }
 
 
 
+data.forEach((expense)=>{
 
-list.forEach((expense,index)=>{
+
+
+let statusClass="pending";
+
+
+
+if(expense.status==="Completed"){
+
+statusClass="completed";
+
+}
+
+else if(expense.status==="Cancelled"){
+
+statusClass="cancelled";
+
+}
+
 
 
 table.innerHTML += `
@@ -797,38 +821,55 @@ table.innerHTML += `
 
 
 <td>
+
 ${expense.title}
+
 </td>
 
 
+
 <td>
+
 ${expense.category}
+
 </td>
 
 
+
 <td>
-฿${expense.amount}
+
+฿${Number(expense.amount).toLocaleString()}
+
 </td>
 
 
+
 <td>
+
 ${expense.date}
-</td>
 
-
-<td>
-${expense.payment}
 </td>
 
 
 
 <td>
 
-<span class="status">
+${expense.payment || "Cash"}
 
-${expense.status || "Completed"}
+</td>
+
+
+
+
+<td>
+
+
+<span class="status ${statusClass}">
+
+${expense.status}
 
 </span>
+
 
 </td>
 
@@ -840,9 +881,9 @@ ${expense.status || "Completed"}
 
 <button
 
-class="action-btn view"
+class="view-btn"
 
-onclick="viewExpense(${expense.id})">
+onclick="viewDetail(${expense.id})">
 
 View
 
@@ -850,16 +891,16 @@ View
 
 
 
+
 <button
 
-class="action-btn delete"
+class="delete-btn"
 
-onclick="deleteExpense(${index})">
+onclick="deleteExpense(${expense.id})">
 
 Delete
 
 </button>
-
 
 
 </td>
@@ -868,94 +909,27 @@ Delete
 </tr>
 
 
-
 `;
+
 
 
 });
 
 
 
-updateSummary();
-
-
 }
 
 
 
 
 
-function updateSummary(){
-
-
-document.getElementById("totalRecords").innerText =
-expenses.length;
 
 
 
-let total = expenses.reduce(
-
-(sum,item)=>sum + Number(item.amount),
-
-0
-
-);
+// VIEW DETAIL
 
 
-
-document.getElementById("totalAmount").innerText =
-"฿" + total.toLocaleString();
-
-
-
-let categories = 
-[...new Set(expenses.map(e=>e.category))];
-
-
-
-document.getElementById("totalCategory").innerText =
-categories.length;
-
-
-
-}
-
-
-
-
-
-function deleteExpense(index){
-
-
-if(confirm("Delete this expense?")){
-
-
-expenses.splice(index,1);
-
-
-
-localStorage.setItem(
-
-"expenses",
-
-JSON.stringify(expenses)
-
-);
-
-
-
-displayExpenses(expenses);
-
-
-}
-
-
-}
-
-
-
-
-function viewExpense(id){
+function viewDetail(id){
 
 
 localStorage.setItem(
@@ -977,22 +951,56 @@ window.location.href="detail-view.html";
 
 
 
-search.addEventListener(
-"keyup",
-filterData
+
+
+// DELETE RECORD
+
+
+function deleteExpense(id){
+
+
+if(confirm("Delete this expense?")){
+
+
+expenses =
+
+expenses.filter(
+expense=>expense.id!=id
 );
 
 
 
-filter.addEventListener(
-"change",
-filterData
+localStorage.setItem(
+
+"expenses",
+
+JSON.stringify(expenses)
+
 );
 
 
+
+displayExpenses(expenses);
+
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+// SEARCH + FILTER
 
 
 function filterData(){
+
 
 
 let keyword =
@@ -1001,16 +1009,16 @@ search.value.toLowerCase();
 
 
 let category =
-filter.value;
+categoryFilter.value;
 
 
 
 
-let result =
-expenses.filter(expense=>{
+let result = expenses.filter(expense=>{
 
 
 let matchTitle =
+
 expense.title
 .toLowerCase()
 .includes(keyword);
@@ -1028,6 +1036,7 @@ expense.category===category;
 return matchTitle && matchCategory;
 
 
+
 });
 
 
@@ -1035,7 +1044,30 @@ return matchTitle && matchCategory;
 displayExpenses(result);
 
 
+
 }
+
+
+
+
+
+search.addEventListener(
+
+"keyup",
+
+filterData
+
+);
+
+
+
+categoryFilter.addEventListener(
+
+"change",
+
+filterData
+
+);
 
 
 
