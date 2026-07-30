@@ -523,7 +523,7 @@ const expenses = JSON.parse(localStorage.getItem("expenses")) || [];
 
 const budget = 8000;
 
-let totalExpense = 2,520;
+let totalExpense = 2520;
 let foodExpense = 0;
 let shoppingExpense = 0;
 
@@ -627,13 +627,11 @@ percent = 100;
 
 const progressBar = document.getElementById("progressBar");
 
-progressBar.style.transition = "none";
 progressBar.style.width = "0%";
 
-setTimeout(() => {
-    progressBar.style.transition = "width 1.5s ease";
+requestAnimationFrame(() => {
     progressBar.style.width = percent + "%";
-}, 100);
+});
 
     
 document.getElementById("progressText").textContent =
