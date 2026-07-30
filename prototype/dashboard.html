@@ -560,7 +560,7 @@ document.getElementById("totalExpense").textContent =
 "฿" + totalExpense.toFixed(2);
 
 document.getElementById("totalTransaction").textContent =
-expenses.length;
+126;
 
 document.getElementById("foodExpense").textContent =
 "฿" + foodExpense.toFixed(2);
@@ -629,13 +629,11 @@ const progressBar = document.getElementById("progressBar");
 
 progressBar.style.width = "0%";
 
-requestAnimationFrame(() => {
-    progressBar.style.width = percent + "%";
-});
+setTimeout(() => {
+    progressBar.style.width = "72%";
+}, 100);
 
-    
-document.getElementById("progressText").textContent =
-    percent.toFixed(0) + "%";
+document.getElementById("progressText").textContent = "72%";
 
 </script>
 
