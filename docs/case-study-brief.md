@@ -173,3 +173,24 @@ The proposed Budget Tracker prototype allows users to add and manage expense rec
 ## Lab 13 Practice Goal
 Use this case only to practice sales scenario writing, demo script preparation, user testing planning, testing result analysis, and creating a final improvement list for the Budget Tracker prototype.
 
+# Lab 14 Case Study Brief: Budget Tracker
+
+## Problem
+Many university students and young professionals find it difficult to manage their daily expenses and stay within their budget. They often forget to record transactions or rely on memory, making it difficult to monitor spending and achieve their financial goals.
+
+## Target Users
+- University students
+- Young professionals
+- Admin who manages and reviews expense records
+
+## Final Prototype Workflow
+1. User opens the landing/homepage.
+2. User adds a new expense record.
+3. User views the expense records list.
+4. User searches or filters expenses by category, date, or payment method.
+5. User opens the expense detail page.
+6. Admin edits or manages expense records.
+7. Dashboard displays spending summaries, total expenses, categories, and recent transactions.
+
+## Final Value
+The Budget Tracker prototype helps users record and organize their daily expenses, monitor spending habits, and make better financial decisions through a simple and user-friendly interface.
