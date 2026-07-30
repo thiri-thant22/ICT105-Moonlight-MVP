@@ -462,11 +462,12 @@ Many users forget to record their daily expenses and have difficulty tracking th
 
 ## Screenshots
 
-- Homepage
-- Add Income Page
-- Add Expense Page
-- Transaction List
-- Dashboard Summary
+-final-homepage.png
+-final-input-form.png
+-final-record-list.png
+-final-detail-view.png
+-final-dashboard.png
+-final-admin-view.png
 
 ## Pitch
 
