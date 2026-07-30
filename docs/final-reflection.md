@@ -40,6 +40,6 @@ Future improvements include adding user authentication, cloud database support, 
 
 | Member | Contribution | Evidence Link/Commit/Issue |
 |--------|--------------|----------------------------|
-| Thiri Sandar | Front-end Development | https://github.com/ThiriSandar-hash/ICT105-MoonLight-MVP. |
-| Thiri Thant | UI Design | https://github.com/thiri-thant22/ICT105-Moonlight-MVP |
-| Nang Woo Non | Documentation and Testing | https://github.com/nangwoonon/-ICT105-MoonLight-MVP. |
+| Thiri Sandar | Front-end Development | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Thiri Thant | UI Design | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Nang Woo Non | Documentation and Testing | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
