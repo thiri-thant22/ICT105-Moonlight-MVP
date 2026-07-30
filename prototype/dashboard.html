@@ -627,11 +627,13 @@ percent = 100;
 
 const progressBar = document.getElementById("progressBar");
 
+progressBar.style.transition = "none";
 progressBar.style.width = "0%";
 
 setTimeout(() => {
+    progressBar.style.transition = "width 1.5s ease";
     progressBar.style.width = percent + "%";
-}, 200);
+}, 100);
 
 document.getElementById("progressText").textContent =
     percent.toFixed(0) + "%";
