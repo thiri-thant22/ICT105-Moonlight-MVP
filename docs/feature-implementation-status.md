@@ -67,3 +67,21 @@ Use this file to prove that your prototype implementation is connected to system
 | FR-14 | Mobile/responsive consideration | All Screens | Partially Completed | In Progress | Team | Responsive screenshots | Improve mobile layout |
 | FR-15 | Privacy/responsible data handling | Data Collection | Completed | Completed | Team | Privacy documentation | Sensitive data not collected |
 | FR-16 | Final prototype traceability | Documentation | Completed | Completed | Team | README & GitHub commits | Documentation updated |
+
+
+# Feature Implementation Status
+
+| Requirement ID | Requirement Summary | Prototype Screen/Module | Status | Evidence/Screenshot | Notes |
+|----------------|---------------------|-------------------------|--------|---------------------|-------|
+| FR-01 | Homepage or Landing Screen | Landing Page | Completed | screenshots/landing-page.png | Homepage clearly explains the purpose of the Budget Tracker Website. |
+| FR-02 | Primary User Pathway | Navigation Bar / Homepage | Completed | screenshots/landing-page.png | Users can easily navigate to the main features. |
+| FR-03 | User Input or Data Submission | Add Income / Add Expense Form | Completed | screenshots/add-record.png | Users can add income and expense records successfully. |
+| FR-04 | Data Storage or Simulated Storage | Local Storage | Completed | screenshots/add-record.png | Transaction data is stored using browser Local Storage. |
+| FR-05 | View Records/List | Transaction History | Completed | screenshots/transaction-list.png | Users can view all saved records. |
+| FR-06 | Search/Filter/Category | Search & Filter | Completed | screenshots/search-filter.png | Users can search and filter transactions by category. |
+| FR-07 | Detail View | Transaction Details | Completed | screenshots/transaction-detail.png | Users can view transaction information clearly. |
+| FR-08 | Status/Progress Tracking | Edit/Delete Record | Completed | screenshots/edit-record.png | Users can edit or delete records successfully. |
+| FR-09 | Admin/Manager Function | Record Management | Completed | screenshots/edit-record.png | Management functions are available for maintaining records. |
+| FR-10 | Validation and Feedback | Form Validation | Partial | screenshots/add-record.png | Basic validation is implemented, but clearer error messages are recommended. |
+| FR-11 | Dashboard/Summary/Metrics | Dashboard | Completed | screenshots/dashboard.png | Dashboard displays income, expenses, balance, and charts. |
+| FR-12 | Final Prototype Traceability | Complete Website | Completed | README.md | All functional requirements are linked to the final prototype implementation. |
