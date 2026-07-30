@@ -1,0 +1,6 @@
+tester_id,target_user_type,task,completed,time_minutes,confusion_point,feedback_score_1_5,comment,improvement_needed
+T01,Student,Add a new expense,Yes,2,None,5,The expense form was simple and easy to use,No
+T02,Student,Search expense records,Yes,2,Category filter labels,4,Searching worked well but category names could be clearer,Yes
+T03,Admin,Edit an expense record,Partial,4,Edit button not obvious,3,The admin page needs clearer navigation and action buttons,Yes
+T04,Student,View dashboard summary,Yes,3,Chart labels,4,The dashboard is useful but charts need better labels,Yes
+T05,Student,View expense details,Yes,2,None,5,The expense detail page clearly shows all transaction information,No
