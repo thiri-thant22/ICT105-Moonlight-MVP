@@ -649,3 +649,58 @@ The following requirements should be checked before Lab 14:
 - **FR-10:** Input validation
 - **FR-11:** Confirmation messages
 - **FR-12:** Dashboard analytics and summary
+
+# Weekly Logbook - Lab 14
+
+## Group Name
+Moon Light
+
+## Date
+[7/30/2026]
+
+## Members Present
+- Thiri Sandar
+- Nang Woo Non
+- Thiri Thant
+
+## What We Completed Today
+- Reviewed the complete Budget Tracker prototype.
+- Verified all functional requirements and user stories.
+- Completed the final documentation and project files.
+- Checked prototype navigation and functionality.
+- Prepared the project for the final presentation and submission.
+
+## Final Prototype Updates
+- Improved navigation between all prototype pages.
+- Finalized the Homepage, Add Expense, Records, Detail View, Dashboard, and Admin pages.
+- Updated sample data and testing results.
+- Performed final testing and fixed minor UI issues.
+
+## Final Documentation Updates
+- Completed the Case Study Brief.
+- Updated the Weekly Logbook.
+- Created the Final Requirement Traceability file.
+- Created the Final Sample Data and Final Testing Results files.
+- Completed the Final Prototype Report, Reflection, Submission Checklist, and Prototype README files.
+- Updated the repository documentation for the final release.
+
+## GitHub Contributions Today
+
+| Member | File/Issue/Commit Updated | Evidence Link |
+|---|---|---|
+| Thiri Sandar | Updated `case-study-brief-budget-tracker.md`, `weekly-logbook.md`; created `final-requirement-traceability.csv`, `final-sample-data.csv`, `final-testing-results.csv`, `member-contribution-template.csv` | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Nang Woo Non | Updated `feature-implementation-status.md`, `README-update-template.md`; created `final-prototype-report.md`, `final-reflection.md`, `final-submission-checklist.md`, `requirement-traceability-matrix.md` | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+| Thiri Thant | Created `final-demo-script.md`, `final-demo-flow.mmd`, `final-pitch-outline.md`, `final-prototype-link.md`, `prototype/README.md`, `screenshots/README.md` | https://github.com/thiri-thant22/ICT105-Moonlight-MVP/commits/main/ |
+
+## Problems Found Before Submission
+- Minor formatting inconsistencies were corrected in several documentation files.
+- Prototype navigation was checked to ensure all pages were correctly linked.
+- CSV files were reviewed to resolve formatting issues before the final upload.
+- Final verification was completed to ensure all required project files were included.
+
+## Action Before Final Presentation
+- Perform one final review of the prototype and documentation.
+- Replace placeholder GitHub evidence links with the final commit links.
+- Recheck all screenshots and prototype links.
+- Ensure all Functional Requirements (FR-01 to FR-12) are fully implemented.
+- Submit the completed GitHub repository and prepare for the final project presentation.
