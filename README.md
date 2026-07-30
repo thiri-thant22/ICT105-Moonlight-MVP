@@ -415,3 +415,68 @@ Prototype / Demo link : https://thiri-thant22.github.io/ICT105-Moonlight-MVP/pro
 
 ### Final Preparation Status
 The Budget Tracker Website is ready for the final presentation. The core features, including transaction management, dashboard summary, search and filter, and user testing, have been completed. Minor interface improvements and usability refinements may continue, but the prototype is functional and meets the main project requirements.     
+
+# README Update Template for Lab 14
+
+## Project Title
+
+Budget Tracker Website
+
+## Group Members
+
+| Name | Role | Main Contribution |
+|------|------|-------------------|
+| Thiri Thant | Frontend Developer | Homepage, Dashboard UI |
+| Thiri Sandar | Backend Developer | Local Storage, Data Management |
+| Nang Woo Non | Tester & Documentation | User Testing, Documentation, README |
+
+## Project Overview
+
+The Budget Tracker Website is designed to help students and young professionals manage their personal finances. Users can record income and expenses, organize transactions by category, search transaction history, and monitor their financial status through a dashboard.
+
+## Target Users
+
+- Students
+- Young professionals
+- Anyone who wants to manage personal expenses
+
+## Problem Solved
+
+Many users forget to record their daily expenses and have difficulty tracking their spending. The Budget Tracker Website provides an easy way to record, organize, search, and summarize financial information.
+
+## Final Prototype
+
+- Prototype folder/link: `/prototype/`
+- Landing page link: `index.html`
+- Final demo link: `https://github.com/thiri-thant22/ICT105-Moonlight-MVP`
+
+## Final Documentation
+
+- System requirements: `/docs/system-requirements.md`
+- User stories: `/docs/user-stories.md`
+- MVP feature list: `/docs/mvp-feature-list.md`
+- Feature implementation status: `/docs/feature-implementation-status.md`
+- Final prototype report: `/docs/final-prototype-report.md`
+- Final demo script: `/docs/final-demo-script.md`
+- Final reflection: `/docs/final-reflection.md`
+
+## Screenshots
+
+- Homepage
+- Add Income Page
+- Add Expense Page
+- Transaction List
+- Dashboard Summary
+
+## Pitch
+
+- Final pitch slides or outline: `/pitch/`
+
+## Data and Diagrams
+
+- Final sample data: `/data/`
+- Final diagrams: `/diagrams/`
+
+## Final Submission Notes
+
+The Budget Tracker Website has completed all core MVP features, including adding income and expenses, transaction management, search and filter, and dashboard summaries. User testing identified only minor usability improvements, such as clearer validation messages and improved mobile responsiveness. The project is ready for the final presentation.
