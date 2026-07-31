@@ -447,7 +447,7 @@ Many users forget to record their daily expenses and have difficulty tracking th
 ## Final Prototype
 
 - Prototype folder/link: https://github.com/thiri-thant22/ICT105-Moonlight-MVP/tree/main/prototype
-- Landing page link: https://github.com/thiri-thant22/ICT105-Moonlight-MVP/blob/main/prototype/index.html
+- Landing page link: https://thiri-thant22.github.io/ICT105-Moonlight-MVP/prototype/index.html
 - Final demo link: https://github.com/thiri-thant22/ICT105-Moonlight-MVP
 
 ## Final Documentation
