@@ -151,7 +151,7 @@ The prototype demonstrates the complete expense management process from recordin
 - Clean interface
 - Helpful for tracking daily expenses
 
-> Insert Screenshot: Dashboard or User Testing Results
+<img width="1498" height="212" alt="Screenshot 2026-07-31 170839" src="https://github.com/user-attachments/assets/418589f9-9ebd-4d2e-a64b-e8832e16164b" />
 
 ---
 
