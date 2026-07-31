@@ -1,31 +1,20 @@
 # Final Demo Script
 
 ## Demo Duration
-5–7 minutes
+
+Approximately 5–7 minutes.
 
 ---
 
 ## 1. Opening
 
-Good morning, everyone.
-
-We are Group Moonlight, and today we are presenting our project, **Budget Tracker**.
-
-Many students and young adults find it difficult to manage their daily expenses and keep track of their spending. Without proper records, it is easy to overspend and difficult to understand where money goes.
-
-Our target users are students and individuals who want a simple way to manage their personal finances.
-
-Our solution is **Budget Tracker**, a web-based application that allows users to record expenses, organize financial information, search records, and monitor their spending through an easy-to-use interface.
+Introduce **Budget Tracker** as a web-based application developed by **Team Moonlight**. Explain that the project helps university students and young adults record and manage their daily expenses. Highlight the problem of poor expense tracking and present the value proposition of providing a simple and user-friendly budgeting solution.
 
 ---
 
 ## 2. User Scenario
 
-Imagine that a university student spends money every day on food, transportation, shopping, and entertainment.
-
-Instead of writing expenses on paper or trying to remember them, the student can use Budget Tracker to record every expense immediately.
-
-The system stores all expense records, allowing users to review previous transactions, search by category, and monitor their spending more effectively.
+Demonstrate a scenario where a university student wants to manage a monthly allowance. Show how the student records daily expenses, reviews spending history, and monitors spending through the Budget Tracker system.
 
 ---
 
@@ -33,36 +22,22 @@ The system stores all expense records, allowing users to review previous transac
 
 | Step | Screen / Feature | What to Demonstrate | Requirement ID |
 |---|---|---|---|
-| 1 | Landing Page (index.html) | Introduce the project, explain the problem, target users, and click **Try Demo**. | FR-01 |
-| 2 | Expense Input Form | Enter an expense title, category, amount (฿), payment method, date, and description, then submit the record. | FR-03 |
-| 3 | Expense Record List | Display all saved expense records in the table. | FR-05 |
-| 4 | Search and Filter | Search by expense title and filter by category. | FR-06 |
-| 5 | Detail View | Display detailed information about the selected expense record. | FR-07 |
-| 6 | Admin Page | Demonstrate viewing and managing expense records and status. | FR-08, FR-09 |
-| 7 | Dashboard | Display total expenses, balance, number of transactions, and financial summary. | FR-11 |
+| 1 | Homepage | Introduce the project, target users, and click **Try Demo** to start the system. | FR-01 |
+| 2 | Input Form | Enter a new expense record, including title, category, amount, payment method, date, and description. | FR-03 |
+| 3 | Record List | Display all saved expense records. | FR-05 |
+| 4 | Search / Filter | Search by expense title or filter records by category. | FR-06 |
+| 5 | Detail View | Display complete information for the selected expense record. | FR-07 |
+| 6 | Admin Panel | Update expense status and manage expense records. | FR-08, FR-09 |
+| 7 | Dashboard | Present expense summary and overall financial information. | FR-11 |
 
 ---
 
 ## 4. Evidence and Validation
 
-To validate our project, we interviewed potential users and conducted MVP prototype testing.
-
-The testing showed that users could successfully navigate the system, add expense records, search transactions, and understand the interface without significant difficulty.
-
-Users also suggested improving the dashboard, adding more financial reports, and including reminder notifications for future versions.
-
-Based on this feedback, we improved the landing page, navigation, interface design, and overall user experience.
+Demonstrate that the prototype was tested with target users. Users successfully completed the main tasks, including adding expenses, viewing records, searching information, and navigating the system. Feedback indicated that the application is easy to use and supports basic personal expense management.
 
 ---
 
 ## 5. Closing
 
-In conclusion, Budget Tracker provides a simple and effective solution for managing daily expenses.
-
-Users can easily record transactions, organize expense information, search previous records, and monitor their financial activities through one web application.
-
-Our MVP successfully demonstrates the core features required for personal expense management.
-
-In future development, we plan to add user accounts, cloud database integration, advanced analytics, monthly reports, budget notifications, and mobile optimization.
-
-Thank you for your attention. We welcome your questions and feedback.
+Summarize that Budget Tracker successfully demonstrates the core functions of an expense management system. Mention future improvements such as user authentication, cloud database integration, financial reports, and data visualization.
