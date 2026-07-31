@@ -446,9 +446,9 @@ Many users forget to record their daily expenses and have difficulty tracking th
 
 ## Final Prototype
 
-- Prototype folder/link: `/prototype/`
-- Landing page link: `index.html`
-- Final demo link: `https://github.com/thiri-thant22/ICT105-Moonlight-MVP`
+- Prototype folder/link: https://github.com/thiri-thant22/ICT105-Moonlight-MVP/tree/main/prototype
+- Landing page link: https://github.com/thiri-thant22/ICT105-Moonlight-MVP/blob/main/prototype/index.html
+- Final demo link: https://github.com/thiri-thant22/ICT105-Moonlight-MVP
 
 ## Final Documentation
 
@@ -471,12 +471,12 @@ Many users forget to record their daily expenses and have difficulty tracking th
 
 ## Pitch
 
-- Final pitch slides or outline: `/pitch/`
+- Final pitch slides or outline: https://github.com/thiri-thant22/ICT105-Moonlight-MVP/tree/main/pitch
 
 ## Data and Diagrams
 
-- Final sample data: `/data/`
-- Final diagrams: `/diagrams/`
+- Final sample data: https://github.com/thiri-thant22/ICT105-Moonlight-MVP/tree/main/data
+- Final diagrams: https://github.com/thiri-thant22/ICT105-Moonlight-MVP/tree/main/diagrams
 
 ## Final Submission Notes
 
