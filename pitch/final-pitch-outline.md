@@ -1,3 +1,4 @@
+<img width="1861" height="1031" alt="Screenshot 2026-07-31 164134" src="https://github.com/user-attachments/assets/02fb0eba-d9c1-4f1f-89bf-a3fc781a1ae3" />
 # Final Venture Pitch Outline
 
 ## Project Title and Team
@@ -12,7 +13,8 @@
 - Thiri Thant – Technical Lead + UX/UI Lead
 - Nang Woo Non – Product Lead + Validation Lead
 
-> Insert Screenshot: Homepage
+<img width="1861" height="1031" alt="Screenshot 2026-07-31 164134" src="https://github.com/user-attachments/assets/e754c6f4-e9e5-419c-b50b-fc66adbc6c49" />
+
 
 ---
 
@@ -28,7 +30,8 @@ Many university students and young adults find it difficult to manage daily expe
 - Young adults
 - Personal finance beginners
 
-> Insert Screenshot: Homepage or problem illustration
+<img width="1776" height="687" alt="Screenshot 2026-07-31 165322" src="https://github.com/user-attachments/assets/5c9b622f-f15f-459f-ad22-f9a446d35911" />
+
 
 ---
 
@@ -67,7 +70,8 @@ Budget Tracker enables users to:
 
 A simple and user-friendly system that helps users manage daily expenses and improve financial awareness.
 
-> Insert Screenshot: Homepage or Dashboard
+<img width="1828" height="1028" alt="Screenshot 2026-07-31 165221" src="https://github.com/user-attachments/assets/0f08a0ab-e0be-4bf3-813d-bb1476391a75" />
+
 
 ---
 
@@ -85,10 +89,14 @@ A simple and user-friendly system that helps users manage daily expenses and imp
 The prototype demonstrates the complete expense management process from recording expenses to monitoring financial information.
 
 > Insert Screenshots:
-> - Homepage
-> - Input Form
-> - Record List
-> - Dashboard
+<img width="1861" height="1031" alt="Screenshot 2026-07-31 164134" src="https://github.com/user-attachments/assets/ced9ace6-a5e0-41be-9c66-27bc07d47210" />
+
+<img width="697" height="932" alt="prototype-link-or-demo-screen" src="https://github.com/user-attachments/assets/72eccb8c-ae26-4bd4-b516-37794cbde50c" />
+
+<img width="1847" height="792" alt="Screenshot 2026-07-31 165245" src="https://github.com/user-attachments/assets/e40b2f4c-6acf-48cb-ad11-b85d41b064dd" />
+
+<img width="1828" height="1028" alt="Screenshot 2026-07-31 165221" src="https://github.com/user-attachments/assets/faf55713-492f-406c-8538-3c4f78281f1c" />
+
 
 ---
 
@@ -161,7 +169,8 @@ The prototype demonstrates the complete expense management process from recordin
 
 User → Input Form → Local Storage → Record List → Detail View → Dashboard → Admin Panel
 
-> Insert Screenshot: System Architecture or Website Workflow
+<img width="1331" height="808" alt="Screenshot 2026-07-31 165111" src="https://github.com/user-attachments/assets/b4724e74-5027-4ee8-93f8-e8c29aec7d4b" />
+
 
 ---
 
