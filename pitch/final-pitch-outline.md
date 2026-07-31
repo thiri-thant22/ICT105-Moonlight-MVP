@@ -1,4 +1,3 @@
-<img width="1861" height="1031" alt="Screenshot 2026-07-31 164134" src="https://github.com/user-attachments/assets/02fb0eba-d9c1-4f1f-89bf-a3fc781a1ae3" />
 # Final Venture Pitch Outline
 
 ## Project Title and Team
@@ -49,7 +48,8 @@ Many university students and young adults find it difficult to manage daily expe
 - The prototype was easy to use.
 - Feedback was positive.
 
-> Insert Screenshot: User testing or validation results
+<img width="1817" height="227" alt="Screenshot 2026-07-31 170140" src="https://github.com/user-attachments/assets/22a111b8-4b72-4718-ad7f-46ca3114d3a7" />
+
 
 ---
 
@@ -193,7 +193,8 @@ User → Input Form → Local Storage → Record List → Detail View → Dashbo
 - Export to PDF or Excel
 - Mobile application
 
-> Insert Screenshot: Dashboard or Future Feature Ideas
+<img width="1828" height="1028" alt="Screenshot 2026-07-31 165221" src="https://github.com/user-attachments/assets/edda31a4-5458-475d-a96d-c440aa272a1e" />
+
 
 ---
 
